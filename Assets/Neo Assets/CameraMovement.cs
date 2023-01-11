@@ -4,25 +4,28 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField] private KeyCode left;
-    [SerializeField] private KeyCode right;
+    PlayerMovement playerSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
+        playerSpeed = FindObjectOfType<PlayerMovement>();
         
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(left))
+        if (Input.GetKey("d"))
         {
-            transform.position += new Vector3(-5, 0, 0) * Time.deltaTime;
+            transform.position = transform.position += transform.right * playerSpeed.playerSpeed * Time.deltaTime;
+
         }
 
-        if (Input.GetKey(right))
+        if (Input.GetKey("a"))
         {
-            transform.position += new Vector3(5, 0, 0) * Time.deltaTime;
+            transform.position = transform.position -= transform.right * playerSpeed.playerSpeed * Time.deltaTime;
+
         }
     }
 }

@@ -10,18 +10,31 @@ public class PlayerMovement : MonoBehaviour
     {
         
     }
-
+    [SerializeField]
+    public float playerSpeed;
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey("d"))
         {
-            transform.position += new Vector3(-5, 0, 0) * Time.deltaTime;
+            transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
+
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey("a"))
         {
-            transform.position += new Vector3(5, 0, 0) * Time.deltaTime;
+            transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
+        }
+        if (Input.GetKey("w"))
+        {
+            transform.position = transform.position += transform.up * playerSpeed * Time.deltaTime;
+
+        }
+
+        if (Input.GetKey("s"))
+        {
+            transform.position = transform.position -= transform.up * playerSpeed * Time.deltaTime;
+
         }
     }
 }
