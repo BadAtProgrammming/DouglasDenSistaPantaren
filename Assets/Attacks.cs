@@ -7,7 +7,8 @@ public class Attacks : MonoBehaviour
     bool ReadyKick = true;
     bool ReadyPunch = true;
     int FramesPS = 30;
-    
+    float PunchTimer = 0;
+    float KickTimer = 0;
 
 
 
@@ -21,8 +22,9 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float PunchTimer = Time.deltaTime * FramesPS;
-        float KickTimer = Time.deltaTime * FramesPS;
+        PunchTimer += Time.deltaTime * FramesPS;
+        KickTimer += Time.deltaTime * FramesPS;
+
 
 
         #region buttons
