@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickUp : MonoBehaviour
+public class ShopSystem : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-       bool PickUpWeapon = true;  
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }
