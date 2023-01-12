@@ -154,6 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 3
+  leftBorder: -4
+  rightBorder: 4
 --- !u!212 &401805120
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -214,7 +216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401805118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.22, y: -0.04, z: 0}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -822,3 +824,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b8e2ecc0684b74f8dab23d5556cd99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftCBorder: -1
+  rightCBorder: 7
