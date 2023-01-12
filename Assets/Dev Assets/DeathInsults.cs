@@ -21,6 +21,7 @@ public class DeathInsults : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Timer you idiot -Dev
         timer -= Time.deltaTime;
         if (timer < 0)
         {
