@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
             canDown = true;
         }
 
-        if (transform.position.y >= 0)
+        if (transform.position.y >= -1)
         {
             canUp = false;
         }
