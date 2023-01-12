@@ -616,8 +616,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Head Programmer\nSixten \"Alpaca\" Thelin\n\nProgrammers\nPatryk \"Dev\"
-    Skulski\nDaniel \"Neo\" Wan\nBenjamin \"V\xE4stsyd\xF6st\" Nord"
+  m_text: 'Head Programmer
+
+    Sixten "Alpaca" Thelin
+
+
+    Programmers
+
+    Patryk
+    "Dev" Skulski
+
+    Daniel "Neo" Wan
+
+    Benjamin Nord'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
