@@ -5,12 +5,13 @@ using TMPro;
 
 public class PlayerHelth : MonoBehaviour
 {
+    public TextMeshProUGUI DeathCanvas;
     [SerializeField]
     public int Health;
     // Start is called before the first frame update
     void Start()
     {
-        
+        DeathCanvas.enabled = false;
     }
 
     // Update is called once per frame
@@ -18,7 +19,7 @@ public class PlayerHelth : MonoBehaviour
     {
         if (Health <= 0)
         {
-
+            DeathCanvas.enabled = true;
         }
     }
 }
