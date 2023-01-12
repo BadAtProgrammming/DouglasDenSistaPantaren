@@ -5,8 +5,9 @@ using UnityEngine;
 public class ShopSystem : MonoBehaviour
 {
 
+    public GameObject[] TierOne;
+    public Transform SpawnLocation;
     private int pantpoint;
-    [SerializeField] GameObject[] WeaponTierOne;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,8 @@ public class ShopSystem : MonoBehaviour
             print("touch");
             if (pantpoint >= 50)
             {
-               string[] WeaponTierOne = new string[] { "ProtestSign", "Umbrella" };
+
+                Instantiate(TierOne[Random.Range(0, 2)], SpawnLocation.position, SpawnLocation.rotation);
             }
         }
     }
