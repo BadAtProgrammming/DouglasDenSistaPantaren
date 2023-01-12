@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class PlayerHelth : MonoBehaviour
 {
-    public TextMeshProUGUI DeathCanvas;
+    Canvas CanvasObject;
+
     [SerializeField]
     public int Health;
     // Start is called before the first frame update
     void Start()
     {
-        DeathCanvas.enabled = false;
+        //Sets object reference to find the deathcanvas, can also be set to a tag -Dev
+        CanvasObject = FindObjectOfType<Canvas>();
+        //Debug purposes -Dev
+        CanvasObject.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,7 +24,7 @@ public class PlayerHelth : MonoBehaviour
     {
         if (Health <= 0)
         {
-            DeathCanvas.enabled = true;
+            CanvasObject.gameObject.SetActive(false);
         }
     }
 }

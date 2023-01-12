@@ -669,7 +669,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e048580c956854c84ea77f76a87af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeathCanvas: {fileID: 1626708039}
   Health: 5
 --- !u!1 &1626708037
 GameObject:
