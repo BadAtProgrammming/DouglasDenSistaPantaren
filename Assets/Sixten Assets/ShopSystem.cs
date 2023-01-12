@@ -7,13 +7,11 @@ public class ShopSystem : MonoBehaviour
 
     public GameObject[] TierOne;
     public Transform SpawnLocation;
-    private int pantpoint;
+    public PantManager pantpoint;
     // Start is called before the first frame update
     void Start()
     {
-        GameObject.Find("ShopArea").GetComponent<PantManager>().pantpoint = 0;
-        print(pantpoint);
-       
+        pantpoint = FindObjectOfType<PantManager>();
     }
 
     // Update is called once per frame
@@ -24,14 +22,9 @@ public class ShopSystem : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.GetComponent<PlayerMovement>())
+        if(collision.gameObject.CompareTag("Shop"))
         {
             print("touch");
-            if (pantpoint >= 50)
-            {
-
-                Instantiate(TierOne[Random.Range(0, 2)], SpawnLocation.position, SpawnLocation.rotation);
-            }
         }
     }
 
