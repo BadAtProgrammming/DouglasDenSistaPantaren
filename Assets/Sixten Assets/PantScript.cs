@@ -5,12 +5,12 @@ using UnityEngine;
 public class PantScript : MonoBehaviour
 {
    
-    public float amplitude = 0.5f;
+    public float amplitude = 0.25f;
     public float frequency = 1f;
 
     // Position Storage Variables
-    Vector3 posOffset = new Vector3();
-    Vector3 tempPos = new Vector3();
+    Vector2 posOffset = new Vector2();
+    Vector2 tempPos = new Vector2();
 
     // Use this for initialization
     void Start()
@@ -22,13 +22,17 @@ public class PantScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Spin object around Y-Axis
-        
-
         // Float up/down with a Sin()
         tempPos = posOffset;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
 
         transform.position = tempPos;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

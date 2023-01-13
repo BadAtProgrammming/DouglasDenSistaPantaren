@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Shop
   - CreditBack
+  - player
+  - Pant
   layers:
   - Default
   - TransparentFX
