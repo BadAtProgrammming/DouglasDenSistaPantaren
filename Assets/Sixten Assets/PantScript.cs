@@ -5,7 +5,7 @@ using UnityEngine;
 public class PantScript : MonoBehaviour
 {
    
-    public float amplitude = 0.5f;
+    public float amplitude = 0.25f;
     public float frequency = 1f;
 
     // Position Storage Variables
@@ -22,9 +22,6 @@ public class PantScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Spin object around Y-Axis
-        
-
         // Float up/down with a Sin()
         tempPos = posOffset;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;

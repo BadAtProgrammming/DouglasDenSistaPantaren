@@ -26,5 +26,9 @@ public class PantScore : MonoBehaviour
         {
             score += 1;
         }
+        if (collision.CompareTag("Pant2"))
+        {
+            score += 2;
+        }
     }
 }
