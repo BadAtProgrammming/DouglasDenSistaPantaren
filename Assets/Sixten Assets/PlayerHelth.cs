@@ -19,6 +19,7 @@ public class PlayerHelth : MonoBehaviour
 
     void Update()
     {
+        //If you have no heath: show death screen -Sixten
         if (Health <= 0)
         {
             //When health 0 activates the entire canvasobject and its components -Dev
