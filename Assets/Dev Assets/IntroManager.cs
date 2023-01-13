@@ -42,6 +42,7 @@ public class IntroManager : MonoBehaviour
     {
         while (true)
         {
+            //Handles the intro sequence -Dev
             yield return new WaitForSeconds(5);
             unityfade();
             yield return new WaitForSeconds(7);
@@ -57,6 +58,7 @@ public class IntroManager : MonoBehaviour
         }
     }
 
+    //The fade void's below -Dev
     void asepritefade()
     {
         asepriteimg.DOFade(1f, 7f);
