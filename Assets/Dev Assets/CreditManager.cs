@@ -6,6 +6,7 @@ public class CreditManager : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
+        //Scenechange script, changes the script that is referenced -Dev
         Debug.Log("SceneChange");
         SceneManager.LoadScene(sceneName);
     }

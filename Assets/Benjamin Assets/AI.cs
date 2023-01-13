@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class AI : MonoBehaviour
 {
-    
+
     float Speed = 2;
     Rigidbody2D rb;
 
@@ -16,20 +16,24 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving
+        IdleMoving //States to group together actions.
     }
 
     private State _currentState; // represents current state of AI
 
-    public Transform player;
+    public Transform player; // So the asset can use transform everywhere in the code.
+    bool ReadyKick = true;
+    bool ReadyPunch = true;
+    int FramesPS = 30;
+    float PunchTimer = 0;
+    float KickTimer = 0; // placeholders
 
     
-   
 
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); // so the asset can reference Rigidbody without having to write it in several times.
     }
 
     private void Update()
@@ -38,44 +42,60 @@ public class AI : MonoBehaviour
         float Reach = 2;
         float detectRange = 20;
         detectRange *= detectRange;
-        float playerdistance = (player.position - transform.position).sqrMagnitude;
+        float playerdistance = (player.position - transform.position).sqrMagnitude; // responsible for if the ai can see the player or not
 
-        
+        PunchTimer += Time.deltaTime * FramesPS;
+        KickTimer += Time.deltaTime * FramesPS;
 
-        if (_currentState == State.Idle)
+        if (KickTimer >= 20) // placeholder
+        {
+            ReadyKick = true;
+        }
+
+        if (PunchTimer >= 15) 
+        {
+            ReadyPunch = true; // placeholders for better frame based attacking code.
+        }
+
+        if (_currentState == State.Idle) //Idle doesnt do much, just a state for the other states to change from. Also a State for LookForPlayer() to change to other states
         {
             LookForPlayer();
             print("1");
         }
-        if (_currentState == State.Chase)
+        if (_currentState == State.Chase) // State for ChasePlayer()
         {
             ChasePlayer();
             print("2");
         }
-        if (_currentState == State.Attack)
+        if (_currentState == State.Attack) // State for AttackPlayer()
         {
-            
+
             AttackPlayer();
             print("3");
+        }
+        if (_currentState == State.IdleMoving) // State for Strafing()
+        {
+            Strafing();
+            print("4");
         }
         void LookForPlayer()
         {
 
-            
-            
-          if (playerdistance <= DisengageRange)
-          {
-            _currentState = State.Chase;
-          }
 
-            
-            
+
+            if (playerdistance <= DisengageRange)  // Checks if player is close enough to enemy
+            {
+                _currentState = State.Chase;
+            }
+
+
+
         }
-        void ChasePlayer()
+        void ChasePlayer() // Code for the enemy to chase the player
         {
             if (playerdistance <= detectRange)
             {
-                
+
                 Vector2 velocity = (player.transform.position - transform.position).normalized * Speed;
                 rb.velocity = velocity;
             }
@@ -92,22 +112,37 @@ public class AI : MonoBehaviour
             }
 
         }
-        void AttackPlayer()
+        void AttackPlayer() //Code to make the enemy to stop at the player's location and use attack animations to hit them, currently doesnt do much.
         {
-            if (_currentState == State.Attack)
-            {
-                
-            }
+            
             if (playerdistance >= Reach)
             {
                 _currentState = State.Chase;
             }
+            if (ReadyPunch == true)
+            {
+             
+            }
+            if (ReadyKick == true)
+            {
+
+            }
+
+
         }
+        void Strafing()
+        {
+            
+            //Code to make enemy character run away after for example player is hit or downed, TBA
+         
+
+
+        }
+        
+
 
 
     }
-
-
 
 
 }   
