@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerHelth : MonoBehaviour
 {
+    
     GameObject CanvasObject;
 
     [SerializeField]
@@ -13,12 +14,15 @@ public class PlayerHelth : MonoBehaviour
 
     void Start()
     {
+        
         //Sets object reference to find the deathcanvas, can also be set to a tag -Dev
         CanvasObject = GameObject.Find("DeathCanvas");
     }
 
     void Update()
     {
+       
+
         //If you have no heath: show death screen -Sixten
         if (Health <= 0)
         {
