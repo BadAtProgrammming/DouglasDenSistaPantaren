@@ -25,7 +25,7 @@ public class PlayerHelth : MonoBehaviour
         //If you have no heath: show death screen -Sixten
         if (Health <= 0)
         {
-            CanvasObject.gameObject.SetActive(false);
+            CanvasObject.gameObject.SetActive(true);
         }
     }
 }
