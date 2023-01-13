@@ -22,6 +22,7 @@ public class PlayerHelth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If you have no heath: show death screen -Sixten
         if (Health <= 0)
         {
             CanvasObject.gameObject.SetActive(false);
