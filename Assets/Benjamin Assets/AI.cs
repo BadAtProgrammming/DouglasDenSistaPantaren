@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class AI : MonoBehaviour
 {
-    
+
     float Speed = 2;
     Rigidbody2D rb;
 
@@ -16,15 +16,20 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving
+        IdleMoving 
     }
 
     private State _currentState; // represents current state of AI
 
     public Transform player;
+    public bool PlayerDown;
+    bool ReadyKick = true;
+    bool ReadyPunch = true;
+    int FramesPS = 30;
+    float PunchTimer = 0;
+    float KickTimer = 0;
 
     
-   
 
 
     private void Awake()
@@ -40,7 +45,18 @@ public class AI : MonoBehaviour
         detectRange *= detectRange;
         float playerdistance = (player.position - transform.position).sqrMagnitude;
 
-        
+        PunchTimer += Time.deltaTime * FramesPS;
+        KickTimer += Time.deltaTime * FramesPS;
+
+        if (KickTimer >= 20)
+        {
+            ReadyKick = true;
+        }
+
+        if (PunchTimer >= 15)
+        {
+            ReadyPunch = true;
+        }
 
         if (_currentState == State.Idle)
         {
@@ -54,28 +70,33 @@ public class AI : MonoBehaviour
         }
         if (_currentState == State.Attack)
         {
-            
+
             AttackPlayer();
             print("3");
+        }
+        if (_currentState == State.IdleMoving)
+        {
+            Strafing();
+            print("4");
         }
         void LookForPlayer()
         {
 
-            
-            
-          if (playerdistance <= DisengageRange)
-          {
-            _currentState = State.Chase;
-          }
 
-            
-            
+
+            if (playerdistance <= DisengageRange)
+            {
+                _currentState = State.Chase;
+            }
+
+
+
         }
         void ChasePlayer()
         {
             if (playerdistance <= detectRange)
             {
-                
+
                 Vector2 velocity = (player.transform.position - transform.position).normalized * Speed;
                 rb.velocity = velocity;
             }
@@ -94,20 +115,35 @@ public class AI : MonoBehaviour
         }
         void AttackPlayer()
         {
-            if (_currentState == State.Attack)
-            {
-                
-            }
+            
             if (playerdistance >= Reach)
             {
                 _currentState = State.Chase;
             }
+            if (ReadyPunch == true)
+            {
+             
+            }
+            if (ReadyKick == true)
+            {
+
+            }
+
+
         }
+        void Strafing()
+        {
+            
+
+         
+
+
+        }
+        
+
 
 
     }
-
-
 
 
 }   
