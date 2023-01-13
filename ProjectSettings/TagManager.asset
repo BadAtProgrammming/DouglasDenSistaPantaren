@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shop
+  - Pant
+  - player
+  - ScorePant
   layers:
   - Default
   - TransparentFX

@@ -9,8 +9,8 @@ public class PantScript : MonoBehaviour
     public float frequency = 1f;
 
     // Position Storage Variables
-    Vector3 posOffset = new Vector3();
-    Vector3 tempPos = new Vector3();
+    Vector2 posOffset = new Vector2();
+    Vector2 tempPos = new Vector2();
 
     // Use this for initialization
     void Start()
@@ -30,5 +30,12 @@ public class PantScript : MonoBehaviour
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
 
         transform.position = tempPos;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
