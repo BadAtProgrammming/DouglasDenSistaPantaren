@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5383c2f538473984d87bedc026b669cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 1749919501}
   score: 0
 --- !u!61 &208394712
 BoxCollider2D:
@@ -950,7 +951,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7594504344003253889, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
       propertyPath: m_Name
-      value: ScoreText
+      value: ScoreTextCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 7594504344003253901, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
       propertyPath: m_Pivot.x
@@ -2056,6 +2057,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31d829b0eb8adb24d8432bef051b35b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1749919501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7594504344293953867, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
+  m_PrefabInstance: {fileID: 655073209}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749919495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1786136126
