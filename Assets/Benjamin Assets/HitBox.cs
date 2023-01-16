@@ -13,6 +13,10 @@ public class HitBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      OnTriggerEnter2D
     }
+
+ 
+
+
 }
