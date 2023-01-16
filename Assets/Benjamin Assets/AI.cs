@@ -27,7 +27,7 @@ public class AI : MonoBehaviour
     int FramesPS = 30;
     float PunchTimer = 0;
     float KickTimer = 0; // placeholders
-
+    Coroutine coroutine;
     
 
 
@@ -133,13 +133,24 @@ public class AI : MonoBehaviour
         void Strafing()
         {
             
-            //Code to make enemy character run away after for example player is hit or downed, TBA
+            //Code to make enemy character run away after for example player is hit or downed, works?
          
-
-
+            if(_currentState == State.IdleMoving)
+            {
+                Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
+                rb.velocity = velocity;
+                coroutine = StartCoroutine(StrafeTimer());
+            }
+            
+        
         }
         
-
+        IEnumerator StrafeTimer()
+        {
+            yield return new WaitForSeconds(2f);
+            _currentState = State.Chase;
+            coroutine = null;
+        }
 
 
     }
