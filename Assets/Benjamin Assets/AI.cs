@@ -95,7 +95,7 @@ public class AI : MonoBehaviour
         {
             if (playerdistance <= detectRange)
             {
-
+                rb.velocity = Vector2.zero;
                 Vector2 velocity = (player.transform.position - transform.position).normalized * Speed;
                 rb.velocity = velocity;
             }
@@ -117,6 +117,7 @@ public class AI : MonoBehaviour
             
             if (playerdistance >= Reach)
             {
+                rb.velocity = Vector2.zero;
                 _currentState = State.Chase;
             }
             if (ReadyPunch == true)
@@ -133,9 +134,9 @@ public class AI : MonoBehaviour
         }
         void Strafing()
         {
-            
+
             //Code to make enemy character run away after for example player is hit or downed, works?
-         
+            print("wtf");
             if(_currentState == State.IdleMoving)
             {
                 Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
@@ -154,6 +155,8 @@ public class AI : MonoBehaviour
         }
 
 
+    
+    
     }
 
 
