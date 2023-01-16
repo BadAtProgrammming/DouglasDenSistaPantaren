@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
     {
         
     }
-    [SerializeField] int UpBorder;
-    [SerializeField] int DownBorder;
+    [SerializeField] float UpBorder;
+    [SerializeField] float DownBorder;
 
     [SerializeField]
     public float playerSpeed;
