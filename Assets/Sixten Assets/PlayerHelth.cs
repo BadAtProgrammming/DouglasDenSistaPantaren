@@ -9,7 +9,7 @@ public class PlayerHelth : MonoBehaviour
     
     GameObject CanvasObject;
 
-    [SerializeField]
+    
     public int Health;
     
 
