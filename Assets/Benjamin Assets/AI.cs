@@ -121,10 +121,11 @@ public class AI : MonoBehaviour
             }
             if (ReadyPunch == true)
             {
-             
+                PunchTimer = 0;
             }
             if (ReadyKick == true)
             {
+                KickTimer = 0;
 
             }
 

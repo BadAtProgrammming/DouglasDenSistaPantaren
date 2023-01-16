@@ -9,8 +9,9 @@ public class PlayerHelth : MonoBehaviour
     
     GameObject CanvasObject;
 
-    [SerializeField]
+    
     public int Health;
+    
 
     void Start()
     {
@@ -34,5 +35,10 @@ public class PlayerHelth : MonoBehaviour
             //When Health is above 0 it deactivates it... Duuh -Dev
             CanvasObject.SetActive(false);
         }
+        
+    }
+    public void TakeDamage(int amount)
+    {
+        Health -= amount;
     }
 }
