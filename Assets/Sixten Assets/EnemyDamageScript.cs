@@ -9,7 +9,7 @@ public class EnemyDamageScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Damage = FindObjectOfType<PlayerHelth>();
+        playerHealth = FindObjectOfType<PlayerHelth>();
     }
 
     // Update is called once per frame
@@ -17,11 +17,11 @@ public class EnemyDamageScript : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {//hit player makes player lose health = to amount of damage
-        if (collision.gameObject.tag == "player") 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("player"))
         {
-            playerHealth.TakeDamage(Damage);
+            playerHealth.Health -= Damage;
         }
     }
 }
