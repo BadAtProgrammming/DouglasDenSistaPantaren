@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     {
         
     }
+    [SerializeField] int UpBorder;
+    [SerializeField] int DownBorder;
+
     [SerializeField]
     public float playerSpeed;
     [SerializeField]
@@ -43,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (transform.position.y <= -3) //gör så karaktären kan inte gå out of bounds
+        if (transform.position.y <= DownBorder) //gör så karaktären kan inte gå out of bounds
             {
             canDown = false;
             }
@@ -52,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
             canDown = true;
         }
 
-        if (transform.position.y >= -1)
+        if (transform.position.y >= UpBorder)
         {
             canUp = false;
         }
