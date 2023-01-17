@@ -18,19 +18,19 @@ public class TooltipMg : MonoBehaviour
     private Image itemimage;
     private GameObject ImageOnCanvas;
 
-    private TextMeshProUGUI Name;
+    private Text Name;
     private GameObject NameCanvas;
 
-    private TextMeshProUGUI ItemType;
+    private Text ItemType;
     private GameObject ItemTypeCanvas;
 
-    private TextMeshProUGUI Cost;
+    private Text Cost;
     private GameObject CostCanvas;
 
-    private TextMeshProUGUI Desc;
+    private Text Desc;
     private GameObject DescCanvas;
 
-    private TextMeshProUGUI Stats;
+    private Text Stats;
     private GameObject StatCanv;
 
     [SerializeField]
@@ -43,19 +43,19 @@ public class TooltipMg : MonoBehaviour
         itemimage = ImageOnCanvas.GetComponent<Image>();
 
         NameCanvas = GameObject.Find("Name");
-        Name = NameCanvas.GetComponent<TextMeshProUGUI>();
+        Name = NameCanvas.GetComponent<Text>();
 
         ItemTypeCanvas = GameObject.Find("Itemtype");
-        ItemType = ItemTypeCanvas.GetComponent<TextMeshProUGUI>();
+        ItemType = ItemTypeCanvas.GetComponent<Text>();
 
         CostCanvas = GameObject.Find("Cost");
-        Cost = CostCanvas.GetComponent<TextMeshProUGUI>();
+        Cost = CostCanvas.GetComponent<Text>();
 
         DescCanvas = GameObject.Find("Desc");
-        Desc = DescCanvas.GetComponent<TextMeshProUGUI>();
+        Desc = DescCanvas.GetComponent<Text>();
 
         StatCanv = GameObject.Find("Statistics");
-        Stats = StatCanv.GetComponent<TextMeshProUGUI>();
+        Stats = StatCanv.GetComponent<Text>();
     }
 
     void Update()
