@@ -19,7 +19,7 @@ public class EnemyDamageScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("player"))//if collition with player: take damage
+        if (collision.CompareTag("PlayerHurtbox"))//if collision with player: take damage
         {
             playerHealth.Health -= Damage;
         }
