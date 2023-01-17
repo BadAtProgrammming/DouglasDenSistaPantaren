@@ -7,6 +7,7 @@ using TMPro;
 public class PlayerHelth : MonoBehaviour
 {
     
+
     GameObject CanvasObject;
 
     
@@ -27,6 +28,9 @@ public class PlayerHelth : MonoBehaviour
         //If you have no heath: show death screen -Sixten
         if (Health <= 0)
         {
+            
+            GameObject.Find("player").GetComponent<PlayerMovement>().enabled = false; //disables player movement when health <= 0
+            GameObject.Find("Main Camera").GetComponent<CameraMovement>().enabled = false;//disables camera movement when health <= 0
             //When health 0 activates the entire canvasobject and its components -Dev
             CanvasObject.SetActive(true);
         }

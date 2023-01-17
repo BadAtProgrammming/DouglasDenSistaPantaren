@@ -25,10 +25,10 @@ public class PlayerMovement : MonoBehaviour
     int rightBorder;
     #endregion
     #region
-    bool canDown = true;
-    bool canUp = true;
-    bool canLeft = true;
-    bool canRight = true;
+    public bool canDown = true;
+    public bool canUp = true;
+    public bool canLeft = true;
+    public bool canRight = true;
     #endregion
     // Update is called once per frame
 
