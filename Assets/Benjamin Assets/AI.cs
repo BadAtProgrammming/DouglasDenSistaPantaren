@@ -16,7 +16,7 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving //States to group together actions.
+        IdleMoving //States to group together actions
     }
 
     private State _currentState; // represents current state of AI
