@@ -11,7 +11,10 @@ TagManager:
   - Pant2
   - ScoreText
   - Enemy1
-  - PlayerAttack
+  - EnemyHurtbox
+  - EnemyAttackbox
+  - PlayerHurtbox
+  - PlayerAttackbox
   layers:
   - Default
   - TransparentFX
