@@ -22,7 +22,7 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PunchTimer += Time.deltaTime * FramesPS; // Code is mostly a placeholder for a better system like animation states, this will only work for the player character.
+        PunchTimer += Time.deltaTime * FramesPS;
         KickTimer += Time.deltaTime * FramesPS;
 
 
@@ -47,9 +47,9 @@ public class Attacks : MonoBehaviour
             ReadyKick = true;
         }
 
-        if (Input.GetKey("q") && PunchTimer >= WeaponCooldown)
+        if (PunchTimer >= WeaponCooldown)
         {
-            PunchTimer = 0;
+            ReadyPunch = true;
         }
 
     }
