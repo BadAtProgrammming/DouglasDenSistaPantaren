@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Attacks : MonoBehaviour
 {
-    bool ReadyKick = true;
-    bool ReadyPunch = true;
+    public bool ReadyKick = true;
+    public bool ReadyPunch = true;
     int FramesPS = 30;
     float PunchTimer = 0;
     float KickTimer = 0;
