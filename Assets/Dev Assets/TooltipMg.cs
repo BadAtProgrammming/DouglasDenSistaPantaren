@@ -8,8 +8,8 @@ public class TooltipMg : MonoBehaviour
 {
     string[] Names = {"Sign", "Axe", "Frying Pan", "LightSaber", "Microsoft Edge", "Umbrella" };
     string[] typeitems = {"Blunt", "Axe Body Spray", "Scout TF2", "luminescent plasma blade", "Blade", "Umbrella" };
-    string[] costs = {"Free Bruh", "46", "60", "100", "64", "30" };
-    string[] descs = { "This is a sign from god, that you should just shut the fuck up. No but really shut up!  Anyways this weapon is a basic weapon, stop crying that its underpowered, you are basically hitting people with a wooden board.", "BONK BONK BONK -Scout TF2 This item is also very effective if you are fighting sans and need extra health. No sans is not in this game, play undertale if you want sans.", "CTRL C + CTRL V description from wikipedia. Source: I made it the fuck up.  What this is though is a laser blade thing that cuts people, thats it.", "This item is very special, as it is the only item with a !!SPECIAL!! ability that finishes the game immediately, it is activated by pressing ALT + F4. You should try it!", "This item shields you from water, but also from enemies apparently, yeah i know its an umbrella, its very effective though." };
+    string[] costs = {"Free Bruh", "Cost: 46", "Cost: 60", "Cost: 100", "Cost: 64", "Cost: 30" };
+    string[] descs = {"This is a sign from god, that you should beat everyone up!  Anyways this weapon is a basic weapon, stop crying that its underpowered, you are basically hitting people with a wooden board.","Axe Body spray, this is basically an axe, feel like the american psycho yet?", "BONK BONK BONK -Scout TF2 This item is also very effective if you are fighting sans and need extra health. No sans is not in this game, play undertale if you want sans.", "CTRL C + CTRL V description from wikipedia. Source: I made it the fuck up.  What this is though is a laser blade thing that cuts people, thats it.", "This item is very special, as it is the only item with a !!SPECIAL!! ability that finishes the game immediately, it is activated by pressing ALT + F4. You should try it!", "This item shields you from water, but also from enemies apparently, yeah i know its an umbrella, its very effective though." };
     string[] statistics = {"10 Dmg", "20-50", "15 Dmg", "30 Dmg", "25 Dmg", "15 Dmg"};
 
     [SerializeField] private CanvasGroup canvasGroup;
@@ -32,6 +32,9 @@ public class TooltipMg : MonoBehaviour
 
     private TextMeshProUGUI Stats;
     private GameObject StatCanv;
+
+    [SerializeField]
+    public int localitemused;
 
     void Start()
     {
@@ -57,6 +60,10 @@ public class TooltipMg : MonoBehaviour
 
     void Update()
     {
-        
+        Name.text = Names[localitemused];
+        ItemType.text = typeitems[localitemused];
+        Cost.text = costs[localitemused];
+        Desc.text = descs[localitemused];
+        Stats.text = statistics[localitemused];
     }
 }
