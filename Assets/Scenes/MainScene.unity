@@ -595,6 +595,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8295d14a7d7aca04884eeceffb986b21, type: 3}
+--- !u!1 &365479877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3273127614707355675, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+  m_PrefabInstance: {fileID: 507224390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &365479879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365479877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: YOU DIED
 --- !u!1 &401663266
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +948,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &464251159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3273127615354315735, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+  m_PrefabInstance: {fileID: 507224390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &464251161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464251159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Insert SPlashtext
 --- !u!1001 &501930335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,6 +1113,9 @@ PrefabInstance:
       objectReference: {fileID: 595433651}
     m_RemovedComponents:
     - {fileID: 3273127613673996851, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+    - {fileID: 3273127614707355669, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+    - {fileID: 3273127615354315730, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+    - {fileID: 3273127614011240625, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
 --- !u!1001 &550040897
 PrefabInstance:
@@ -1890,6 +1971,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1328471012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3273127614011240631, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+  m_PrefabInstance: {fileID: 507224390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1328471014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328471012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PLAY AGAIN NERD
 --- !u!1 &1401096910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,11 +2533,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21e8f9e4cca48684ea561453ec57c875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSpeed: 3
   UpBorder: -0.37
   DownBorder: -2.44
-  playerSpeed: 3
   leftBorder: -8
   rightBorder: 100
+  canDown: 1
+  canUp: 1
+  canLeft: 1
+  canRight: 1
 --- !u!212 &1736696033
 SpriteRenderer:
   m_ObjectHideFlags: 0
