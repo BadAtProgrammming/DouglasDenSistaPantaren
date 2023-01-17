@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -557,7 +557,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Pantflaska_1-Sheet_19: -2141743126
-      Pantflaska_1-Sheet_12: 585699928
+      Pantflaska_1-Sheet_7: 13328865
       Pantflaska_1-Sheet_11: 864375059
       Pantflaska_1-Sheet_16: -1848297746
       Pantflaska_1-Sheet_10: 1982353577
@@ -576,7 +576,7 @@ TextureImporter:
       Pantflaska_1-Sheet_18: 1905834410
       Pantflaska_1-Sheet_2: 350600731
       Pantflaska_1-Sheet_17: -64038288
-      Pantflaska_1-Sheet_7: 13328865
+      Pantflaska_1-Sheet_12: 585699928
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
