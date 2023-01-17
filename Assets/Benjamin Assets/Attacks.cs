@@ -9,7 +9,7 @@ public class Attacks : MonoBehaviour
     int FramesPS = 30;
     float PunchTimer = 0;
     float KickTimer = 0;
-
+    public float WeaponCooldown=15;
 
 
 
@@ -47,9 +47,9 @@ public class Attacks : MonoBehaviour
             ReadyKick = true;
         }
 
-        if (PunchTimer >= 15)
+        if (Input.GetKey("q") && PunchTimer >= WeaponCooldown)
         {
-            ReadyPunch = true;
+            PunchTimer = 0;
         }
 
     }
