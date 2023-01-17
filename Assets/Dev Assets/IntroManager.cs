@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class IntroManager : MonoBehaviour
 {
@@ -52,9 +53,8 @@ public class IntroManager : MonoBehaviour
             yield return new WaitForSeconds(7);
             asepriteunfade();
             yield return new WaitForSeconds(10);
-            fadeTween = canvasGroup.DOFade(0f, 10f);
-            yield return new WaitForSeconds(10);
-            IntroCanvas.SetActive(false);
+            LoadScene("Dev Scene");
+
         }
     }
 
@@ -76,5 +76,12 @@ public class IntroManager : MonoBehaviour
     void unityunfade()
     {
         imagetest.DOFade(0f, 7f);
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        //Scenechange script, changes the script that is referenced -Dev
+        Debug.Log("SceneChange");
+        SceneManager.LoadScene(sceneName);
     }
 }
