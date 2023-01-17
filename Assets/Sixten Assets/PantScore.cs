@@ -8,7 +8,6 @@ public class PantScore : MonoBehaviour
     
    [SerializeField] TextMeshProUGUI ScoreText;
     
-    [SerializeField]
     public int score = 0;
     // Start is called before the first frame update
     void Start()
