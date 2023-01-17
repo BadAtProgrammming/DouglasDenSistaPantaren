@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47f3975a0eb59804db98ecd70bc00153
+guid: 07186b59a231e7047a142f56126c18a7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,11 +43,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_0
+      name: PV douglas idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 9
-        height: 16
+        x: 20
+        y: 1
+        width: 40
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21bcf26b25d9d1747bd8ab99a57f549b
-      internalID: 1873028345
+      spriteID: f036501812e64ef4fba51754c59a8b42
+      internalID: 1029328221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_1
+      name: PV douglas idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
-        width: 9
-        height: 16
+        x: 116
+        y: 1
+        width: 40
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df5e8dc14c9a0b44abeef11b3a5b352
-      internalID: -1085846794
+      spriteID: 28966e958fac8a249a5a171f998ea110
+      internalID: 180031022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_2
+      name: PV douglas idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 0
-        width: 9
-        height: 16
+        x: 212
+        y: 1
+        width: 40
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24509a80bd91b749a488c9e2b36ebc9
-      internalID: 820792579
+      spriteID: 23554ae6ce9862f4eb81744b5573b68f
+      internalID: -1677407483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_3
+      name: PV douglas idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 0
-        width: 9
-        height: 16
+        x: 309
+        y: 1
+        width: 40
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ded6097060334f4986e873634b42fab
-      internalID: -1832052825
+      spriteID: 19f6a878aa81bfe4089f9e8edceb219e
+      internalID: -1575544382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_4
+      name: PV douglas idle-Sheet_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 9
-        height: 16
+        x: 405
+        y: 1
+        width: 39
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 400ad04e74f1fdc45bd4489d35759a74
-      internalID: -1423792343
+      spriteID: 477c028cece39d94180ebc0ec7cd476d
+      internalID: -37648965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_5
+      name: PV douglas idle-Sheet_5
       rect:
         serializedVersion: 2
-        x: 83
-        y: 0
-        width: 9
-        height: 16
+        x: 501
+        y: 1
+        width: 38
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c1285d951a21e47b809606503684cf
-      internalID: -657338945
+      spriteID: 6b47a70549ccd944785b2de18f029387
+      internalID: 70397337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_6
+      name: PV douglas idle-Sheet_6
       rect:
         serializedVersion: 2
-        x: 99
-        y: 0
-        width: 9
-        height: 16
+        x: 595
+        y: 1
+        width: 40
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f67fba92e8c5274ab28f9efcf7b8ed5
-      internalID: 1322818911
+      spriteID: 652b616b8fa4af34dbb26067b41138d5
+      internalID: -1221571204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_7
+      name: PV douglas idle-Sheet_7
       rect:
         serializedVersion: 2
-        x: 115
-        y: 0
-        width: 9
-        height: 16
+        x: 691
+        y: 1
+        width: 41
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e182257998d7e484080a8b82ab50a7b7
-      internalID: -1220789795
+      spriteID: 5acc824f9ad09da4f9a8db61cfdfbb55
+      internalID: -1938715209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_8
+      name: PV douglas idle-Sheet_8
       rect:
         serializedVersion: 2
-        x: 131
-        y: 0
-        width: 9
-        height: 16
+        x: 786
+        y: 1
+        width: 42
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dba04309215ecd438334f69324c1e39
-      internalID: -182097540
+      spriteID: 5fc3bd4d9c083ab42a470d4a03b5d45d
+      internalID: -1816795902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_9
+      name: PV douglas idle-Sheet_9
       rect:
         serializedVersion: 2
-        x: 147
-        y: 0
-        width: 9
-        height: 16
+        x: 884
+        y: 1
+        width: 39
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97cfc44a6b472ef4c9d54febc0bbdd70
-      internalID: 278477411
+      spriteID: 0515546ff77a50c469f266e8f71c40ab
+      internalID: 91304142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_10
+      name: PV douglas idle-Sheet_10
       rect:
         serializedVersion: 2
-        x: 163
-        y: 0
-        width: 9
-        height: 16
+        x: 980
+        y: 1
+        width: 40
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,71 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec5d988dac22add4dafeb3fdc2be123c
-      internalID: 1324934657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 0
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2831c4a2900268d4f9fe1776231ce52d
-      internalID: 1120541818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f36db4b7d2f36047b005d2e6f21564a
-      internalID: -1397223296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doglas_Epsi_can-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 0
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ebd7e5ffcbc15f479cd8f717bec6845
-      internalID: -930123175
+      spriteID: 0931e26e2595c0e43b5f81041d5b0145
+      internalID: 795945156
       vertices: []
       indices: 
       edges: []
@@ -409,20 +346,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Doglas_Epsi_can-Sheet_2: 820792579
-      Doglas_Epsi_can-Sheet_12: -1397223296
-      Doglas_Epsi_can-Sheet_1: -1085846794
-      Doglas_Epsi_can-Sheet_4: -1423792343
-      Doglas_Epsi_can-Sheet_0: 1873028345
-      Doglas_Epsi_can-Sheet_7: -1220789795
-      Doglas_Epsi_can-Sheet_10: 1324934657
-      Doglas_Epsi_can-Sheet_8: -182097540
-      Doglas_Epsi_can-Sheet_13: -930123175
-      Doglas_Epsi_can-Sheet_3: -1832052825
-      Doglas_Epsi_can-Sheet_9: 278477411
-      Doglas_Epsi_can-Sheet_11: 1120541818
-      Doglas_Epsi_can-Sheet_6: 1322818911
-      Doglas_Epsi_can-Sheet_5: -657338945
+      PV douglas idle-Sheet_0: 1029328221
+      PV douglas idle-Sheet_2: -1677407483
+      PV douglas idle-Sheet_6: -1221571204
+      PV douglas idle-Sheet_1: 180031022
+      PV douglas idle-Sheet_9: 91304142
+      PV douglas idle-Sheet_4: -37648965
+      PV douglas idle-Sheet_3: -1575544382
+      PV douglas idle-Sheet_7: -1938715209
+      PV douglas idle-Sheet_8: -1816795902
+      PV douglas idle-Sheet_10: 795945156
+      PV douglas idle-Sheet_5: 70397337
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
