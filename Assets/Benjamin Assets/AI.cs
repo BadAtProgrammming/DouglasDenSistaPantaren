@@ -16,7 +16,7 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving //States to group together actions.
+        IdleMoving //States to group together actions
     }
 
     private State _currentState; // represents current state of AI
@@ -147,7 +147,7 @@ public class AI : MonoBehaviour
         
         }
         
-        IEnumerator StrafeTimer()
+        IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
         {
             yield return new WaitForSeconds(2f);
             _currentState = State.Chase;
