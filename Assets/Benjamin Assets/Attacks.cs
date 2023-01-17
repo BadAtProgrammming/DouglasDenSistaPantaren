@@ -22,7 +22,7 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PunchTimer += Time.deltaTime * FramesPS;
+        PunchTimer += Time.deltaTime * FramesPS; // Code is mostly a placeholder for a better system like animation states, this will only work for the player character.
         KickTimer += Time.deltaTime * FramesPS;
 
 

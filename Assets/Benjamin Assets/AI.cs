@@ -147,7 +147,7 @@ public class AI : MonoBehaviour
         
         }
         
-        IEnumerator StrafeTimer()
+        IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
         {
             yield return new WaitForSeconds(2f);
             _currentState = State.Chase;
