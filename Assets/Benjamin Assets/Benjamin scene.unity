@@ -123,32 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &25115715 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5996536563624620235, guid: 1fbdae77b19e56041b423ab37541cd85, type: 3}
-  m_PrefabInstance: {fileID: 8560756494288710778}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &25115720
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25115715}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &599566479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -317,58 +291,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftCBorder: -98
   rightCBorder: 102
---- !u!1 &768756463 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 98671263715767861, guid: 0c45e9c0c7c397643839a919c3fe0ab4, type: 3}
-  m_PrefabInstance: {fileID: 3441179475701293500}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &768756468
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768756463}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!1 &860253486 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5902981519089274576, guid: 755148a11cfabea4ca96b8aaa353b4fb, type: 3}
-  m_PrefabInstance: {fileID: 7377230657362299538}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &860253491
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860253486}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &1003232288
 PrefabInstance:
   m_ObjectHideFlags: 0
