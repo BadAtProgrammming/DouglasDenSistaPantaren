@@ -365,8 +365,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eInReach: {fileID: 0}
+  pHealth: {fileID: 0}
+  eInReach: 0
   thingToSpawn: {fileID: 0}
+  canDoDamage: 0
   pInReach: 0
   Health: 20
 --- !u!1001 &1133880566

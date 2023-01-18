@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1dee23dd5ebcf40469b25c3a0d1c693e
+guid: 9d1e40d73804110438962c999bef1e0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,160 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_0
+      name: fiende 2-Sheet_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 4
-        width: 37
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd4a6858686edcb4ea594b8b6ba21d44
-      internalID: 570423641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 4
-        width: 41
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9ae097d0e08d4d45b5fe38838301192
-      internalID: -124731213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 4
-        width: 41
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5efbe251ba409541a54d852b788dd90
-      internalID: 1822538499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 4
-        width: 42
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea007496d6a2cb14188d1b7d385c59e6
-      internalID: -2114719003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 4
-        width: 42
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac903d69401718b4db3cfb55721ee6e3
-      internalID: -1712096720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 4
-        width: 42
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dff55049b781124d96e0731a8691e13
-      internalID: 2023891035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 4
-        width: 44
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 116d800e08c3ea64c99c22bee16dc683
-      internalID: -211831169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 4
+        x: 13
+        y: 0
         width: 35
-        height: 96
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfda4c26249d790479d83f94065df2f5
-      internalID: 184504781
+      spriteID: 470906a95ec015b40a32b9f9ac520ddd
+      internalID: 236135683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_8
+      name: fiende 2-Sheet_1
       rect:
         serializedVersion: 2
-        x: 790
-        y: 4
-        width: 37
-        height: 96
+        x: 58
+        y: 0
+        width: 34
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36035131e18e015489b6bf306e883be4
-      internalID: -1243718817
+      spriteID: a6c5957022de84940b9f41fe2c5da43c
+      internalID: -2019925774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_9
+      name: fiende 2-Sheet_2
       rect:
         serializedVersion: 2
-        x: 886
-        y: 4
-        width: 37
-        height: 96
+        x: 109
+        y: 0
+        width: 26
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed9d4fce94643c4b82d6a2f8e6aa67c
-      internalID: -1439113828
+      spriteID: f86bed0817af3224d831969d3be79edf
+      internalID: -1429158424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas swing 1-Sheet_10
+      name: fiende 2-Sheet_3
       rect:
         serializedVersion: 2
-        x: 980
-        y: 4
-        width: 37
-        height: 96
+        x: 158
+        y: 0
+        width: 22
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +182,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a694ae7da98a5004e9bb58e9a8ea1529
-      internalID: -607520316
+      spriteID: 3100e4a5ab7540646b04ce2d4c568e9c
+      internalID: 1110287255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiende 2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e707a2d6f94e65e47a161e9fcbc2e71a
+      internalID: 1137379622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiende 2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb8c5190e22c094b858353a72b727f9
+      internalID: -1224048974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiende 2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e56064243420a6499b885d6069e4314
+      internalID: -701805966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fiende 2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 24
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2d0d7be91f53d4ea2f2aabb56687c0
+      internalID: 947235482
       vertices: []
       indices: 
       edges: []
@@ -346,17 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PV douglas swing 1-Sheet_1: -124731213
-      PV douglas swing 1-Sheet_8: -1243718817
-      PV douglas swing 1-Sheet_10: -607520316
-      PV douglas swing 1-Sheet_4: -1712096720
-      PV douglas swing 1-Sheet_3: -2114719003
-      PV douglas swing 1-Sheet_0: 570423641
-      PV douglas swing 1-Sheet_2: 1822538499
-      PV douglas swing 1-Sheet_7: 184504781
-      PV douglas swing 1-Sheet_5: 2023891035
-      PV douglas swing 1-Sheet_9: -1439113828
-      PV douglas swing 1-Sheet_6: -211831169
+      fiende 2-Sheet_6: -701805966
+      fiende 2-Sheet_1: -2019925774
+      fiende 2-Sheet_7: 947235482
+      fiende 2-Sheet_3: 1110287255
+      fiende 2-Sheet_4: 1137379622
+      fiende 2-Sheet_2: -1429158424
+      fiende 2-Sheet_5: -1224048974
+      fiende 2-Sheet_0: 236135683
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
