@@ -40,10 +40,10 @@ public class ActualCreditsFunctions : MonoBehaviour
 
     public void moveback()
     {
-        background.transform.DOLocalMoveY(-3f, 5f, false);
-        foreground.transform.DOLocalMoveY(-3f, 5f, false);
+        background.transform.DOLocalMoveY(55f, 5f, false);
+        foreground.transform.DOLocalMoveY(55f, 5f, false);
         credits.transform.DOLocalMoveY(-899f, 5f, false);
-        canvas.transform.DOLocalMoveY(-986.9999f, 5f, false);
+        canvas.transform.DOLocalMoveY(-927f, 5f, false);
     }
 
 }

@@ -22,11 +22,6 @@ public class AI : MonoBehaviour
     private State _currentState; // represents current state of AI
 
     public Transform player; // So the asset can use transform everywhere in the code.
-    bool ReadyKick = true;
-    bool ReadyPunch = true;
-    int FramesPS = 30;
-    float PunchTimer = 0;
-    float KickTimer = 0; // placeholders
     Coroutine coroutine;
     
 
@@ -34,6 +29,7 @@ public class AI : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>(); // so the asset can reference Rigidbody without having to write it in several times.
+        
     }
 
     private void Update()
@@ -44,18 +40,8 @@ public class AI : MonoBehaviour
         detectRange *= detectRange;
         float playerdistance = (player.position - transform.position).sqrMagnitude; // responsible for if the ai can see the player or not
 
-        PunchTimer += Time.deltaTime * FramesPS;
-        KickTimer += Time.deltaTime * FramesPS;
-
-        if (KickTimer >= 20) // placeholder
-        {
-            ReadyKick = true;
-        }
-
-        if (PunchTimer >= 15) 
-        {
-            ReadyPunch = true; // placeholders for better frame based attacking code.
-        }
+        
+        
 
         if (_currentState == State.Idle) //Idle doesnt do much, just a state for the other states to change from. Also a State for LookForPlayer() to change to other states
         {
@@ -114,20 +100,17 @@ public class AI : MonoBehaviour
         }
         void AttackPlayer() //Code to make the enemy to stop at the player's location and use attack animations to hit them, currently doesnt do much.
         {
-            
-            if (playerdistance >= Reach)
+            Animator anim;
+            anim = GetComponent<Animator>();
+            if (playerdistance <= Reach)
+            {
+                anim.SetBool("AITTACK", true);
+            }
+            else if(playerdistance >= Reach)
             {
                 rb.velocity = Vector2.zero;
                 _currentState = State.Chase;
-            }
-            if (ReadyPunch == true)
-            {
-                PunchTimer = 0;
-            }
-            if (ReadyKick == true)
-            {
-                KickTimer = 0;
-
+                anim.SetBool("AITTACK", false);
             }
 
 
