@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 600
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db35f4ee210cd74592054115facc065
+      internalID: -1772118086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 604
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2f4d4bd8758e944a59b57bb3de2b19
+      internalID: 290858274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 606
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26bf09cfab817642a57059f6e1c8705
+      internalID: 1930818432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 599
+        width: 58
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfbc6992356c5b40adb5a37768f59d5
+      internalID: -1107136120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 598
+        width: 57
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a31de4064b9a649b1ff824c7467861
+      internalID: 513585549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 488
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507cfeb8c4f6d694f88760cc0c00c1bb
+      internalID: 477903150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 492
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecce6c1f708ec2d458af547039ef3108
+      internalID: -1563789365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 493
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac31f8388dd70c4e9d321ad7d912d80
+      internalID: -299572638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 480
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2df67bbc241f0469b766beb870a509
+      internalID: -978637264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 483
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658047e1f036c41409421d308b4cb071
+      internalID: -976946287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 381
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c938e9ea6045498aef017dd190ef4
+      internalID: -1085066400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 384
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3b7b30392591c42a6df7ade10bb56e
+      internalID: 1214887645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 375
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0be57134689c9469446e22961e10e0
+      internalID: 68442552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 365
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fc082ca41e32447ac7ed900809e73c
+      internalID: 622088063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 367
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4599fdeee280c64e92be19b7a3ec16b
+      internalID: 2033567116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 265
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bfd2b31b0d619409c3e9256274e1e9
+      internalID: -1095229197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 268
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19369d6ff24f364c905afff6e328c2c
+      internalID: 330457987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 271
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b179d59a6b2894eb4fb088f04f412a
+      internalID: -267061857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 259
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dad669719926304f8f8604f9a29356b
+      internalID: 405311803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 261
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b00eed7365503448d1cab9e8fa1b74
+      internalID: -700463265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 151
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a658962125893469ee1c0637c07c49
+      internalID: 1425096096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 154
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31aed33fa637c24bb16c0b24ab06c25
+      internalID: -1684889880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 160
+        width: 10
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6305c3f03ca527448ad7ca1196a59260
+      internalID: -22965164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 149
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68330111046c717418ba0456ecfb3f7b
+      internalID: 2022914309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 150
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ceb8e8a8d751a409af57b777136219
+      internalID: 901616679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 32
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035a2b8b6d3455945bd29e31bf6b4a04
+      internalID: 1353503076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 34
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db02992f0e4dd494a85388e3135a3a77
+      internalID: -1039182766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 42
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c90e055833f74ea4014e3c25f7d32
+      internalID: 386174456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 45
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40cb90182c59044388289d5c2868792
+      internalID: -598390505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas ready to swing item-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 46
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c050b5cb56c8564da40a608d5dea6e0
+      internalID: -1912913365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +744,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PV douglas ready to swing item-Sheet_16: -843902277
+      PV douglas ready to swing item-Sheet_6: 2067642505
+      PV douglas ready to swing item-Sheet_30: -122324165
+      PV douglas ready to swing item-Sheet_22: 622088063
+      PV douglas ready to swing item-Sheet_36: -1684889880
+      PV douglas ready to swing item-Sheet_24: 396875312
+      PV douglas ready to swing item-Sheet_42: 1058878016
+      PV douglas ready to swing item-Sheet_47: 251964690
+      PV douglas ready to swing item-Sheet_17: -1085066400
+      PV douglas ready to swing item-Sheet_9: -1563789365
+      PV douglas ready to swing item-Sheet_3: -1107136120
+      PV douglas ready to swing item-Sheet_19: 68442552
+      PV douglas ready to swing item-Sheet_11: -978637264
+      PV douglas ready to swing item-Sheet_34: 1835314077
+      PV douglas ready to swing item-Sheet_35: 1425096096
+      PV douglas ready to swing item-Sheet_12: -976946287
+      PV douglas ready to swing item-Sheet_31: -811330590
+      PV douglas ready to swing item-Sheet_50: -598390505
+      PV douglas ready to swing item-Sheet_0: -1772118086
+      PV douglas ready to swing item-Sheet_41: 2022914309
+      PV douglas ready to swing item-Sheet_21: 1791114865
+      PV douglas ready to swing item-Sheet_38: -1581464815
+      PV douglas ready to swing item-Sheet_8: 477903150
+      PV douglas ready to swing item-Sheet_28: 405311803
+      PV douglas ready to swing item-Sheet_39: -1433220171
+      PV douglas ready to swing item-Sheet_33: 261307449
+      PV douglas ready to swing item-Sheet_29: -700463265
+      PV douglas ready to swing item-Sheet_27: -267061857
+      PV douglas ready to swing item-Sheet_46: -1039182766
+      PV douglas ready to swing item-Sheet_51: -1912913365
+      PV douglas ready to swing item-Sheet_15: -1095543175
+      PV douglas ready to swing item-Sheet_49: -2061075672
+      PV douglas ready to swing item-Sheet_23: 2033567116
+      PV douglas ready to swing item-Sheet_45: 1353503076
+      PV douglas ready to swing item-Sheet_7: 513585549
+      PV douglas ready to swing item-Sheet_25: -1095229197
+      PV douglas ready to swing item-Sheet_26: 330457987
+      PV douglas ready to swing item-Sheet_14: 958428939
+      PV douglas ready to swing item-Sheet_20: -80682222
+      PV douglas ready to swing item-Sheet_5: 455533935
+      PV douglas ready to swing item-Sheet_32: 797021128
+      PV douglas ready to swing item-Sheet_44: 1865856581
+      PV douglas ready to swing item-Sheet_1: 290858274
+      PV douglas ready to swing item-Sheet_48: 386174456
+      PV douglas ready to swing item-Sheet_40: 2094780847
+      PV douglas ready to swing item-Sheet_10: -299572638
+      PV douglas ready to swing item-Sheet_13: 212220580
+      PV douglas ready to swing item-Sheet_18: 1214887645
+      PV douglas ready to swing item-Sheet_37: -22965164
+      PV douglas ready to swing item-Sheet_43: 901616679
+      PV douglas ready to swing item-Sheet_4: -169474149
+      PV douglas ready to swing item-Sheet_2: 1930818432
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
