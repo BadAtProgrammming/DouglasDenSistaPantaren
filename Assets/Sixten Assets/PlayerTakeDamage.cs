@@ -25,7 +25,7 @@ public class PlayerTakeDamage : MonoBehaviour
         {
             canTakeDamage = false;
         }
-        if(timer >= 4 && canTakeDamage == true)
+        if(canTakeDamage == true)
         {
             pHealth.Health -= 10;
             timer = 0;
