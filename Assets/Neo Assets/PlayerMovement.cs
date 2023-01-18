@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement :MonoBehaviour
 {
-    
+    Animator anim;
     // Start is called before the first frame update
-    void Start()
+     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        anim.SetBool("IsWalking", false);
     }
-
     
     [SerializeField]
     public float playerSpeed;
@@ -34,17 +34,17 @@ public class PlayerMovement :MonoBehaviour
    
     void Update()
     {
-        
         if (Input.GetKey("d") && canRight == true) //movement
         {
             transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(1,3 );
+            transform.localScale = new Vector2(3,3 );
+            
         }
        
         if (Input.GetKey("a") && canLeft == true)
         {
             transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(-1,3 );
+            transform.localScale = new Vector2(-3,3 );
         }
         
         if (Input.GetKey("w") && canUp == true)
@@ -93,6 +93,20 @@ public class PlayerMovement :MonoBehaviour
             canRight = true;
         }
         #endregion
+
+        
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+        }
+
+
     }
+
 }
+
 
