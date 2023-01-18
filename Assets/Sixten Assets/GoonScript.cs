@@ -8,7 +8,7 @@ public class GoonScript : MonoBehaviour
     GameObject thingToSpawn;
 
     private Transform EnemyPosition;
-    public bool inReach;
+    public bool pInReach;
     [SerializeField] int Health = 20;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class GoonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N) && inReach == true)
+        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
             
             Health -= 10;
@@ -33,13 +33,13 @@ public class GoonScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerAttackbox"))
+        if (collision.CompareTag("PlayerHurtbox"))
         {
-            inReach = true;
+            pInReach = true;
         }
         else
         {
-            inReach = false;
+            pInReach = false;
             
         }
     }
