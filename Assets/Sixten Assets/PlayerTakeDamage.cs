@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerTakeDamage : MonoBehaviour
 {
     public PlayerHelth pHealth;
-    float timer;
-    bool canTakeDamage;
+
     public bool eInReach;
     // Start is called before the first frame update
     void Start()
@@ -17,32 +16,11 @@ public class PlayerTakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timer >= 4 && eInReach == true)
-        {
-            canTakeDamage = true;
-        }
-        else
-        {
-            canTakeDamage = false;
-        }
-        if(canTakeDamage == true)
-        {
-            pHealth.Health -= 10;
-            timer = 0;
-        }
-        timer += 1 * Time.deltaTime;
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyAttackbox"))
-        {
-            eInReach = true;
-        }
-        else
-        {
-            eInReach = false;
-
-        }
+       
     }
 
 }

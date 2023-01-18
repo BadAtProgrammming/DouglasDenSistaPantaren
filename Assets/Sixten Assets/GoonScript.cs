@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class GoonScript : MonoBehaviour
 {
-    public PlayerTakeDamage eInReach;
+    public PlayerHelth pHealth;
+    public bool eInReach;
     [SerializeField] GameObject thingToSpawn;
-
+    public bool canDoDamage;
     private bool candie = true;
     private Transform EnemyPosition;
-
+    float timer;
     public bool pInReach;
     
 
@@ -19,14 +20,15 @@ public class GoonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pHealth = FindObjectOfType<PlayerHelth>();
         EnemyPosition = GetComponent<Transform>();
-        eInReach = FindObjectOfType<PlayerTakeDamage>();
+       
     }
 
     private void Die()
     {
         
-        eInReach.eInReach = false;
+        canDoDamage = false;
         Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,6 +41,15 @@ public class GoonScript : MonoBehaviour
         {
             pInReach = false;
             
+        }
+        if (collision.CompareTag("PlayerHurtbox"))
+        {
+            eInReach = true;
+        }
+        else
+        {
+            eInReach = false;
+
         }
     }
     // Update is called once per frame
@@ -53,6 +64,20 @@ public class GoonScript : MonoBehaviour
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
         }
+        if (timer >= 4 && eInReach == true)
+        {
+            canDoDamage = true;
+        }
+        else
+        {
+            canDoDamage = false;
+        }
+        if (canDoDamage == true)
+        {
+            pHealth.Health -= 10;
+            timer = 0;
+        }
+        timer += 1 * Time.deltaTime;
 
         if (Health <= 0 && candie)
         {
