@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7430960704791920065}
   - component: {fileID: 7430960704791920078}
   - component: {fileID: 1162116011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pant2
   m_TagString: Pant2
   m_Icon: {fileID: 0}
