@@ -11,13 +11,16 @@ public class Flicker : MonoBehaviour
     private Image backgroundAlpha;
     private IEnumerator coroutine;
     private float randomeness;
-    private Camera Camera1;
+    private GameObject audiopart;
+    private AudioSource Audio;
 
     void Start()
     {
         background = GameObject.Find("BackgroundScreen");
         backgroundAlpha = background.GetComponent<Image>();
         coroutine = flicker();
+        audiopart = GameObject.Find("AudioSource");
+        Audio = audiopart.GetComponent<AudioSource>();
         StartCoroutine(coroutine);
     }
 
@@ -37,6 +40,7 @@ public class Flicker : MonoBehaviour
             flickeron();
             yield return new WaitForSeconds(0.1f);
             flickeroff();
+            Audio.Play();
         }
     }
 
