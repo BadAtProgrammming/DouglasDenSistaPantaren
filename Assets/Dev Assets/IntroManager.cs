@@ -18,7 +18,6 @@ public class IntroManager : MonoBehaviour
     private IEnumerator coroutine;
 
     [SerializeField] private CanvasGroup canvasGroup;
-    private Tween fadeTween;
 
 
 
@@ -48,9 +47,9 @@ public class IntroManager : MonoBehaviour
             unityfade();
             yield return new WaitForSeconds(7);
             unityunfade();
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(10);
             asepritefade();
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(13);
             asepriteunfade();
             yield return new WaitForSeconds(10);
             LoadScene("Dev Scene");
@@ -61,21 +60,21 @@ public class IntroManager : MonoBehaviour
     //The fade void's below -Dev
     void asepritefade()
     {
-        asepriteimg.DOFade(1f, 7f);
+        asepriteimg.DOFade(1f, 5f);
     }
     void asepriteunfade()
     {
-        asepriteimg.DOFade(0f, 7f);
+        asepriteimg.DOFade(0f, 5f);
     }
 
     void unityfade()
     {
-        imagetest.DOFade(1f, 7f);
+        imagetest.DOFade(1f, 5f);
     }
 
     void unityunfade()
     {
-        imagetest.DOFade(0f, 7f);
+        imagetest.DOFade(0f, 5f);
     }
 
     public void LoadScene(string sceneName)
