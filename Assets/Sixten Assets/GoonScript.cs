@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class GoonScript : MonoBehaviour
 {
-    [SerializeField]
-    GameObject thingToSpawn;
+    [SerializeField] GameObject thingToSpawn;
 
+    private bool candie = true;
     private Transform EnemyPosition;
+<<<<<<< HEAD
     public bool pInReach;
+=======
+    public bool inReach;
+
+>>>>>>> 860f88c7ac560926d8c54f39bda7bff2af3445a9
     [SerializeField] int Health = 20;
+
     // Start is called before the first frame update
     void Start()
     {
         EnemyPosition = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Die()
     {
+<<<<<<< HEAD
         if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
             
@@ -30,6 +36,9 @@ public class GoonScript : MonoBehaviour
             
             Destroy(gameObject);
         }
+=======
+        Destroy(gameObject);
+>>>>>>> 860f88c7ac560926d8c54f39bda7bff2af3445a9
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -39,8 +48,29 @@ public class GoonScript : MonoBehaviour
         }
         else
         {
+<<<<<<< HEAD
             pInReach = false;
             
+=======
+            inReach = false;
+
+        }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.N) && inReach == true)
+        {
+
+            Health -= 10;
+        }
+
+        if (Health <= 0 && candie)
+        {
+            candie = false;
+            Instantiate(thingToSpawn, EnemyPosition.position, Quaternion.identity);
+            Invoke("Die", 1);
+>>>>>>> 860f88c7ac560926d8c54f39bda7bff2af3445a9
         }
     }
 }
