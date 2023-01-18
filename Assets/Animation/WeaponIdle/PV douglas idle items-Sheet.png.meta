@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: 1f2bb1ab9d58e74409beeaf0c9bab163
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 587
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0426a9f3f027e47b39e3d986671dd6
+      internalID: 776512631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 585
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a0396d5ef04404dbfad2fcd3a73d6c
+      internalID: -636862273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 584
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3d98b0854be2947b124ced5a3eacce
+      internalID: -35141773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 585
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc480ad3db0962744b5f3406b96cd069
+      internalID: 1981415595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 586
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3e524a5b2fef47b815ffbf23f4b2a
+      internalID: -887844457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 590
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b06071854cd03c4db407f46c3ef00e6
+      internalID: -1943833306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 595
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a787270a022d74d836be667d7ef7f4
+      internalID: 577683438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 596
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3de43c128c2b384e997c010f665c635
+      internalID: -1307480088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 589
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e2fc1cdd31a5042b37fc97307a3fc3
+      internalID: -1853041505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 590
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b82e20551287de44a95f47055bb28c1
+      internalID: -1410600684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 477
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9281efa47d87746ba1847d9eb53693
+      internalID: 106618669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 475
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526df36def22e604b8f4c48923d9b1aa
+      internalID: -805900278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 473
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a5378f461ac804582540f080a7e74c
+      internalID: 1056811643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 475
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42dfc0b048deb2439352b234d1f73e6
+      internalID: -1646022332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 477
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9fc68c6c955c343a4ee6873faa8705
+      internalID: 539376153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 479
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0047f2edc41d4aa44bf32ec53c58d1a0
+      internalID: -1056021621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 484
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6882529e147efe642a0406dc5dd0e1e7
+      internalID: 1450029752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 484
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f024e4e122ed2a4d854538fc89efab5
+      internalID: 1827344245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 479
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d2cbad60f01a24eb0c7da718a61fa4
+      internalID: 1912845745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 478
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0a0e19fc2d5948afece9a028cb200
+      internalID: -953455562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 371
+        width: 57
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211797e44b9d254fbc459771cafd33f
+      internalID: 1305818424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 370
+        width: 57
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895f65ac309847443999af2d04e95566
+      internalID: -158136260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 369
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b483b483a442164685439731e9e3f9a
+      internalID: -1949819615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 369
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56202338e2dd0bd4aa9779e97f17e31d
+      internalID: 1184834082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 371
+        width: 57
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fa61dc10906144a8d9564f1c9d095f
+      internalID: -561070890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 374
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc0b6a060c5784d8d7fe18541fb3d4
+      internalID: 1137093117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 372
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d1da00bf82aaf4eaa8bcb09b6018f0
+      internalID: 1623037184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 373
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecea6b100ef13d342bd8b583657be5c7
+      internalID: 1485949034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 371
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6052f3a572b28c446ac166f0b5945405
+      internalID: 1615020044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 367
+        width: 57
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ea78e4294436b488cc274404ee3a1e
+      internalID: 7195236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 256
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e6b78646543c145ac6ef3f54f8fc90
+      internalID: -1188361442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 254
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dfc99eebbf28b4fbcd0ace3d024453
+      internalID: 744778304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 252
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4ac58005b551439f85c2575dd7bda
+      internalID: 392903028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 253
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731488f797d7f2c4a86ae722fa79bfad
+      internalID: 169597359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 253
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fcaaee24647f448996ece6ef767a02
+      internalID: 1525910152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 255
+        width: 49
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0c7215ad1056f4cbeef948237d6f46
+      internalID: -2046356497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 259
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fc91c55b86c2143a8c6678a4caeb07
+      internalID: 1731573673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 261
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe229d72936aa04a9e8bf290205b58d
+      internalID: -799640878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 256
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5707cd51f22a1d1418d5d53e115d1d3c
+      internalID: -22708726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 256
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40450860f9629d745b684b6a459e36e9
+      internalID: -289440634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 146
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a522619e5608345bb1d81258b18ec6
+      internalID: -353359541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 144
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e731af28325e2247accc40827fb60f6
+      internalID: -134151544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 141
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f697f1ffd29ad40a89daa8c02ff75b
+      internalID: -909905199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 142
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b484952a4240c334f857bc989699233e
+      internalID: 30442889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 142
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0193cb7efa174d428ff37841e85a33a
+      internalID: 137310659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 144
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ea80f207298234a9ca548a3d6ec967
+      internalID: 870736767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 147
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7639f13379fb67643a1fbdbae813dbb2
+      internalID: -69939427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 146
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ccafcf1c1a824297e952f0bb53e41
+      internalID: -1414758047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 147
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea9e5e6289b0804e8a30b99120ef780
+      internalID: -243497615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 146
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507b2f3de9efd63489b678d312bb8eb6
+      internalID: 524695022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 29
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0ed7fff62d5fd47b5e5f3106382ad2
+      internalID: -2054933335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 28
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87100a1c3a387b846a7a31bdb726da6c
+      internalID: 102561406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 26
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a04ec8b2400e0488d0100ff5e8c0c0
+      internalID: -748592008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 28
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad56ad064a65c40b2f8221937962d6
+      internalID: 845210884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 28
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8141fe81cddeb54493be097b1fd96db
+      internalID: -242602804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 30
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87331799cb83c864caace62340d27db5
+      internalID: 938862748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 37
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7c92e74f1b7874aad19fa0f098694c
+      internalID: 534005804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 35
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ce664df195af458a69484b4dff8ed
+      internalID: -1255843998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 32
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e169cc4d822994dacb0f9b768bd308
+      internalID: 11410401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas idle items-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 31
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c50490cd6b41341b47d67c83f51033
+      internalID: 1108364959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PV douglas idle items-Sheet_25: 1912845745
+      PV douglas idle items-Sheet_75: 2006130259
+      PV douglas idle items-Sheet_26: -953455562
+      PV douglas idle items-Sheet_53: -2046356497
+      PV douglas idle items-Sheet_63: -773314321
+      PV douglas idle items-Sheet_40: 7195236
+      PV douglas idle items-Sheet_39: 1615020044
+      PV douglas idle items-Sheet_69: 30442889
+      PV douglas idle items-Sheet_83: -2106680039
+      PV douglas idle items-Sheet_52: 1447645335
+      PV douglas idle items-Sheet_48: 392903028
+      PV douglas idle items-Sheet_44: 1087715377
+      PV douglas idle items-Sheet_36: 1623037184
+      PV douglas idle items-Sheet_19: -1056021621
+      PV douglas idle items-Sheet_64: 643835059
+      PV douglas idle items-Sheet_91: 26708057
+      PV douglas idle items-Sheet_46: -1659680569
+      PV douglas idle items-Sheet_81: 1945385633
+      PV douglas idle items-Sheet_16: -1646022332
+      PV douglas idle items-Sheet_98: -1348155077
+      PV douglas idle items-Sheet_17: 539376153
+      PV douglas idle items-Sheet_37: -1526374189
+      PV douglas idle items-Sheet_22: 1789954969
+      PV douglas idle items-Sheet_24: 1704766030
+      PV douglas idle items-Sheet_43: -1626457419
+      PV douglas idle items-Sheet_50: 169597359
+      PV douglas idle items-Sheet_96: -247431331
+      PV douglas idle items-Sheet_7: 577683438
+      PV douglas idle items-Sheet_65: -353359541
+      PV douglas idle items-Sheet_89: -576390981
+      PV douglas idle items-Sheet_56: 822770061
+      PV douglas idle items-Sheet_54: 1839092259
+      PV douglas idle items-Sheet_12: -1410600684
+      PV douglas idle items-Sheet_60: -570477843
+      PV douglas idle items-Sheet_57: -799640878
+      PV douglas idle items-Sheet_18: 1278718401
+      PV douglas idle items-Sheet_5: -2023845483
+      PV douglas idle items-Sheet_59: -22708726
+      PV douglas idle items-Sheet_80: 524695022
+      PV douglas idle items-Sheet_30: -1949819615
+      PV douglas idle items-Sheet_49: -544514068
+      PV douglas idle items-Sheet_41: 1172000841
+      PV douglas idle items-Sheet_78: -243497615
+      PV douglas idle items-Sheet_84: -2054933335
+      PV douglas idle items-Sheet_8: -1374971983
+      PV douglas idle items-Sheet_3: 1981415595
+      PV douglas idle items-Sheet_11: 966526742
+      PV douglas idle items-Sheet_15: 1056811643
+      PV douglas idle items-Sheet_45: -1188361442
+      PV douglas idle items-Sheet_10: -1853041505
+      PV douglas idle items-Sheet_6: -1943833306
+      PV douglas idle items-Sheet_82: 636861711
+      PV douglas idle items-Sheet_92: 534005804
+      PV douglas idle items-Sheet_93: -1171800344
+      PV douglas idle items-Sheet_95: 11410401
+      PV douglas idle items-Sheet_13: 106618669
+      PV douglas idle items-Sheet_34: 1137093117
+      PV douglas idle items-Sheet_38: 1485949034
+      PV douglas idle items-Sheet_28: 1305818424
+      PV douglas idle items-Sheet_47: 744778304
+      PV douglas idle items-Sheet_29: -158136260
+      PV douglas idle items-Sheet_31: 1184834082
+      PV douglas idle items-Sheet_0: 776512631
+      PV douglas idle items-Sheet_74: -69939427
+      PV douglas idle items-Sheet_73: 1242406227
+      PV douglas idle items-Sheet_21: 1450029752
+      PV douglas idle items-Sheet_35: 305010376
+      PV douglas idle items-Sheet_94: -1255843998
+      PV douglas idle items-Sheet_97: 1108364959
+      PV douglas idle items-Sheet_2: -35141773
+      PV douglas idle items-Sheet_68: -909905199
+      PV douglas idle items-Sheet_85: 102561406
+      PV douglas idle items-Sheet_1: -636862273
+      PV douglas idle items-Sheet_61: -289440634
+      PV douglas idle items-Sheet_58: 112512307
+      PV douglas idle items-Sheet_79: 2111433534
+      PV douglas idle items-Sheet_4: -887844457
+      PV douglas idle items-Sheet_72: 870736767
+      PV douglas idle items-Sheet_88: -242602804
+      PV douglas idle items-Sheet_55: 1731573673
+      PV douglas idle items-Sheet_86: -748592008
+      PV douglas idle items-Sheet_27: -822457581
+      PV douglas idle items-Sheet_42: 245021554
+      PV douglas idle items-Sheet_70: 137310659
+      PV douglas idle items-Sheet_33: 369468164
+      PV douglas idle items-Sheet_14: -805900278
+      PV douglas idle items-Sheet_87: 845210884
+      PV douglas idle items-Sheet_23: 1827344245
+      PV douglas idle items-Sheet_20: -640706641
+      PV douglas idle items-Sheet_62: -666139890
+      PV douglas idle items-Sheet_67: -134151544
+      PV douglas idle items-Sheet_32: -561070890
+      PV douglas idle items-Sheet_90: 938862748
+      PV douglas idle items-Sheet_51: 1525910152
+      PV douglas idle items-Sheet_71: -2135259917
+      PV douglas idle items-Sheet_9: -1307480088
+      PV douglas idle items-Sheet_66: 263936314
+      PV douglas idle items-Sheet_77: 1824375449
+      PV douglas idle items-Sheet_76: -1414758047
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,6 +12,7 @@ public class Weapons : MonoBehaviour
     //Pan 40 damage
     //Bear Fists 10 damage
     // Start is called before the first frame update
+    Animator anim;
     public bool Sign = false;
     public bool Microsoft = false;
     public bool LightBlade = false;
@@ -23,6 +24,9 @@ public class Weapons : MonoBehaviour
         {
             Weapondamage = FindObjectOfType<EnemyDamageScript>();
             Sign = true;
+            anim = GetComponent<Animator>();
+            anim.SetBool("HasSign", true);
+            anim.SetBool("HasWeapon", true);
         }
 
     // Update is called once per frame
@@ -36,6 +40,7 @@ public class Weapons : MonoBehaviour
           Pan = false;
           Axe = false;
           Weapondamage.Damage = 15;
+          
         }
 
         if (Microsoft)
@@ -66,6 +71,7 @@ public class Weapons : MonoBehaviour
             Microsoft = false;
             LightBlade = false;
             Weapondamage.Damage = 20;
+            
         }
 
         if (Axe)
@@ -86,5 +92,6 @@ public class Weapons : MonoBehaviour
             Axe = false;
             Umbrella = false;
         }
+        
     }
 }
