@@ -37,14 +37,14 @@ public class PlayerMovement :MonoBehaviour
         if (Input.GetKey("d") && canRight == true) //movement
         {
             transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(4,4 );
+            transform.localScale = new Vector2(3.5f,3.5f );
             
         }
        
         if (Input.GetKey("a") && canLeft == true)
         {
             transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(-4,4 );
+            transform.localScale = new Vector2(-3.5f,3.5f );
         }
         
         if (Input.GetKey("w") && canUp == true)
