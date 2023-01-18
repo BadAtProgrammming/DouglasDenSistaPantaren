@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Sixten Assets/GoonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sixten Assets/GoonScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,7 @@
       <workItem from="1673948298784" duration="2110000" />
       <workItem from="1673950446328" duration="991000" />
       <workItem from="1674033274588" duration="2071000" />
+      <workItem from="1674038741368" duration="1847000" />
     </task>
     <servers />
   </component>
