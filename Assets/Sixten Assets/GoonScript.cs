@@ -19,7 +19,7 @@ public class GoonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && inReach == true)
+        if (Input.GetKeyDown(KeyCode.N) && inReach == true)
         {
             
             Health -= 10;
