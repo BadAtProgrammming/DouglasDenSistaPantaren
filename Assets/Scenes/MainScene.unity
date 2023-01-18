@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b8e2ecc0684b74f8dab23d5556cd99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftCBorder: -7
+  leftCBorder: -6
   rightCBorder: 101
 --- !u!81 &595433653
 AudioListener:
@@ -2919,7 +2919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460526, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.01
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460526, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_LocalPosition.y
