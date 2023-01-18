@@ -4,43 +4,61 @@ using UnityEngine;
 
 public class GoonScript : MonoBehaviour
 {
-    [SerializeField]
-    GameObject thingToSpawn;
+    [SerializeField] GameObject thingToSpawn;
 
+    private bool candie = true;
     private Transform EnemyPosition;
+
+    public bool pInReach;
     public bool inReach;
+
+
     [SerializeField] int Health = 20;
+
     // Start is called before the first frame update
     void Start()
     {
         EnemyPosition = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Die()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && inReach == true)
+        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
-            
             Health -= 10;
         }
         if(Health<= 0)
         {
             Instantiate(thingToSpawn, EnemyPosition);
-            
             Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerAttackbox"))
+        if (collision.CompareTag("PlayerHurtbox"))
         {
-            inReach = true;
+            pInReach = true;
         }
         else
         {
+            pInReach = false;
             inReach = false;
-            
+        }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.N) && inReach == true)
+        {
+            Health -= 10;
+        }
+
+        if (Health <= 0 && candie)
+        {
+            candie = false;
+            Instantiate(thingToSpawn, EnemyPosition.position, Quaternion.identity);
+            Invoke("Die", 1);
         }
     }
 }
