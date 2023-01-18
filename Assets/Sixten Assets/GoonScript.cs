@@ -11,7 +11,7 @@ public class GoonScript : MonoBehaviour
     private Transform EnemyPosition;
 
     public bool pInReach;
-    public bool inReach;
+    
 
 
     [SerializeField] public int Health = 20;
@@ -31,7 +31,7 @@ public class GoonScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerHurtbox"))
+        if (collision.CompareTag("PlayerAttackbox"))
         {
             pInReach = true;
         }
