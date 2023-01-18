@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GoonScript : MonoBehaviour
 {
+    public PlayerTakeDamage eInReach;
     [SerializeField] GameObject thingToSpawn;
 
     private bool candie = true;
@@ -13,25 +14,19 @@ public class GoonScript : MonoBehaviour
     public bool inReach;
 
 
-    [SerializeField] int Health = 20;
+    [SerializeField] public int Health = 20;
 
     // Start is called before the first frame update
     void Start()
     {
         EnemyPosition = GetComponent<Transform>();
+        eInReach = FindObjectOfType<PlayerTakeDamage>();
     }
 
     private void Die()
     {
-        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
-        {
-            Health -= 10;
-        }
-        if(Health<= 0)
-        {
-            Instantiate(thingToSpawn, EnemyPosition);
-            Destroy(gameObject);
-        }
+        
+        eInReach.eInReach = false;
         Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,15 +38,20 @@ public class GoonScript : MonoBehaviour
         else
         {
             pInReach = false;
-            inReach = false;
+            
         }
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N) && inReach == true)
+        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
             Health -= 10;
+        }
+        if (Health <= 0)
+        {
+            Instantiate(thingToSpawn, EnemyPosition);
+            Destroy(gameObject);
         }
 
         if (Health <= 0 && candie)
