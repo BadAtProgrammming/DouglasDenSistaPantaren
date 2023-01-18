@@ -514,10 +514,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eInReach: {fileID: 0}
+  pHealth: {fileID: 0}
+  eInReach: 0
   thingToSpawn: {fileID: 2098419472547557804, guid: 8295d14a7d7aca04884eeceffb986b21, type: 3}
+  canDoDamage: 0
   pInReach: 0
-  inReach: 0
   Health: 20
 --- !u!114 &239656136
 MonoBehaviour:
@@ -673,7 +674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263496938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.92, y: 0.023097403, z: 1.5}
+  m_LocalPosition: {x: -0.99, y: 0.023097403, z: 1.5}
   m_LocalScale: {x: 0.9058527, y: 0.2957158, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1466,10 +1467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eInReach: {fileID: 0}
+  pHealth: {fileID: 0}
+  eInReach: 0
   thingToSpawn: {fileID: 2098419472547557804, guid: 8295d14a7d7aca04884eeceffb986b21, type: 3}
+  canDoDamage: 0
   pInReach: 0
-  inReach: 0
   Health: 20
 --- !u!114 &495433395
 MonoBehaviour:
@@ -2741,6 +2743,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5727101335203460524, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: UpBorder
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727101335203460524, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: DownBorder
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727101335203460524, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: leftBorder
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460525, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_Name
       value: player
@@ -2763,11 +2777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460526, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -7.01
       objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460526, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.82
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: 5727101335203460526, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3599,10 +3613,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eInReach: {fileID: 0}
+  pHealth: {fileID: 0}
+  eInReach: 0
   thingToSpawn: {fileID: 2098419472547557804, guid: 8295d14a7d7aca04884eeceffb986b21, type: 3}
+  canDoDamage: 0
   pInReach: 0
-  inReach: 0
   Health: 20
 --- !u!114 &1711176899
 MonoBehaviour:
@@ -4355,7 +4370,7 @@ Animator:
   m_GameObject: {fileID: 1889775081}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4c310ef491486a74c8e684cd77652b67, type: 2}
+  m_Controller: {fileID: 9100000, guid: d4b29fffd9b2f8d47b33d266a064bacf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
