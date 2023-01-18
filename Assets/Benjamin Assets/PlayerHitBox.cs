@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHitBox : MonoBehaviour
+public class HitBox : MonoBehaviour
 {
     public bool EnemyTouch = false;
     // Start is called before the first frame update
