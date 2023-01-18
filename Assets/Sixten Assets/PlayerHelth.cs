@@ -31,6 +31,7 @@ public class PlayerHelth : MonoBehaviour
             
             GameObject.Find("player").GetComponent<PlayerMovement>().enabled = false; //disables player movement when health <= 0
             GameObject.Find("Main Camera").GetComponent<CameraMovement>().enabled = false;//disables camera movement when health <= 0
+            GameObject.Find("pHurtbox").GetComponent<PlayerTakeDamage>().enabled = false;
             //When health 0 activates the entire canvasobject and its components -Dev
             CanvasObject.SetActive(true);
         }
