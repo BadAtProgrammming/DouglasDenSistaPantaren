@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sixten Assets/GoonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sixten Assets/GoonScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sixten Assets/Pant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sixten Assets/Pant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sixten Assets/Pant2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sixten Assets/Pant2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
       <workItem from="1673943485939" duration="1839000" />
       <workItem from="1673948298784" duration="2110000" />
       <workItem from="1673950446328" duration="991000" />
-      <workItem from="1674033274588" duration="1214000" />
+      <workItem from="1674033274588" duration="2071000" />
     </task>
     <servers />
   </component>
