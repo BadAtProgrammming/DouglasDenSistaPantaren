@@ -3906,11 +3906,11 @@ PrefabInstance:
       objectReference: {fileID: 1310805307}
     - target: {fileID: 3273127614699614168, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SendMessage
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 3273127614699614168, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Component, UnityEngine
+      value: CreditManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3273127614699614168, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
