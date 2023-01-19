@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditScene.unity
     guid: e4de2ddadf8bea948bf5b059728eb8f6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Dev(Patryk) Assets/DeathScene.unity
     guid: 341d96142eb05004f87c743434986755
   - enabled: 1
