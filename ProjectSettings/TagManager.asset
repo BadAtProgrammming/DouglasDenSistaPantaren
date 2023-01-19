@@ -18,6 +18,8 @@ TagManager:
   - DaBoss
   - StrongOne
   - ShopUI
+  - MegusPantus
+
   layers:
   - Default
   - TransparentFX

@@ -5,18 +5,20 @@ using TMPro;
 
 public class HpUi : MonoBehaviour
 {
-    PlayerHelth Health;
+    GameObject Playerobject;
+    PlayerHelth HealthUi;
 
     [SerializeField] TextMeshProUGUI HpControle;
 
     // Start is called before the first frame update
     void Start()
     {
-        Health = FindObjectOfType<PlayerHelth>();
+        Playerobject = GameObject.Find("Health Maneger");
+        HealthUi = Playerobject.GetComponent<PlayerHelth>();
     }
     // Update is called once per frame
     void Update()
     {
-        HpControle.text = "HP: " + Health.Health;
+        HpControle.text = "HP: " + HealthUi.Health;
     }
 }
