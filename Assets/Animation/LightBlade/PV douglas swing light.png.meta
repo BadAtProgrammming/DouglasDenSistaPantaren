@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 74b2270fd188d3e4787ded7087bda8a2
+guid: 1757d6b6e9d38854681748941d23fcd7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,12 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PV douglas idal light_0
+      name: PV douglas swing light_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1
-        width: 57
+        x: 20
+        y: 4
+        width: 39
         height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccb77a7670456144f899be08883f121a
-      internalID: 1784825816
+      spriteID: 5fc49a210da7d1a4d91eae98b8041c3e
+      internalID: -1416148613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_1
+      name: PV douglas swing light_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 1
-        width: 57
-        height: 95
+        x: 112
+        y: 4
+        width: 41
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 160132cd8a5c6d2419d620d02ca4cae6
-      internalID: -102735086
+      spriteID: e028bd4a5294b8542b77f98ef52495c7
+      internalID: -396010658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_2
+      name: PV douglas swing light_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 1
-        width: 57
-        height: 94
+        x: 208
+        y: 4
+        width: 45
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb2b631f67f446843a6205cfeadf974f
-      internalID: 269695929
+      spriteID: f8c1407923f90e843ad27217f93434b4
+      internalID: 803657497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_3
+      name: PV douglas swing light_3
       rect:
         serializedVersion: 2
-        x: 302
-        y: 1
-        width: 57
-        height: 93
+        x: 304
+        y: 4
+        width: 42
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f8f1cc37fe2b9741a9682c576063c3c
-      internalID: 1840784238
+      spriteID: d2625c8f246fbcd4398793df6381a060
+      internalID: 451924826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_4
+      name: PV douglas swing light_4
       rect:
         serializedVersion: 2
-        x: 401
-        y: 1
-        width: 57
-        height: 92
+        x: 400
+        y: 4
+        width: 42
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b9ffa85541bd464eb2c49f20da9a843
-      internalID: -172154421
+      spriteID: b43ebc0360227c64d914b2c9bc8e1098
+      internalID: 284862275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_5
+      name: PV douglas swing light_5
       rect:
         serializedVersion: 2
-        x: 499
-        y: 1
-        width: 56
-        height: 92
+        x: 496
+        y: 4
+        width: 42
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d816e315e88cbf24ba3cfdb2c849d18d
-      internalID: 2124405276
+      spriteID: 991be9adb4b704449a9b4eda1de79444
+      internalID: 288391618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_6
+      name: PV douglas swing light_6
       rect:
         serializedVersion: 2
-        x: 594
-        y: 1
-        width: 57
-        height: 93
+        x: 589
+        y: 4
+        width: 45
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda76d58470ba4c47822e71072709eb3
-      internalID: 471134897
+      spriteID: 87299a1d48fcb3d4b86ec06aef80f28b
+      internalID: 1860658501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_7
+      name: PV douglas swing light_7
       rect:
         serializedVersion: 2
-        x: 691
-        y: 1
-        width: 55
-        height: 93
+        x: 672
+        y: 4
+        width: 58
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,40 +266,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31bff95230577cf429b67f47fcd6cbf4
-      internalID: -1300852687
+      spriteID: d437a078d3c4a33459f26a9edae5ac32
+      internalID: 1710491056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_8
+      name: PV douglas swing light_8
       rect:
         serializedVersion: 2
-        x: 786
-        y: 1
-        width: 56
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1802b7ea7420a9346a51f54a56caacdc
-      internalID: 592266353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal light_9
-      rect:
-        serializedVersion: 2
-        x: 879
-        y: 1
-        width: 56
+        x: 781
+        y: 4
+        width: 70
         height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -308,19 +287,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 657668f1a663ac44f84694f07de8518b
-      internalID: -275846536
+      spriteID: cf718225a9174d24c9097ee57f54b33b
+      internalID: -308496339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal light_10
+      name: PV douglas swing light_9
       rect:
         serializedVersion: 2
-        x: 973
-        y: 1
-        width: 56
+        x: 886
+        y: 4
+        width: 67
         height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -329,8 +308,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55923e9776f4ed443b19e598ced9a1ec
-      internalID: 902284101
+      spriteID: 293c9449000e5604c803f544f3703102
+      internalID: 1361240361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing light_10
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 4
+        width: 39
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839cb9f5d4cd154391d7bc4ac048e85
+      internalID: 1326030614
       vertices: []
       indices: 
       edges: []
@@ -346,17 +346,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PV douglas idal light_4: -172154421
-      PV douglas idal light_5: 2124405276
-      PV douglas idal light_0: 1784825816
-      PV douglas idal light_2: 269695929
-      PV douglas idal light_6: 471134897
-      PV douglas idal light_1: -102735086
-      PV douglas idal light_8: 592266353
-      PV douglas idal light_9: -275846536
-      PV douglas idal light_10: 902284101
-      PV douglas idal light_7: -1300852687
-      PV douglas idal light_3: 1840784238
+      PV douglas swing light_4: 284862275
+      PV douglas swing light_10: 1326030614
+      PV douglas swing light_9: 1361240361
+      PV douglas swing light_6: 1860658501
+      PV douglas swing light_8: -308496339
+      PV douglas swing light_2: 803657497
+      PV douglas swing light_7: 1710491056
+      PV douglas swing light_3: 451924826
+      PV douglas swing light_1: -396010658
+      PV douglas swing light_0: -1416148613
+      PV douglas swing light_5: 288391618
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
