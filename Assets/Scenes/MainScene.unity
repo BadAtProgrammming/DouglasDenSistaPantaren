@@ -521,6 +521,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreText
       objectReference: {fileID: 0}
+    - target: {fileID: 7594504344003253900, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 595433651}
+    - target: {fileID: 7594504344003253900, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7594504344003253901, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
