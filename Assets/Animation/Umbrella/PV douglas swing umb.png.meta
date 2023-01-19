@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PV douglas swing umb_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 4
+        width: 42
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0813d45f6a1efe43b285a833b78854e
+      internalID: 1805818535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4
+        width: 42
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcc0db1d7b8fa145a8e691709a2fde8
+      internalID: 1299487560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4
+        width: 42
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777bcbad38f708d40a14b39130da887a
+      internalID: -216541653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 4
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d439285ebf182d44ab81790a79df519e
+      internalID: -933673465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2086cf1126b0914478b77d7842ce4e25
+      internalID: -973213769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813d40dfd450d434f9e2b263fe7d6433
+      internalID: -802479367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0291172a1781b6b41830cd4fd3def0ed
+      internalID: 2128026577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_9
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 4
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdbabbb95110f049ad5dbc253de6211
+      internalID: -1673419424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_10
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 4
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d937516f73864ab4cc9972a30830b
+      internalID: -1995393106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_11
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf81e52592c880044a91647fae77d9ec
+      internalID: 585439640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing umb_12
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 4
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4c86c076c6d384a9a1c6d235a4d4b9
+      internalID: 1151088868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +345,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PV douglas swing umb_9: -1673419424
+      PV douglas swing umb_2: 2128026577
+      PV douglas swing umb_13: -901683702
+      PV douglas swing umb_1: -802479367
+      PV douglas swing umb_3: 1805818535
+      PV douglas swing umb_15: 1037292778
+      PV douglas swing umb_16: 1581140243
+      PV douglas swing umb_14: -106575505
+      PV douglas swing umb_12: 1151088868
+      PV douglas swing umb_18: -1952668034
+      PV douglas swing umb_0: -973213769
+      PV douglas swing umb_11: 585439640
+      PV douglas swing umb_5: 1299487560
+      PV douglas swing umb_10: -1995393106
+      PV douglas swing umb_17: 1535120935
+      PV douglas swing umb_6: -216541653
+      PV douglas swing umb_4: 853447582
+      PV douglas swing umb_7: -933673465
+      PV douglas swing umb_8: -1264613813
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
