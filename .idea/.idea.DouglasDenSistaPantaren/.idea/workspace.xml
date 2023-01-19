@@ -6,11 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/WeaponSwing/PV douglas swing 1 item-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/WeaponSwing/PV douglas swing 1 item-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/WeaponWalk/PV douglas walk item-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/WeaponWalk/PV douglas walk item-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dev(Patryk) Assets/ButtonScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dev(Patryk) Assets/ButtonScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dev(Patryk) Assets/ShopSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dev(Patryk) Assets/ShopSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,6 +95,8 @@
       <workItem from="1673950446328" duration="991000" />
       <workItem from="1674033274588" duration="2071000" />
       <workItem from="1674038741368" duration="1847000" />
+      <workItem from="1674116613647" duration="3475000" />
+      <workItem from="1674122299006" duration="659000" />
     </task>
     <servers />
   </component>
