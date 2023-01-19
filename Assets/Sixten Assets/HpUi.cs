@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class HpUi : MonoBehaviour
 {
     GameObject Playerobject;
     PlayerHelth HealthUi;
 
-    [SerializeField] TextMeshProUGUI HpControle;
+    [SerializeField] Text HpControle;
 
     // Start is called before the first frame update
     void Start()
