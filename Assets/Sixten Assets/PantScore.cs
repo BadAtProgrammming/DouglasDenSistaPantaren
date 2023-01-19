@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class PantScore : MonoBehaviour
 {
     
-   [SerializeField] TextMeshProUGUI ScoreText;
+   [SerializeField] Text ScoreText;
     
     public int score = 0;
     // Start is called before the first frame update
