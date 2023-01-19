@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a5cebf7c5fa34649801957a928cbd81
+guid: 940d074d24f693c44873a8270ce60d07
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,232 +105,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PV douglas idal sign_0
+      name: PV douglas swing sign_4
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1
-        width: 47
+        x: 303
+        y: 4
+        width: 43
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f7584621b4c2f4f915233c33910e14
+      internalID: 1516101438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_5
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 4
+        width: 43
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3fa99a901a1045b04d42f49a2e18c
+      internalID: -1396768214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 4
+        width: 43
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbfc059133a2f845980b034854d6907
+      internalID: -1080180795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 4
+        width: 51
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ab864f413643f40bd344525728d2e8
+      internalID: 1186995045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4
+        width: 42
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d219cbadb51eac488a43ad6a5941a03
-      internalID: 668047946
+      spriteID: 553f906b5b0af954b9288e082c0d751e
+      internalID: -1157550079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal sign_1
+      name: PV douglas swing sign_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 1
-        width: 47
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04f61373f25bbd74b922052853e72d56
-      internalID: -1136561043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_2
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 1
-        width: 47
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 356de77bacac9754cbb264cf3fac249e
-      internalID: 1874917458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_3
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 1
-        width: 47
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 823dce9de4699fe4caae266c0cc1e885
-      internalID: -1168939654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_4
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 1
-        width: 44
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8dec5bbcfa1de249bf059ef6e50344b
-      internalID: 2065091033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_5
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 1
-        width: 45
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ce4523c502d97045965d528b4f4d2a6
-      internalID: -1012605848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_6
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 1
-        width: 45
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2633719b1511c847aa2b430e1ec3f07
-      internalID: -1752878396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_7
-      rect:
-        serializedVersion: 2
-        x: 690
-        y: 1
-        width: 44
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e78d08ddd57a7304ebdea760f2ce0701
-      internalID: -1118330526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_8
-      rect:
-        serializedVersion: 2
-        x: 786
-        y: 1
-        width: 45
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d1de50a9d726b34d9e2952bd6747d93
-      internalID: 1256621596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas idal sign_9
-      rect:
-        serializedVersion: 2
-        x: 879
-        y: 1
-        width: 44
+        x: 112
+        y: 4
+        width: 41
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f4c58eb2ecc014a8943a22227200b6
-      internalID: -1820154629
+      spriteID: 54df141c789a1dd4785a585d7f2cc674
+      internalID: 987138242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas idal sign_10
+      name: PV douglas swing sign_3
       rect:
         serializedVersion: 2
-        x: 973
-        y: 1
-        width: 47
-        height: 96
+        x: 208
+        y: 4
+        width: 41
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9622eb53946ff5e4c928bb82e1374fa4
-      internalID: 906131886
+      spriteID: fb57c0caa8bc3384a81d99955648a917
+      internalID: 1296790854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 4
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b10857d2048e984baf22d1882ce4234
+      internalID: 1359196201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1d9caaf01d854cbcf659efe1004f4
+      internalID: 2048348474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_14
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e1fe61b21cc6744abc592c01d2b19a
+      internalID: -1643042991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing sign_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 4
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b98f46d0d604b489f7d72ab2423259
+      internalID: 93759412
       vertices: []
       indices: 
       edges: []
@@ -346,17 +346,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PV douglas idal sign_7: -1118330526
-      PV douglas idal sign_10: 906131886
-      PV douglas idal sign_1: -1136561043
-      PV douglas idal sign_4: 2065091033
-      PV douglas idal sign_9: -1820154629
-      PV douglas idal sign_2: 1874917458
-      PV douglas idal sign_3: -1168939654
-      PV douglas idal sign_6: -1752878396
-      PV douglas idal sign_0: 668047946
-      PV douglas idal sign_8: 1256621596
-      PV douglas idal sign_5: -1012605848
+      PV douglas swing sign_1: -1157550079
+      PV douglas swing sign_19: 2107261364
+      PV douglas swing sign_7: 1186995045
+      PV douglas swing sign_11: 678459159
+      PV douglas swing sign_20: 1080282856
+      PV douglas swing sign_12: 1359196201
+      PV douglas swing sign_15: 93759412
+      PV douglas swing sign_9: -1091850056
+      PV douglas swing sign_13: 2048348474
+      PV douglas swing sign_17: 1635504107
+      PV douglas swing sign_6: -1080180795
+      PV douglas swing sign_2: 987138242
+      PV douglas swing sign_5: -1396768214
+      PV douglas swing sign_10: 473822178
+      PV douglas swing sign_18: 1161767238
+      PV douglas swing sign_3: 1296790854
+      PV douglas swing sign_16: 43728137
+      PV douglas swing sign_4: 1516101438
+      PV douglas swing sign_14: -1643042991
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
