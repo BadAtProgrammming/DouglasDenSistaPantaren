@@ -13,20 +13,25 @@ public class Weapons : MonoBehaviour
     //Bear Fists 10 damage
     // Start is called before the first frame update
     Animator anim;
-    public bool Sign = false;
-    public bool Microsoft = false;
-    public bool LightBlade = false;
-    public bool Umbrella = false;
-    public bool Pan = false;
-    public bool Axe = false;
+    public bool Unarmed;
+    public bool HasWeapon;
+    public bool Sign;
+    public bool Microsoft;
+    public bool LightBlade;
+    public bool Umbrella;
+    public bool Pan;
+    public bool Axe;
     public EnemyDamageScript Weapondamage;
         void Start()
         {
             Weapondamage = FindObjectOfType<EnemyDamageScript>();
+            HasWeapon = true;
             Sign = true;
             anim = GetComponent<Animator>();
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);
+            
+            
         }
 
     // Update is called once per frame
@@ -34,13 +39,18 @@ public class Weapons : MonoBehaviour
     {
         if (Sign)
         { 
-            Microsoft = false;
+          Microsoft = false;
           LightBlade = false;
           Umbrella = false;
           Pan = false;
           Axe = false;
           Weapondamage.Damage = 15;
-          
+          anim.SetBool("HasSign", true);
+          anim.SetBool("HasWeapon", true);
+        }
+        else
+        {
+            anim.SetBool("HasSign", false);
         }
 
         if (Microsoft)
@@ -51,6 +61,12 @@ public class Weapons : MonoBehaviour
             Axe = false;
             Sign = false;
             Weapondamage.Damage = 999;
+            anim.SetBool("HasEdge", true);
+            anim.SetBool("HasWeapon", true);
+        }
+        else
+        {
+            anim.SetBool("HasEdge", false);
         }
 
         if (LightBlade)
@@ -61,6 +77,12 @@ public class Weapons : MonoBehaviour
             Sign = false;
             Microsoft = false;
             Weapondamage.Damage = 60;
+            anim.SetBool("HasBlade", true);
+            anim.SetBool("HasWeapon", true);
+        }
+        else
+        {
+            anim.SetBool("HasBlade", false);
         }
 
         if (Umbrella)
@@ -71,8 +93,14 @@ public class Weapons : MonoBehaviour
             Microsoft = false;
             LightBlade = false;
             Weapondamage.Damage = 20;
-            
+            anim.SetBool("HasWeapon", true);
+            anim.SetBool("HasUmbrella", true);
         }
+        else
+        {
+            anim.SetBool("HasUmbrella", false);
+        }
+
 
         if (Axe)
         {
@@ -82,6 +110,8 @@ public class Weapons : MonoBehaviour
             Pan = false;
             Umbrella = false;
             Weapondamage.Damage = 50;
+            anim.SetBool("HasAxe", true);
+            anim.SetBool("HasWeapon", true);
         }
 
         if (Pan)
@@ -91,7 +121,30 @@ public class Weapons : MonoBehaviour
             LightBlade = false;
             Axe = false;
             Umbrella = false;
+            anim.SetBool("HasPan", true);
+            anim.SetBool("HasWeapon", true);
         }
-        
+        else
+        {
+            anim.SetBool("HasPan", false);
+        }
+
+        if (Sign == false && Microsoft == false && LightBlade == false && Umbrella == false && Axe == false && Pan == false)
+        {
+            anim.SetBool("HasWeapon", false);
+            HasWeapon = false;
+        }
+        else
+        {
+            HasWeapon = true;
+        }
+        if(HasWeapon == true)
+        {
+            Unarmed = false;
+        }
+         else 
+        {
+            Unarmed = true;
+        }
     }
 }
