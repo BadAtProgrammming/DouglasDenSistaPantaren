@@ -140,4 +140,30 @@ public class Weapons : MonoBehaviour
         }
         
     }
+
+    //Functions to invoke with buttons!
+    public void Signfun()
+    {
+        Sign = true;
+    }
+    public void MicrosoftFun()
+    {
+        Microsoft = true;
+    }
+    public void LightBladeFun()
+    {
+        LightBlade = true;
+    }
+    public void UmbrellaFun()
+    {
+        Umbrella = true;
+    }
+    public void AxeFun()
+    {
+        Axe = true;
+    }
+    public void PanFun()
+    {
+        Pan = true;
+    }
 }
