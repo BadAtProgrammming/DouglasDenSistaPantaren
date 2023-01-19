@@ -641,7 +641,8 @@ PrefabInstance:
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7594504344293953867, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
 --- !u!1 &75879824 stripped
 GameObject:
@@ -660,17 +661,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31d829b0eb8adb24d8432bef051b35b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &75879827 stripped
+--- !u!114 &75879827
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7594504344293953867, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
-  m_PrefabInstance: {fileID: 75879822}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75879824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    m_FontSize: 36
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Pant: 0'
 --- !u!1 &110998979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
@@ -3856,6 +3880,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3273127614106242105, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+      propertyPath: HpControle
+      value: 
+      objectReference: {fileID: 1946993308}
+    - target: {fileID: 3273127614106242110, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
+      objectReference: {fileID: 0}
     - target: {fileID: 3273127614699614168, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
@@ -3898,6 +3930,7 @@ PrefabInstance:
     - {fileID: 3273127615354315730, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
     - {fileID: 3273127614011240625, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
     - {fileID: 3273127615354315729, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+    - {fileID: 3273127614106242111, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
 --- !u!1 &523687028
 GameObject:
@@ -13548,6 +13581,45 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35, y: 0.35}
   m_EdgeRadius: 0
+--- !u!1 &1946993303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3273127614106242109, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+  m_PrefabInstance: {fileID: 507224390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1946993308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946993303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+    m_FontSize: 36
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Health: 0'
 --- !u!1 &1948299929
 GameObject:
   m_ObjectHideFlags: 0
