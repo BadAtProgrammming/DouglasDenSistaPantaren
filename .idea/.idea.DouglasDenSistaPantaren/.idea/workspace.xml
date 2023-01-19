@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <workItem from="1674033274588" duration="2071000" />
       <workItem from="1674038741368" duration="1847000" />
       <workItem from="1674116613647" duration="3475000" />
-      <workItem from="1674122299006" duration="6484000" />
+      <workItem from="1674122299006" duration="7348000" />
     </task>
     <servers />
   </component>

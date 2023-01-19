@@ -39,6 +39,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7454056503919319638}
     m_Modifications:
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 98.8564
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 65.8644
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.6381
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425598, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.1595
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937742425599, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c19cfc6eca3ed99429d8da7311111fd9, type: 3}
+    - target: {fileID: 346085937750149978, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9283cbf059f2f7d4a8d06ab0889c6ad3, type: 3}
+    - target: {fileID: 346085937750149981, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 95.1699
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937750149981, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.2079
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937750149981, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.2949
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085937750149981, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.4003
+      objectReference: {fileID: 0}
     - target: {fileID: 346085937958163633, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
       propertyPath: m_Name
       value: SHOPSTUFF
@@ -131,6 +179,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 346085938081907436, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 84.3625
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938081907436, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 107.6543
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938081907436, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000027657
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938081907436, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938081907437, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38b1a2b0dfd2d9b47874e44ffb9abadf, type: 3}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 125.0189
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 82.2668
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921740, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085938671921741, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c6c083951134db42823f3691af223ad, type: 3}
+    - target: {fileID: 346085939055278577, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 104.8058
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085939055278577, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 96.3967
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085939055278577, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.2597
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085939055278577, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.9731
+      objectReference: {fileID: 0}
+    - target: {fileID: 346085939055278590, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 05bca408aa0c24f4abf73013fd6c3b68, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08faa26747f855843bf82c2e40ba3009, type: 3}
 --- !u!224 &7454056503980700121 stripped
