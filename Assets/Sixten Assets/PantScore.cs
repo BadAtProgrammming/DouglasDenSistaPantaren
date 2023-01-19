@@ -18,7 +18,7 @@ public class PantScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Pant: " + score;
+        ScoreText.text = "Pant:" + score;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
