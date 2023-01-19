@@ -1124,7 +1124,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       PV douglas walk item-Sheet_12: -2039805480
-      PV douglas walk item-Sheet_39: 1707436270
+      PV douglas walk item-Sheet_54: 826712592
       PV douglas walk item-Sheet_0: 1247957201
       PV douglas walk item-Sheet_21: -1133265184
       PV douglas walk item-Sheet_25: 1399208281
@@ -1153,8 +1153,8 @@ TextureImporter:
       PV douglas walk item-Sheet_13: 1211240006
       PV douglas walk item-Sheet_30: 647091848
       PV douglas walk item-Sheet_5: 513274610
-      PV douglas walk item-Sheet_55: 625534874
       PV douglas walk item-Sheet_40: -1358977342
+      PV douglas walk item-Sheet_55: 625534874
       PV douglas walk item-Sheet_28: -738385983
       PV douglas walk item-Sheet_9: -1903958392
       PV douglas walk item-Sheet_34: -2128139448
@@ -1186,7 +1186,7 @@ TextureImporter:
       PV douglas walk item-Sheet_33: 821301654
       PV douglas walk item-Sheet_57: 2101590024
       PV douglas walk item-Sheet_60: -434604903
-      PV douglas walk item-Sheet_54: 826712592
+      PV douglas walk item-Sheet_39: 1707436270
       PV douglas walk item-Sheet_27: 152915669
   spritePackingTag: 
   pSDRemoveMatte: 0
