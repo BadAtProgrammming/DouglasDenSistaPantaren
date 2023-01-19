@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/BuyFunction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/ShopStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,7 +90,7 @@
       <workItem from="1674033274588" duration="2071000" />
       <workItem from="1674038741368" duration="1847000" />
       <workItem from="1674116613647" duration="3475000" />
-      <workItem from="1674122299006" duration="7348000" />
+      <workItem from="1674122299006" duration="8055000" />
     </task>
     <servers />
   </component>
