@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class ShopSystem : MonoBehaviour
 {
-
-    public GameObject[] TierOne;
-    public Transform SpawnLocation;
-    public PantManager pantpoint;
+    public GeneralShopSystem NowDoneshopping1;
+    public PantManager ShopPoint;
     // Start is called before the first frame update
     void Start()
     {
-        pantpoint = FindObjectOfType<PantManager>();
+        NowDoneshopping1 = FindObjectOfType<GeneralShopSystem>();
+        ShopPoint = FindObjectOfType<PantManager>();
     }
 
     // Update is called once per frame
@@ -19,19 +18,18 @@ public class ShopSystem : MonoBehaviour
     {
       
     }
-    public void doneshopping()
+    public void doneshopping1()
     {
+        GameObject.Find("ShopUI").SetActive(false);
+        NowDoneshopping1.Doneshopping1 = true;
         Destroy(gameObject);
-        
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Shop"))
+        if(collision.gameObject.CompareTag("player"))
         {
             print("touch");
+            GameObject.Find("ShopUI").SetActive(true);
         }
     }
-
-
-
 }

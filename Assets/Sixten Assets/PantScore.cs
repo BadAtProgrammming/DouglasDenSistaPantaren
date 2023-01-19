@@ -30,5 +30,9 @@ public class PantScore : MonoBehaviour
         {
             score += 2;
         }
+        if (collision.CompareTag("MegusPantus"))
+        {
+            score = 666;
+        }
     }
 }
