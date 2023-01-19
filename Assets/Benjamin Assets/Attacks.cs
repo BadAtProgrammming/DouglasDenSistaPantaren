@@ -48,7 +48,7 @@ public class Attacks : MonoBehaviour
         
         
         
-        if (Input.GetKey(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true) 
+        if (Input.GetKey(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) 
         {
             anim.SetBool("PunchOne", true);
             PunchTimer = 0;
