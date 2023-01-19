@@ -20,7 +20,7 @@ public class Healing : MonoBehaviour
     {
         if (collision.CompareTag("player"))
         {
-            Health.Health += 1;
+            Health.Health += 10;
         }
            
     }

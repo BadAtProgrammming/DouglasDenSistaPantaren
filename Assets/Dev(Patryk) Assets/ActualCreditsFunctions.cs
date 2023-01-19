@@ -16,6 +16,7 @@ public class ActualCreditsFunctions : MonoBehaviour
 
     void Start()
     {
+        //Comment -Dev
         background = GameObject.Find("Background");
         foreground = GameObject.Find("BackgroundScreen");
         credits = GameObject.Find("Credits");
