@@ -42,7 +42,7 @@ public class ActualCreditsFunctions : MonoBehaviour
     {
         background.transform.DOLocalMoveY(55f, 5f, false);
         foreground.transform.DOLocalMoveY(55f, 5f, false);
-        credits.transform.DOLocalMoveY(-899f, 5f, false);
+        credits.transform.DOLocalMoveY(-840f, 5f, false);
         canvas.transform.DOLocalMoveY(-927f, 5f, false);
     }
 
