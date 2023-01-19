@@ -17,6 +17,7 @@ TagManager:
   - PlayerAttackbox
   - DaBoss
   - StrongOne
+  - ShopUI
   layers:
   - Default
   - TransparentFX
