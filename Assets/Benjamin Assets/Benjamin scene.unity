@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &157417263 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3273127614011240625, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
-  m_PrefabInstance: {fileID: 1133880566}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &689399450
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,13 +478,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
-      propertyPath: Unarmed
+      propertyPath: Sign
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Unarmed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Umbrella
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: HasWeapon
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Microsoft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: LightBlade
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828148, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: ScoreText
       value: 
-      objectReference: {fileID: 157417263}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebf39dc931eeed244a1220821803b967, type: 3}
 --- !u!1001 &2084585647

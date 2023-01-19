@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 242660b7262d54745842e3cd62137e5b
+guid: ed1065d1c82220c46a43d09eea803e47
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,169 +105,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PV douglas walk axe_0
+      name: PV douglas swing pan_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1
-        width: 47
+        x: 20
+        y: 4
+        width: 37
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f62e26a794718d4189aaa9baa3434c3
-      internalID: -627523987
+      spriteID: bb13cad43506a5141a2e607cb000f1d2
+      internalID: 514103026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas walk axe_1
+      name: PV douglas swing pan_1
       rect:
         serializedVersion: 2
         x: 112
-        y: 1
-        width: 46
-        height: 95
+        y: 4
+        width: 41
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1717fa6360625f748b311791d4cb998d
-      internalID: 1359468246
+      spriteID: 183f3aebe34d2b149a860ef2340cb5ad
+      internalID: -2078317339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas walk axe_2
+      name: PV douglas swing pan_2
       rect:
         serializedVersion: 2
         x: 208
-        y: 1
-        width: 44
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf13ad9f23f0be442a5f2b350d21ac01
-      internalID: 1603431332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas walk axe_3
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 1
-        width: 44
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2b6223beb939b478928944a7c5ec75
-      internalID: -297048232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas walk axe_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 1
-        width: 45
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8270c69bf0d69944c9c7dc87e1494455
-      internalID: 184699909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PV douglas walk axe_5
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 0
-        width: 44
+        y: 4
+        width: 41
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b1311c638c7414bbfe6ffd62decc80
-      internalID: 1240308823
+      spriteID: 0db2d8d80e5f9f74aa83ed063b298b7a
+      internalID: -247644191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas walk axe_6
+      name: PV douglas swing pan_3
       rect:
         serializedVersion: 2
-        x: 592
-        y: 1
-        width: 44
-        height: 95
+        x: 303
+        y: 4
+        width: 43
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a84e6f84e911262439f69ca3ccf9324a
-      internalID: -796325825
+      spriteID: 1393737e84cf19745acbedb18f5145cb
+      internalID: 786551548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PV douglas walk axe_7
+      name: PV douglas swing pan_4
       rect:
         serializedVersion: 2
-        x: 688
-        y: 1
-        width: 44
-        height: 95
+        x: 399
+        y: 4
+        width: 43
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55778b00cb7da0b49b64bdb95fb3902d
-      internalID: -99065083
+      spriteID: 5549c752eec99214e91c938fb6104ac8
+      internalID: 1054593954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 4
+        width: 43
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f912fa7792734cbcd9b8a088c0574
+      internalID: -1574781779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4
+        width: 52
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002792caa6daf83439a3675b633043ae
+      internalID: -2129259125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 4
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223905ab4290ca145adb3b7715c87623
+      internalID: 684026518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 4
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c078b2d48bf8f499dae7347217d483
+      internalID: 1887632200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_10
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4
+        width: 47
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5894c96172f37834aa661705f9446aff
+      internalID: 798125099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PV douglas swing pan_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 4
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49372b1490854eb44a84c2c1d67a9e2b
+      internalID: -118217404
       vertices: []
       indices: 
       edges: []
@@ -283,14 +346,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PV douglas walk axe_5: 1240308823
-      PV douglas walk axe_1: 1359468246
-      PV douglas walk axe_0: -627523987
-      PV douglas walk axe_7: -99065083
-      PV douglas walk axe_4: 184699909
-      PV douglas walk axe_3: -297048232
-      PV douglas walk axe_2: 1603431332
-      PV douglas walk axe_6: -796325825
+      PV douglas swing pan_3: 786551548
+      PV douglas swing pan_5: -1574781779
+      PV douglas swing pan_10: 798125099
+      PV douglas swing pan_2: -247644191
+      PV douglas swing pan_7: -2073021540
+      PV douglas swing pan_0: 514103026
+      PV douglas swing pan_6: -2129259125
+      PV douglas swing pan_1: -2078317339
+      PV douglas swing pan_11: -118217404
+      PV douglas swing pan_8: 684026518
+      PV douglas swing pan_4: 1054593954
+      PV douglas swing pan_9: 1887632200
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
