@@ -637,6 +637,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: ScoreText
       objectReference: {fileID: 0}
+    - target: {fileID: 7594504344293953866, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7594504344293953867, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
@@ -3884,6 +3888,10 @@ PrefabInstance:
       propertyPath: HpControle
       value: 
       objectReference: {fileID: 1946993308}
+    - target: {fileID: 3273127614106242110, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3273127614106242110, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
@@ -14535,6 +14543,10 @@ PrefabInstance:
     - target: {fileID: 6991921380391828137, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: rightBorder
       value: 245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Sign
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828147, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_Name
