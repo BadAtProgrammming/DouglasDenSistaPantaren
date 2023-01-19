@@ -142,7 +142,7 @@ public class Weapons : MonoBehaviour
         {
             Unarmed = false;
         }
-         else 
+        else 
         {
             Unarmed = true;
         }

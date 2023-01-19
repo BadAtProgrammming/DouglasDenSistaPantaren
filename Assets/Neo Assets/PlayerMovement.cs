@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement :MonoBehaviour
 {
     Animator anim;
+    public bool IsWalking;
     // Start is called before the first frame update
      void Start()
     {
@@ -98,6 +99,7 @@ public class PlayerMovement :MonoBehaviour
         if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
         {
             anim.SetBool("IsWalking", true);
+            IsWalking = true;
         }
         else
         {
