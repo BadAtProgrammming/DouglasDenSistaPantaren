@@ -26,7 +26,6 @@ public class ShopSystem2 : MonoBehaviour
     {
         if (NowDoneshopping1.Doneshopping1)
         {
-            
             NowDoneshopping2.Doneshopping2 = true;
             shopthinging.shopthing.SetActive(false);
             Destroy(gameObject);
