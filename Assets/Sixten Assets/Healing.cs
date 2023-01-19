@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Healing : MonoBehaviour
 {
+    //Gotta reference everything since sixten got a skill issue -Dev
+    GameObject healthmodel;
     PlayerHelth Health;
-    // Start is called before the first frame update
+
     void Start()
     {
-        Health = FindObjectOfType<PlayerHelth>();
+        healthmodel = GameObject.Find("Health Maneger");
+        Health = healthmodel.GetComponent<PlayerHelth>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         

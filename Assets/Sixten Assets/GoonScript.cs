@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GoonScript : MonoBehaviour
 {
+    GameObject phealthmod;
     public PlayerHelth pHealth;
     public bool eInReach;
     [SerializeField] GameObject thingToSpawn;
@@ -15,12 +16,13 @@ public class GoonScript : MonoBehaviour
     
 
 
-    [SerializeField] public int Health = 20;
+    [SerializeField] public int eHealth = 20;
 
     // Start is called before the first frame update
     void Start()
     {
-        pHealth = FindObjectOfType<PlayerHelth>();
+        phealthmod = GameObject.Find("Health Maneger");
+        pHealth = phealthmod.GetComponent<PlayerHelth>();
         EnemyPosition = GetComponent<Transform>();
        
     }
@@ -70,9 +72,9 @@ public class GoonScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
-            Health -= 10;
+            eHealth -= 10;
         }
-        if (Health <= 0)
+        if (eHealth <= 0)
         {
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
@@ -92,7 +94,7 @@ public class GoonScript : MonoBehaviour
         }
         timer += 1 * Time.deltaTime;
 
-        if (Health <= 0 && candie)
+        if (eHealth <= 0 && candie)
         {
             candie = false;
             Instantiate(thingToSpawn, EnemyPosition.position, Quaternion.identity);
