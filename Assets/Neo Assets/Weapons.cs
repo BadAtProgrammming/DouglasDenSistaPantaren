@@ -25,8 +25,6 @@ public class Weapons : MonoBehaviour
         void Start()
         {
             Weapondamage = FindObjectOfType<EnemyDamageScript>();
-            HasWeapon = true;
-            Sign = true;
             anim = GetComponent<Animator>();
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);

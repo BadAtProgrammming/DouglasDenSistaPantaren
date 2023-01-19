@@ -488,6 +488,10 @@ PrefabInstance:
       propertyPath: m_MaskInteraction
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Unarmed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828148, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: ScoreText
       value: 
