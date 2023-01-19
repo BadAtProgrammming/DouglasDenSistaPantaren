@@ -17,7 +17,9 @@ TagManager:
   - PlayerAttackbox
   - DaBoss
   - StrongOne
+  - ShopUI
   - MegusPantus
+
   layers:
   - Default
   - TransparentFX
