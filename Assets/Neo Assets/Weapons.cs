@@ -131,18 +131,13 @@ public class Weapons : MonoBehaviour
         {
             anim.SetBool("HasWeapon", false);
             HasWeapon = false;
+            Unarmed = true;
         }
         else
         {
             HasWeapon = true;
-        }
-        if(HasWeapon == true)
-        {
             Unarmed = false;
         }
-        else 
-        {
-            Unarmed = true;
-        }
+        
     }
 }
