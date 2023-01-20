@@ -24,7 +24,6 @@ public class ShopSystem : MonoBehaviour
     {
         shopthinging.shopthing.SetActive(false);
         NowDoneshopping1.Doneshopping1 = true;
-        Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D trigger)
     {

@@ -25,7 +25,6 @@ public class ShopSystem3 : MonoBehaviour
         if (NowDoneshopping2.Doneshopping2)
         {
             shopthinging.shopthing.SetActive(false);
-            Destroy(gameObject);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

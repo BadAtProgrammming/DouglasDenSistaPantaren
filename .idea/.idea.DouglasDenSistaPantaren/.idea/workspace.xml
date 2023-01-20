@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
