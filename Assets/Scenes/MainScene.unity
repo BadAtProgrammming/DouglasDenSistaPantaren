@@ -12296,6 +12296,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7454056503692863115, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
+      propertyPath: m_text
+      value: 'Price: 90 pant'
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -12395,6 +12399,10 @@ PrefabInstance:
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454056503725025467, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
+      propertyPath: m_text
+      value: 'Price: 15 pant'
       objectReference: {fileID: 0}
     - target: {fileID: 7454056503919319638, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_RootOrder
@@ -12643,6 +12651,10 @@ PrefabInstance:
     - target: {fileID: 7454056503981955117, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454056504325259547, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
+      propertyPath: m_text
+      value: No stock
       objectReference: {fileID: 0}
     - target: {fileID: 7454056504572680993, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

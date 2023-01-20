@@ -16,6 +16,7 @@ public class Weapons : MonoBehaviour
     PantScore Pant;
     
     public Animator anim;
+    Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
     public bool Sign;
