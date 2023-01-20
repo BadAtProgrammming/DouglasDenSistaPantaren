@@ -15200,6 +15200,14 @@ PrefabInstance:
       propertyPath: Sign
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Unarmed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991921380391828143, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+      propertyPath: Umbrella
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828147, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_Name
       value: player
