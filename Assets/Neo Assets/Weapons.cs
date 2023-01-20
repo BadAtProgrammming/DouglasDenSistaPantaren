@@ -80,7 +80,6 @@ public class Weapons : MonoBehaviour
             Axe = false;
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);
-            Weapondamage.Damage = 15;
         }
     }
     public void MicrosoftFun()
@@ -95,7 +94,6 @@ public class Weapons : MonoBehaviour
             Sign = false;
             anim.SetBool("HasEdge", true);
             anim.SetBool("HasWeapon", true);
-            Weapondamage.Damage = 999;
         }
     }
     public void LightBladeFun()
@@ -110,7 +108,6 @@ public class Weapons : MonoBehaviour
             Microsoft = false;
             anim.SetBool("HasBlade", true);
             anim.SetBool("HasWeapon", true);
-            Weapondamage.Damage = 60;
         }
     }
     public void UmbrellaFun()
@@ -125,7 +122,6 @@ public class Weapons : MonoBehaviour
             LightBlade = false;
             anim.SetBool("HasWeapon", true);
             anim.SetBool("HasUmbrella", true);
-            Weapondamage.Damage = 20;
         }
     }
     public void AxeFun()
@@ -140,7 +136,6 @@ public class Weapons : MonoBehaviour
             Umbrella = false;
             anim.SetBool("HasAxe", true);
             anim.SetBool("HasWeapon", true);
-            Weapondamage.Damage = 50;
         }
     }
     public void PanFun()
@@ -155,7 +150,6 @@ public class Weapons : MonoBehaviour
             Umbrella = false;
             anim.SetBool("HasPan", true);
             anim.SetBool("HasWeapon", true);
-            Weapondamage.Damage = 20;
         }
     }
 }
