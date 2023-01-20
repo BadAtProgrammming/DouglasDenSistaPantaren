@@ -15,7 +15,6 @@ public class Weapons : MonoBehaviour
     GameObject pantmodel;
     PantScore Pant;
     Animator anim;
-    public Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
     public bool Sign;
