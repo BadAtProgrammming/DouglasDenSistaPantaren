@@ -1112,7 +1112,6 @@ GameObject:
   - component: {fileID: 174796990}
   - component: {fileID: 174796993}
   - component: {fileID: 174796992}
-  - component: {fileID: 174796991}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -1135,24 +1134,6 @@ Transform:
   m_Father: {fileID: 951744750}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &174796991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174796989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &174796992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3720,7 +3701,6 @@ GameObject:
   - component: {fileID: 484715606}
   - component: {fileID: 484715609}
   - component: {fileID: 484715608}
-  - component: {fileID: 484715607}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -3743,24 +3723,6 @@ Transform:
   m_Father: {fileID: 1178169797}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &484715607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484715605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &484715608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4126,7 +4088,6 @@ GameObject:
   - component: {fileID: 523687029}
   - component: {fileID: 523687032}
   - component: {fileID: 523687031}
-  - component: {fileID: 523687030}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -4149,24 +4110,6 @@ Transform:
   m_Father: {fileID: 272749293}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &523687030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 523687028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &523687031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7390,7 +7333,6 @@ GameObject:
   - component: {fileID: 905907880}
   - component: {fileID: 905907883}
   - component: {fileID: 905907882}
-  - component: {fileID: 905907881}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -7413,24 +7355,6 @@ Transform:
   m_Father: {fileID: 352276159}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &905907881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905907879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &905907882
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9538,7 +9462,6 @@ GameObject:
   - component: {fileID: 1247526820}
   - component: {fileID: 1247526823}
   - component: {fileID: 1247526822}
-  - component: {fileID: 1247526821}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -9561,24 +9484,6 @@ Transform:
   m_Father: {fileID: 1022856432}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1247526821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247526819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1247526822
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10034,7 +9939,6 @@ GameObject:
   - component: {fileID: 1337046536}
   - component: {fileID: 1337046539}
   - component: {fileID: 1337046538}
-  - component: {fileID: 1337046537}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -10057,24 +9961,6 @@ Transform:
   m_Father: {fileID: 818566266}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1337046537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337046535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1337046538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10829,7 +10715,6 @@ GameObject:
   - component: {fileID: 1431792274}
   - component: {fileID: 1431792277}
   - component: {fileID: 1431792276}
-  - component: {fileID: 1431792275}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -10852,24 +10737,6 @@ Transform:
   m_Father: {fileID: 387250177}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1431792275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431792273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1431792276
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11109,8 +10976,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438334053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 212.46, y: -3.2, z: 0}
-  m_LocalScale: {x: 2.25, y: 2.25, z: 1}
+  m_LocalPosition: {x: 212.3984, y: -3.2, z: 0}
+  m_LocalScale: {x: 2.2653, y: 2.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11238,7 +11105,6 @@ GameObject:
   - component: {fileID: 1468495722}
   - component: {fileID: 1468495725}
   - component: {fileID: 1468495724}
-  - component: {fileID: 1468495723}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -11261,24 +11127,6 @@ Transform:
   m_Father: {fileID: 1139073649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1468495723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468495721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1468495724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12192,7 +12040,6 @@ GameObject:
   - component: {fileID: 1606682638}
   - component: {fileID: 1606682641}
   - component: {fileID: 1606682640}
-  - component: {fileID: 1606682639}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -12215,24 +12062,6 @@ Transform:
   m_Father: {fileID: 671810613}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1606682639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606682637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1606682640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13202,7 +13031,6 @@ GameObject:
   - component: {fileID: 1688369675}
   - component: {fileID: 1688369678}
   - component: {fileID: 1688369677}
-  - component: {fileID: 1688369676}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -13225,24 +13053,6 @@ Transform:
   m_Father: {fileID: 1068858596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1688369676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688369674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1688369677
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14262,7 +14072,6 @@ GameObject:
   - component: {fileID: 1882468614}
   - component: {fileID: 1882468617}
   - component: {fileID: 1882468616}
-  - component: {fileID: 1882468615}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -14285,24 +14094,6 @@ Transform:
   m_Father: {fileID: 1903407259}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1882468615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882468613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1882468616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14886,7 +14677,6 @@ GameObject:
   - component: {fileID: 1964985575}
   - component: {fileID: 1964985578}
   - component: {fileID: 1964985577}
-  - component: {fileID: 1964985576}
   m_Layer: 3
   m_Name: Hitbox (1)
   m_TagString: EnemyAttackbox
@@ -14909,24 +14699,6 @@ Transform:
   m_Father: {fileID: 895357363}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1964985576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964985574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2698fb2eb7aac0848b13760db12d0971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pHealth: {fileID: 702724302}
-  eInReach: 0
-  thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
-  canDoDamage: 0
-  pInReach: 0
-  eHealth: 20
 --- !u!61 &1964985577
 BoxCollider2D:
   m_ObjectHideFlags: 0
