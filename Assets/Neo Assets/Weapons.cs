@@ -15,6 +15,7 @@ public class Weapons : MonoBehaviour
     GameObject pantmodel;
     PantScore Pant;
     Animator anim;
+    public Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
     public bool Sign;
@@ -24,6 +25,7 @@ public class Weapons : MonoBehaviour
     public bool Pan;
     public bool Axe;
     public EnemyDamageScript Weapondamage;
+
         void Start()
         {
         pantmodel = GameObject.Find("player");
