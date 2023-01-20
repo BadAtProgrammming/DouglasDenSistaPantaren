@@ -664,7 +664,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsWalking
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: HasSign
+    m_ConditionEvent: HasBlade
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7862659933183649522}
@@ -1033,7 +1033,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ReadySwing
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: HasSign
+    m_ConditionEvent: HasBlade
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7225243704044574634}
