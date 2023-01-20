@@ -12,6 +12,9 @@ public class Weapons : MonoBehaviour
     //Pan 40 damage
     //Bear Fists 10 damage
     // Start is called before the first frame update
+    GameObject pantmodel;
+    PantScore Pant;
+    Animator anim;
     public Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
@@ -25,7 +28,9 @@ public class Weapons : MonoBehaviour
 
         void Start()
         {
-            Weapondamage = FindObjectOfType<EnemyDamageScript>();
+        pantmodel = GameObject.Find("player");
+        Pant = pantmodel.GetComponent<PantScore>();
+        Weapondamage = FindObjectOfType<EnemyDamageScript>();
             anim = GetComponent<Animator>();
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);
