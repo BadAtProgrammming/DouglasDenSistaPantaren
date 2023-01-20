@@ -12298,7 +12298,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7454056503692863115, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_text
-      value: 'Price: 90 pant'
+      value: 'Price: Sluta'
       objectReference: {fileID: 0}
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
