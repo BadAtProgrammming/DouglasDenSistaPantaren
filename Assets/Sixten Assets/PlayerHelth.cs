@@ -6,16 +6,18 @@ using TMPro;
 
 public class PlayerHelth : MonoBehaviour
 {
-    
+    Animator anim;
     [SerializeField]
     RectTransform transformobject;
     public int Health;
+    
 
     bool activated = false;
 
     void Start()
     {
         //References spew out errors nonetheless... I cant fix it for some reason, this is just the best solution -Dev
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -24,6 +26,7 @@ public class PlayerHelth : MonoBehaviour
         //If you have no heath: show death screen -Sixten
         if (Health <= 0 && activated == false)
         {
+            anim.SetInteger("Death",Random.Range(0,5));
             //Avoids errors by activating it only once, this makes constantly spewing errors & lagging the game impossible -Dev
             GameObject.Find("player").GetComponent<PlayerMovement>().enabled = false; //disables player movement when health <= 0
             GameObject.Find("Main Camera").GetComponent<CameraMovement>().enabled = false;//disables camera movement when health <= 0
