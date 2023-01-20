@@ -12,7 +12,7 @@ public class Weapons : MonoBehaviour
     //Pan 40 damage
     //Bear Fists 10 damage
     // Start is called before the first frame update
-    Animator anim;
+    public Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
     public bool Sign;
@@ -22,6 +22,7 @@ public class Weapons : MonoBehaviour
     public bool Pan;
     public bool Axe;
     public EnemyDamageScript Weapondamage;
+
         void Start()
         {
             Weapondamage = FindObjectOfType<EnemyDamageScript>();
@@ -120,8 +121,8 @@ public class Weapons : MonoBehaviour
             Sign = false;
             Microsoft = false;
             LightBlade = false;
-            anim.SetBool("HasWeapon", true);
             anim.SetBool("HasUmbrella", true);
+            anim.SetBool("HasWeapon", true);
         }
     }
     public void AxeFun()
