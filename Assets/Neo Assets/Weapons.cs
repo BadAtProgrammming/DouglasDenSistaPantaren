@@ -120,8 +120,8 @@ public class Weapons : MonoBehaviour
             Sign = false;
             Microsoft = false;
             LightBlade = false;
-            anim.SetBool("HasWeapon", true);
             anim.SetBool("HasUmbrella", true);
+            anim.SetBool("HasWeapon", true);
         }
     }
     public void AxeFun()
