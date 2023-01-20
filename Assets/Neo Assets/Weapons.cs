@@ -131,14 +131,8 @@ public class Weapons : MonoBehaviour
         {
             anim.SetBool("HasWeapon", false);
             HasWeapon = false;
-            Unarmed = true;
+            
         }
-        else
-        {
-            HasWeapon = true;
-            Unarmed = false;
-        }
-        
     }
 
     //Functions to invoke with buttons!
