@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db058555535c9b4f9ed0b685c9f8f24
+      internalID: 173232543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2
+        width: 40
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb48f114b786b04e867c001b17febcb
+      internalID: -282447724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 40
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2919c8b9197ee134f86f37045bd56a0c
+      internalID: 1941914181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 37
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c781ac65f94496a44bf59c8caa0a367f
+      internalID: 238241677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 5
+        width: 37
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2e6efb0ccbcaa4385ffabcebef3aa3
+      internalID: 296901934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9446e6d519d834dad03a7c560f1cd0
+      internalID: -623256172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d4752533576c48bd1bb172c1182ce
+      internalID: 163600131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9282bbb1a6083e4f99573603ac5e4bb
+      internalID: -1231417576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0577890e8b899f64ba9d586739766305
+      internalID: -2093134892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e563c09ff44ee44f96053d2e8656714
+      internalID: 705989012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 10
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b93347868122bc4f863dd6aaf150d0a
+      internalID: 1531631952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 4-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 10
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00795aef3ae674ab6064e6fd346bb3
+      internalID: -339427883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +366,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death ani 4-Sheet_1: -282447724
+      Death ani 4-Sheet_5: -623256172
+      Death ani 4-Sheet_23: -339427883
+      Death ani 4-Sheet_29: 1950458871
+      Death ani 4-Sheet_10: -1662377164
+      Death ani 4-Sheet_32: 314072945
+      Death ani 4-Sheet_17: 293710777
+      Death ani 4-Sheet_33: 1265122717
+      Death ani 4-Sheet_2: 1941914181
+      Death ani 4-Sheet_8: -2093134892
+      Death ani 4-Sheet_31: 1881983943
+      Death ani 4-Sheet_6: 163600131
+      Death ani 4-Sheet_4: 296901934
+      Death ani 4-Sheet_19: 1367479107
+      Death ani 4-Sheet_27: -842102099
+      Death ani 4-Sheet_39: -93814041
+      Death ani 4-Sheet_0: 173232543
+      Death ani 4-Sheet_3: 238241677
+      Death ani 4-Sheet_12: 357842296
+      Death ani 4-Sheet_14: -1462355881
+      Death ani 4-Sheet_24: 1250797066
+      Death ani 4-Sheet_37: 2098660793
+      Death ani 4-Sheet_7: -1231417576
+      Death ani 4-Sheet_38: 945992951
+      Death ani 4-Sheet_30: -958898038
+      Death ani 4-Sheet_21: 1531631952
+      Death ani 4-Sheet_36: 355246550
+      Death ani 4-Sheet_40: -931708740
+      Death ani 4-Sheet_41: -254103978
+      Death ani 4-Sheet_22: 1698451988
+      Death ani 4-Sheet_20: 2065298788
+      Death ani 4-Sheet_34: 211903335
+      Death ani 4-Sheet_13: -503746872
+      Death ani 4-Sheet_35: -1819546340
+      Death ani 4-Sheet_25: 97617978
+      Death ani 4-Sheet_26: -193938295
+      Death ani 4-Sheet_9: 705989012
+      Death ani 4-Sheet_42: -1131998085
+      Death ani 4-Sheet_28: -696692057
+      Death ani 4-Sheet_11: -386506662
+      Death ani 4-Sheet_16: -472634663
+      Death ani 4-Sheet_18: -1833308634
+      Death ani 4-Sheet_15: 1221035719
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
