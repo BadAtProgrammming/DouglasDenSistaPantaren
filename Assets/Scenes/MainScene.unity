@@ -6938,7 +6938,7 @@ GameObject:
   - component: {fileID: 852427712}
   - component: {fileID: 852427713}
   m_Layer: 0
-  m_Name: IkaBox 2
+  m_Name: IkaBox2
   m_TagString: Shop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
