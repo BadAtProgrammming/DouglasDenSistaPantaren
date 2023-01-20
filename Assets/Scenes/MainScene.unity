@@ -5711,9 +5711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f99e03cbea6e3a4ca9ed8ddebda897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopthinging: {fileID: 0}
-  NowDoneshopping2: {fileID: 0}
-  ShopPoint: {fileID: 0}
+  shopthinging: {fileID: 1352712}
+  NowDoneshopping2: {fileID: 1352712}
+  ShopPoint: {fileID: 1889775099}
 --- !u!1001 &739304861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7013,10 +7013,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 297e6869ea72bad488e419cfa14a64e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopthinging: {fileID: 0}
-  NowDoneshopping2: {fileID: 0}
-  NowDoneshopping1: {fileID: 0}
-  ShopPoint: {fileID: 0}
+  shopthinging: {fileID: 1352712}
+  NowDoneshopping2: {fileID: 1352712}
+  NowDoneshopping1: {fileID: 1352712}
+  ShopPoint: {fileID: 1889775099}
 --- !u!1001 &855030340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13684,9 +13684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1e2a99591d3764abcf31480a582558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopthinging: {fileID: 0}
-  NowDoneshopping1: {fileID: 0}
-  ShopPoint: {fileID: 0}
+  shopthinging: {fileID: 1352712}
+  NowDoneshopping1: {fileID: 1352712}
+  ShopPoint: {fileID: 1889775099}
 --- !u!1 &1811001038
 GameObject:
   m_ObjectHideFlags: 0
@@ -14334,6 +14334,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4522c7ed791964c4d920a29be3c8379e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1889775099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6991921380391828148, guid: ebf39dc931eeed244a1220821803b967, type: 3}
+  m_PrefabInstance: {fileID: 6991921379575928666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889775081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5383c2f538473984d87bedc026b669cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1897305115
