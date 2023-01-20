@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e64274f0913962409c5f86da90a13f6
+      internalID: -1679751917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdabeea4ee32ad947b1180b52820eeab
+      internalID: -694906668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f110ac1b04236468413008db1c8dd7
+      internalID: 1839813860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61e2922c8519da47bd2866da6619706
+      internalID: 2046794545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 37
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95141cd37ba2cc4eb4a309b78d2a043
+      internalID: 1781173789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf55f42c18b3e459c2144bc275a9de
+      internalID: 740292845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b0c558878f0ed438d81076804d71b6
+      internalID: 1495265214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d63de2e0f8066e46ac1a65354a94499
+      internalID: -2040493216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death ani 1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d5aeebdb7efb840a05e3e5fbb5b5d7
+      internalID: 1236009030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +303,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death ani 1-Sheet_19: -1426426416
+      Death ani 1-Sheet_0: -1679751917
+      Death ani 1-Sheet_8: 1333935640
+      Death ani 1-Sheet_6: 740292845
+      Death ani 1-Sheet_20: 2029604109
+      Death ani 1-Sheet_15: 217037209
+      Death ani 1-Sheet_17: 569685014
+      Death ani 1-Sheet_2: 1839813860
+      Death ani 1-Sheet_10: 1541954919
+      Death ani 1-Sheet_18: -1727965495
+      Death ani 1-Sheet_12: 1236009030
+      Death ani 1-Sheet_7: 1495265214
+      Death ani 1-Sheet_1: -694906668
+      Death ani 1-Sheet_9: -2087385249
+      Death ani 1-Sheet_13: 2036553990
+      Death ani 1-Sheet_5: 566620094
+      Death ani 1-Sheet_11: -2040493216
+      Death ani 1-Sheet_4: 1781173789
+      Death ani 1-Sheet_14: 432829574
+      Death ani 1-Sheet_16: 1743771281
+      Death ani 1-Sheet_3: 2046794545
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
