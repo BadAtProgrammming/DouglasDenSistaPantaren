@@ -293,6 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e048580c956854c84ea77f76a87af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformobject: {fileID: 0}
   Health: 100
 --- !u!1 &18592699 stripped
 GameObject:
@@ -316,7 +317,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &18592701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -545,7 +546,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &48468516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -781,7 +782,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &68493354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -911,7 +912,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &69308355
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,7 +1111,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &92842915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1568,7 +1569,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &232745558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1706,7 +1707,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &255301566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2224,7 +2225,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &340948050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2677,7 +2678,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &437916423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2962,7 +2963,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &457839477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3604,7 +3605,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &677044659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3742,7 +3743,7 @@ PrefabInstance:
     - target: {fileID: 6991921380391828148, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: ScoreText
       value: 
-      objectReference: {fileID: 1280269725}
+      objectReference: {fileID: 0}
     - target: {fileID: 6991921380391828150, guid: ebf39dc931eeed244a1220821803b967, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4312,6 +4313,7 @@ GameObject:
   - component: {fileID: 871603123}
   - component: {fileID: 871603122}
   - component: {fileID: 871603121}
+  - component: {fileID: 871603125}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Shop
@@ -4433,6 +4435,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871603125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871603120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f99e03cbea6e3a4ca9ed8ddebda897f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopthinging: {fileID: 1206151999}
+  NowDoneshopping2: {fileID: 1206151999}
+  ShopPoint: {fileID: 1703499892}
 --- !u!1001 &873532307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4848,7 +4865,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &926740343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5292,7 +5309,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1011613274
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5430,7 +5447,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1026915309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5519,45 +5536,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
---- !u!1 &1072724267 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3273127614011240631, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
-  m_PrefabInstance: {fileID: 2002741625}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1072724269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072724267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: PLAY AGAIN NERD
 --- !u!1001 &1086186181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5834,7 +5812,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1142917148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6048,7 +6026,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1178937447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6424,7 +6402,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1208520836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6739,7 +6717,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1233292825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6926,7 +6904,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1274393326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7020,17 +6998,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31d829b0eb8adb24d8432bef051b35b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1280269725 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7594504344293953867, guid: 86552a3d2db756d4ea66eeaac2d38a3b, type: 3}
-  m_PrefabInstance: {fileID: 1520278552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280269722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1281284897
@@ -7436,7 +7403,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1325688394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7490,7 +7457,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1337679912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7931,6 +7898,7 @@ GameObject:
   - component: {fileID: 1410524944}
   - component: {fileID: 1410524943}
   - component: {fileID: 1410524942}
+  - component: {fileID: 1410524946}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Shop
@@ -8052,6 +8020,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410524946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410524941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297e6869ea72bad488e419cfa14a64e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopthinging: {fileID: 1206151999}
+  NowDoneshopping2: {fileID: 1206151999}
+  NowDoneshopping1: {fileID: 1206151999}
+  ShopPoint: {fileID: 1703499892}
 --- !u!1 &1411340291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8158,7 +8142,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1436109623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8672,7 +8656,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1529517918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8981,7 +8965,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1584396099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9601,7 +9585,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1650355492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9655,7 +9639,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1653711990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9744,45 +9728,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
---- !u!1 &1682489472 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3273127615354315735, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
-  m_PrefabInstance: {fileID: 2002741625}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1682489474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682489472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Insert SPlashtext
 --- !u!1001 &1696273026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10190,7 +10135,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1803303222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10540,7 +10485,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1833021056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11133,7 +11078,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1904403408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11495,7 +11440,7 @@ MonoBehaviour:
   thingToSpawn: {fileID: 7430960704791920079, guid: d2f32c32fbe7e864c90f7881437775bb, type: 3}
   canDoDamage: 0
   pInReach: 0
-  Health: 20
+  eHealth: 20
 --- !u!61 &1953325876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11960,45 +11905,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2028572838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3273127614707355675, guid: 8d30bb66bd3ef8c4e93083b1e86851a2, type: 3}
-  m_PrefabInstance: {fileID: 2002741625}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2028572840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028572838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
-    m_FontSize: 80
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 1
-    m_MaxSize: 300
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: YOU DIED
 --- !u!1 &2056147082
 GameObject:
   m_ObjectHideFlags: 0
