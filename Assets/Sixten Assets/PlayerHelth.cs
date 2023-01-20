@@ -26,7 +26,6 @@ public class PlayerHelth : MonoBehaviour
         //If you have no heath: show death screen -Sixten
         if (Health <= 0 && activated == false)
         {
-            anim.SetInteger("Death", Random.Range(0, 6));
             //Avoids errors by activating it only once, this makes constantly spewing errors & lagging the game impossible -Dev
             GameObject.Find("player").GetComponent<PlayerMovement>().enabled = false; //disables player movement when health <= 0
             GameObject.Find("Main Camera").GetComponent<CameraMovement>().enabled = false;//disables camera movement when health <= 0
@@ -34,6 +33,7 @@ public class PlayerHelth : MonoBehaviour
             //When health 0 activates the entire canvasobject and its components -Dev
             transformobject.anchoredPosition = new Vector3(640f, 360f, 0f);
             activated = true;
+            anim.SetInteger("Death", Random.Range(0, 6));
         }
     }
     public void TakeDamage(int amount)
