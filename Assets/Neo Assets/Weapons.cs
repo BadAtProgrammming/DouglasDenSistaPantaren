@@ -90,9 +90,9 @@ public class Weapons : MonoBehaviour
             Sign = false;
             Microsoft = false;
             LightBlade = false;
-            Weapondamage.Damage = 20;
             anim.SetBool("HasWeapon", true);
             anim.SetBool("HasUmbrella", true);
+            Weapondamage.Damage = 20;
         }
         else
         {
