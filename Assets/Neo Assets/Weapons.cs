@@ -14,7 +14,7 @@ public class Weapons : MonoBehaviour
     // Start is called before the first frame update
     GameObject pantmodel;
     PantScore Pant;
-    Animator anim;
+    
     public Animator anim;
     public bool Unarmed;
     public bool HasWeapon;
@@ -90,9 +90,13 @@ public class Weapons : MonoBehaviour
     }
     public void MicrosoftFun()
     {
-        Microsoft = true;
+        if(Pant.score >= 70)
+        {
+            Microsoft = true;
+        }   
         if (Microsoft == true)
         {
+            Pant.score -= 70;
             LightBlade = false;
             Umbrella = false;
             Pan = false;
@@ -104,9 +108,14 @@ public class Weapons : MonoBehaviour
     }
     public void LightBladeFun()
     {
-        LightBlade = true;
+        if(Pant.score >= 50)
+        {
+            LightBlade = true;
+        }
+       
         if (LightBlade == true)
         {
+            Pant.score -= 50;
             Umbrella = false;
             Pan = false;
             Axe = false;
@@ -118,9 +127,11 @@ public class Weapons : MonoBehaviour
     }
     public void UmbrellaFun()
     {
+        if(Pant.score >= 999999999)
         Umbrella = true;
         if (Umbrella == true)
         {
+            Pant.score -= 99999999;
             Pan = false;
             Axe = false;
             Sign = false;
@@ -132,9 +143,14 @@ public class Weapons : MonoBehaviour
     }
     public void AxeFun()
     {
-        Axe = true;
+        if(Pant.score >= 15)
+        {
+            Axe = true;
+        }
+       
         if (Axe == true)
         {
+            Pant.score -= 15;
             Sign = false;
             Microsoft = false;
             LightBlade = false;
