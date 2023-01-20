@@ -28,101 +28,33 @@ public class Weapons : MonoBehaviour
             anim = GetComponent<Animator>();
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);
-            
-            
+            HasWeapon = true;
         }
 
     // Update is called once per frame
     void Update()
     {
-        if (Sign)
-        { 
-          Microsoft = false;
-          LightBlade = false;
-          Umbrella = false;
-          Pan = false;
-          Axe = false;
-          Weapondamage.Damage = 15;
-          anim.SetBool("HasSign", true);
-          anim.SetBool("HasWeapon", true);
-        }
-        else
+        if (Microsoft == true || LightBlade == true || Umbrella == true || Pan == true || Axe == true)
         {
             anim.SetBool("HasSign", false);
         }
 
-        if (Microsoft)
-        {
-            LightBlade = false;
-            Umbrella = false;
-            Pan = false;
-            Axe = false;
-            Sign = false;
-            Weapondamage.Damage = 999;
-            anim.SetBool("HasEdge", true);
-            anim.SetBool("HasWeapon", true);
-        }
-        else
+        if (Sign == true || LightBlade == true || Umbrella == true || Pan == true || Axe == true)
         {
             anim.SetBool("HasEdge", false);
         }
 
-        if (LightBlade)
-        {
-            Umbrella = false;
-            Pan = false;
-            Axe = false;
-            Sign = false;
-            Microsoft = false;
-            Weapondamage.Damage = 60;
-            anim.SetBool("HasBlade", true);
-            anim.SetBool("HasWeapon", true);
-        }
-        else
+        if (Sign == true || Microsoft == true || Umbrella == true || Pan == true || Axe == true)
         {
             anim.SetBool("HasBlade", false);
         }
 
-        if (Umbrella)
-        {
-            Pan = false;
-            Axe = false;
-            Sign = false;
-            Microsoft = false;
-            LightBlade = false;
-            anim.SetBool("HasWeapon", true);
-            anim.SetBool("HasUmbrella", true);
-            Weapondamage.Damage = 20;
-        }
-        else
+        if (Sign == true || LightBlade == true || Microsoft == true || Pan == true || Axe == true)
         {
             anim.SetBool("HasUmbrella", false);
         }
 
-
-        if (Axe)
-        {
-            Sign = false;
-            Microsoft = false;
-            LightBlade = false;
-            Pan = false;
-            Umbrella = false;
-            Weapondamage.Damage = 50;
-            anim.SetBool("HasAxe", true);
-            anim.SetBool("HasWeapon", true);
-        }
-
-        if (Pan)
-        {
-            Sign = false;
-            Microsoft = false;
-            LightBlade = false;
-            Axe = false;
-            Umbrella = false;
-            anim.SetBool("HasPan", true);
-            anim.SetBool("HasWeapon", true);
-        }
-        else
+        if (Sign == true || LightBlade == true || Umbrella == true || Microsoft == true || Axe == true)
         {
             anim.SetBool("HasPan", false);
         }
@@ -139,25 +71,91 @@ public class Weapons : MonoBehaviour
     public void Signfun()
     {
         Sign = true;
+        if (Sign == true)
+        {
+            Microsoft = false;
+            LightBlade = false;
+            Umbrella = false;
+            Pan = false;
+            Axe = false;
+            anim.SetBool("HasSign", true);
+            anim.SetBool("HasWeapon", true);
+            Weapondamage.Damage = 15;
+        }
     }
     public void MicrosoftFun()
     {
         Microsoft = true;
+        if (Microsoft == true)
+        {
+            LightBlade = false;
+            Umbrella = false;
+            Pan = false;
+            Axe = false;
+            Sign = false;
+            anim.SetBool("HasEdge", true);
+            anim.SetBool("HasWeapon", true);
+            Weapondamage.Damage = 999;
+        }
     }
     public void LightBladeFun()
     {
         LightBlade = true;
+        if (LightBlade == true)
+        {
+            Umbrella = false;
+            Pan = false;
+            Axe = false;
+            Sign = false;
+            Microsoft = false;
+            anim.SetBool("HasBlade", true);
+            anim.SetBool("HasWeapon", true);
+            Weapondamage.Damage = 60;
+        }
     }
     public void UmbrellaFun()
     {
         Umbrella = true;
+        if (Umbrella == true)
+        {
+            Pan = false;
+            Axe = false;
+            Sign = false;
+            Microsoft = false;
+            LightBlade = false;
+            anim.SetBool("HasWeapon", true);
+            anim.SetBool("HasUmbrella", true);
+            Weapondamage.Damage = 20;
+        }
     }
     public void AxeFun()
     {
         Axe = true;
+        if (Axe == true)
+        {
+            Sign = false;
+            Microsoft = false;
+            LightBlade = false;
+            Pan = false;
+            Umbrella = false;
+            anim.SetBool("HasAxe", true);
+            anim.SetBool("HasWeapon", true);
+            Weapondamage.Damage = 50;
+        }
     }
     public void PanFun()
     {
         Pan = true;
+        if (Pan == true)
+        {
+            Sign = false;
+            Microsoft = false;
+            LightBlade = false;
+            Axe = false;
+            Umbrella = false;
+            anim.SetBool("HasPan", true);
+            anim.SetBool("HasWeapon", true);
+            Weapondamage.Damage = 20;
+        }
     }
 }
