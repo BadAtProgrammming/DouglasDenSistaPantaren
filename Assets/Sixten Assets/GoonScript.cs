@@ -87,7 +87,5 @@ public class GoonScript : MonoBehaviour
             Instantiate(thingToSpawn, EnemyPosition.position, Quaternion.identity);
             Invoke("Die", 1);
         }
-
-
     }
 }
