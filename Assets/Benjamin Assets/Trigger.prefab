@@ -124,5 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b823633995ed521448c96fdcc9cb0c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CameraMovement: {fileID: 0}
   player: {fileID: 0}
   newBorder: 0
+  newLeftC: 0
