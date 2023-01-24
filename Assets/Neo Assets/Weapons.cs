@@ -12,6 +12,8 @@ public class Weapons : MonoBehaviour
     //Pan 40 damage
     //Bear Fists 10 damage
     // Start is called before the first frame update
+    public int Damage;
+    
     GameObject pantmodel;
     PantScore Pant;
     
@@ -79,6 +81,7 @@ public class Weapons : MonoBehaviour
         Sign = true;
         if (Sign == true)
         {
+            Damage = 5;
             Microsoft = false;
             LightBlade = false;
             Umbrella = false;
@@ -90,12 +93,13 @@ public class Weapons : MonoBehaviour
     }
     public void MicrosoftFun()
     {
-        if(Pant.score >= 70)
+        if(Pant.score >= 100)
         {
             Microsoft = true;
         }   
         if (Microsoft == true)
         {
+            Damage = 500;
             Pant.score -= 70;
             LightBlade = false;
             Umbrella = false;
@@ -112,6 +116,7 @@ public class Weapons : MonoBehaviour
     {
         if(Pant.score >= 50)
         {
+            Damage = 25;
             LightBlade = true;
         }
        
@@ -155,6 +160,7 @@ public class Weapons : MonoBehaviour
        
         if (Axe == true)
         {
+            Damage = 10;
             Pant.score -= 15;
             Sign = false;
             Microsoft = false;
@@ -173,6 +179,7 @@ public class Weapons : MonoBehaviour
         Pan = true;
         if (Pan == true)
         {
+            Damage = 15;
             Sign = false;
             Microsoft = false;
             LightBlade = false;

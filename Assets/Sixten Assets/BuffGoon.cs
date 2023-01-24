@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoonScript : MonoBehaviour
+public class BuffGoon : MonoBehaviour
 {
     GameObject DamageMod;
     public Weapons Damage;
@@ -16,10 +16,10 @@ public class GoonScript : MonoBehaviour
     private Transform EnemyPosition;
     float timer;
     public bool pInReach;
-    
 
 
-    [SerializeField] public int eHealth = 20;
+
+    [SerializeField] public int eHealth = 50;
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +29,12 @@ public class GoonScript : MonoBehaviour
         phealthmod = GameObject.Find("Health Maneger");
         pHealth = phealthmod.GetComponent<PlayerHelth>();
         EnemyPosition = GetComponent<Transform>();
-       
+
     }
 
     private void Die()
     {
-        
+
         canDoDamage = false;
         Destroy(gameObject);
     }
@@ -57,12 +57,12 @@ public class GoonScript : MonoBehaviour
         {
             pInReach = true;
         }
-        
+
         if (collision.CompareTag("PlayerHurtbox"))
         {
             eInReach = true;
         }
-    
+
     }
     // Update is called once per frame
     void Update()
@@ -76,12 +76,12 @@ public class GoonScript : MonoBehaviour
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
         }
-      
+
 
 
         if (timer >= 4 && eInReach == true)
-        { 
-            pHealth.Health -= 10;
+        {
+            pHealth.Health -= 15;
             timer = 0;
         }
         timer += 1 * Time.deltaTime;
