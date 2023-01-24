@@ -12,7 +12,7 @@ public class CameraMovement : MonoBehaviour
     }
 
     [SerializeField] //gör denna alltid 3 högre än player border
-    int leftCBorder;
+    public int leftCBorder;
     [SerializeField]
     int rightCBorder;
 
