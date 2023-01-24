@@ -99,7 +99,7 @@ public class Weapons : MonoBehaviour
         }   
         if (Microsoft == true)
         {
-            Damage = 50;
+            Damage = 500;
             Pant.score -= 70;
             LightBlade = false;
             Umbrella = false;
