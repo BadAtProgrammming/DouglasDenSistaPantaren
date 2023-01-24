@@ -13569,6 +13569,14 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Price: 100 pant'
       objectReference: {fileID: 0}
+    - target: {fileID: 7454056505031269162, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454056505031269162, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056505132303418, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
