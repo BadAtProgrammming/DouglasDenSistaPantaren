@@ -21,9 +21,9 @@ public class PlayerMovement :MonoBehaviour
     [SerializeField]
     float DownBorder;
     [SerializeField]
-    int leftBorder;
+    public int leftBorder;
     [SerializeField]
-    int rightBorder;
+    public int rightBorder;
     #endregion
     #region
     public bool canDown = true;
