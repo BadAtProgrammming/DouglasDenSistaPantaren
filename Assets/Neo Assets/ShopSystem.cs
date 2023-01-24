@@ -11,7 +11,6 @@ public class ShopSystem : MonoBehaviour
     void Start()
     {
         shopthinging =  FindObjectOfType<GeneralShopSystem>();
-        NowDoneshopping1 = FindObjectOfType<GeneralShopSystem>();
         ShopPoint = FindObjectOfType<PantScore>();
     }
 
@@ -23,8 +22,6 @@ public class ShopSystem : MonoBehaviour
     public void doneshopping1()
     {
         shopthinging.shopthing.SetActive(false);
-        NowDoneshopping1.Doneshopping1 = true;
-        Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D trigger)
     {

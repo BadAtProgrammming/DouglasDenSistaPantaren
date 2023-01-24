@@ -225,9 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a29501fa3c74dd46a01622cd19c8ec4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Doneshopping1: 0
   shopthing: {fileID: 0}
-  Doneshopping2: 0
 --- !u!1 &1960138
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,11 +753,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 36
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -841,7 +839,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1074,7 +1072,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1353,7 +1351,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: bcd25e5f268eba74387f1c9df331a43d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2503,7 +2501,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3343,7 +3341,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 892fcc4d88608ae47b8e42c4965335c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5708,11 +5706,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 732671530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f99e03cbea6e3a4ca9ed8ddebda897f, type: 3}
+  m_Script: {fileID: 11500000, guid: cb1e2a99591d3764abcf31480a582558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shopthinging: {fileID: 1352712}
-  NowDoneshopping2: {fileID: 1352712}
+  NowDoneshopping1: {fileID: 1352712}
   ShopPoint: {fileID: 1889775099}
 --- !u!1001 &739304861
 PrefabInstance:
@@ -6108,7 +6106,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: bcd25e5f268eba74387f1c9df331a43d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7010,11 +7008,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 852427708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 297e6869ea72bad488e419cfa14a64e7, type: 3}
+  m_Script: {fileID: 11500000, guid: cb1e2a99591d3764abcf31480a582558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shopthinging: {fileID: 1352712}
-  NowDoneshopping2: {fileID: 1352712}
   NowDoneshopping1: {fileID: 1352712}
   ShopPoint: {fileID: 1889775099}
 --- !u!1001 &855030340
@@ -7490,7 +7487,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8368,7 +8365,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9164,7 +9161,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 415fa693776f9474a8dba4ce1f91b21b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10096,7 +10093,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: ebd8ef1c12f603a4f897f10b5296c2b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12327,11 +12324,11 @@ PrefabInstance:
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503693378957, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -12479,11 +12476,11 @@ PrefabInstance:
     - target: {fileID: 7454056503958470206, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503958470206, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503958470206, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -12579,11 +12576,11 @@ PrefabInstance:
     - target: {fileID: 7454056503981955117, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503981955117, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056503981955117, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -12687,11 +12684,11 @@ PrefabInstance:
     - target: {fileID: 7454056504572680993, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056504572680993, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056504572680993, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -12803,11 +12800,11 @@ PrefabInstance:
     - target: {fileID: 7454056505132303418, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056505132303418, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056505132303418, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -12883,11 +12880,11 @@ PrefabInstance:
     - target: {fileID: 7454056505177322583, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 732671535}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056505177322583, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 852427713}
+      objectReference: {fileID: 0}
     - target: {fileID: 7454056505177322583, guid: b65645bfbf2526647a99f7c8e688b14c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -13305,7 +13302,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -8
   m_Sprite: {fileID: 21300000, guid: 2cb31b837b1a1b04eb8309f36715a33c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13756,7 +13753,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: c55fa1e79ddba10458ee21dd4f74ac2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14593,11 +14590,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 36
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1

@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/GeneralShopSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/ShopSystem3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Daniel scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Downloads/DOUGLAS\Douglas Den sista pantaren.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\daniel.wan\Downloads\DOUGLAS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\daniel.wan\Documents\GitHub\testgithub\DouglasDenSistaPantaren -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />

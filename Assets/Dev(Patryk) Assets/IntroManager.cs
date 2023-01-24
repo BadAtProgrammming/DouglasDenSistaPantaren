@@ -45,13 +45,13 @@ public class IntroManager : MonoBehaviour
             //Handles the intro sequence -Dev
             yield return new WaitForSeconds(5);
             unityfade();
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(4);
             unityunfade();
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(3);
             asepritefade();
-            yield return new WaitForSeconds(13);
+            yield return new WaitForSeconds(8);
             asepriteunfade();
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(5);
             LoadScene("Dev Scene");
 
         }
@@ -60,21 +60,21 @@ public class IntroManager : MonoBehaviour
     //The fade void's below -Dev
     void asepritefade()
     {
-        asepriteimg.DOFade(1f, 5f);
+        asepriteimg.DOFade(1f, 3f);
     }
     void asepriteunfade()
     {
-        asepriteimg.DOFade(0f, 5f);
+        asepriteimg.DOFade(0f, 3f);
     }
 
     void unityfade()
     {
-        imagetest.DOFade(1f, 5f);
+        imagetest.DOFade(1f, 3f);
     }
 
     void unityunfade()
     {
-        imagetest.DOFade(0f, 5f);
+        imagetest.DOFade(0f, 3f);
     }
 
     public void LoadScene(string sceneName)

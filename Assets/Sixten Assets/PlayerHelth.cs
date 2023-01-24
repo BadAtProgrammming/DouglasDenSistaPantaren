@@ -33,7 +33,7 @@ public class PlayerHelth : MonoBehaviour
             //When health 0 activates the entire canvasobject and its components -Dev
             transformobject.anchoredPosition = new Vector3(640f, 360f, 0f);
             activated = true;
-            anim.SetInteger("Death", Random.Range(0, 5));
+            anim.SetInteger("Death", Random.Range(0, 6));
         }
     }
     public void TakeDamage(int amount)
