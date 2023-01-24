@@ -31,7 +31,7 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PunchTimer += Time.deltaTime * FramesPS;
+        PunchTimer += Time.deltaTime * FramesPS; //not actual frames per second, just a dumb name.
         KickTimer += Time.deltaTime * FramesPS;
         ComboStep1 += Time.deltaTime * FramesPS;
         WeaponTimer += Time.deltaTime * FramesPS;
@@ -39,7 +39,7 @@ public class Attacks : MonoBehaviour
 
 
         #region buttons
-        if (Input.GetKey(KeyCode.M) && ReadyKick == true && weapons.Unarmed == true)
+        if (Input.GetKey(KeyCode.M) && ReadyKick == true && weapons.Unarmed == true) // scrapped code ignore
         {
             print("m");
             KickTimer = 0;
@@ -48,7 +48,7 @@ public class Attacks : MonoBehaviour
         
         
         
-        if (Input.GetKey(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) 
+        if (Input.GetKey(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim.
         {
             anim.SetBool("PunchOne", true);
             PunchTimer = 0;
@@ -58,7 +58,7 @@ public class Attacks : MonoBehaviour
         else{
             anim.SetBool("PunchOne", false);
         }
-        if (Input.GetKey(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){
+        if (Input.GetKey(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){ // Second punch attack
             anim.SetBool("PunchTwo", true);
         }
         else{
@@ -66,18 +66,18 @@ public class Attacks : MonoBehaviour
         }
         #endregion
 
-        if(KickTimer >= 20)
+        if(KickTimer >= 20) // scrapped code for kick attack
         {
             ReadyKick = true;
         }
        
 
-        if (PunchTimer >= WeaponCooldown)
+        if (PunchTimer >= WeaponCooldown) //punch cooldown
         {
             ReadyPunch = true;
         }
 
-        if (Input.GetKey(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true)
+        if (Input.GetKey(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon
         {
             print("Attackswing");
             anim.SetBool("ReadySwing", true);

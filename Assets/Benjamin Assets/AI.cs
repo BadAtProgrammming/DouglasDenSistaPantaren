@@ -10,7 +10,6 @@ public class AI : MonoBehaviour
 
     float Speed = 2;
     Rigidbody2D rb;
-    private float timer1 = 0;
     private enum State
     {
         Idle,
@@ -107,7 +106,7 @@ public class AI : MonoBehaviour
         }
         void AttackPlayer() //Code to make the enemy to stop at the player's location and use attack animations to hit them, currently doesnt do much.
         {
-            spriteRenderer.flipX = player.transform.position.x < transform.position.x;
+            spriteRenderer.flipX = player.transform.position.x < transform.position.x; // flips position so the animations are pointed the right way
             Animator anim;
             anim = GetComponent<Animator>();
             if (playerdistance <= Reach)
