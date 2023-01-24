@@ -13,6 +13,7 @@ public class GoonScript : MonoBehaviour
     private Transform EnemyPosition;
     float timer;
     public bool pInReach;
+    public Coroutine HitStun;
     
 
 
