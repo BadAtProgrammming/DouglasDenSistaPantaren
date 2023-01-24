@@ -52,20 +52,12 @@ public class GoonScript : MonoBehaviour
         {
             pInReach = true;
         }
-        else
-        {
-            pInReach = false;
-            
-        }
+        
         if (collision.CompareTag("PlayerHurtbox"))
         {
             eInReach = true;
         }
-        else
-        {
-            eInReach = false;
-
-        }
+    
     }
     // Update is called once per frame
     void Update()
@@ -79,16 +71,11 @@ public class GoonScript : MonoBehaviour
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
         }
+      
+
+
         if (timer >= 4 && eInReach == true)
-        {
-            canDoDamage = true;
-        }
-        else
-        {
-            canDoDamage = false;
-        }
-        if (canDoDamage == true)
-        {
+        { 
             pHealth.Health -= 10;
             timer = 0;
         }
