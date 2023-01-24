@@ -13,7 +13,6 @@ public class GoonScript : MonoBehaviour
     private Transform EnemyPosition;
     float timer;
     public bool pInReach;
-    public Coroutine HitStun;
     
 
 
@@ -88,5 +87,7 @@ public class GoonScript : MonoBehaviour
             Instantiate(thingToSpawn, EnemyPosition.position, Quaternion.identity);
             Invoke("Die", 1);
         }
+
+
     }
 }
