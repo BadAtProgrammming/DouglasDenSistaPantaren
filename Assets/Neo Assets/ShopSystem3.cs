@@ -5,13 +5,11 @@ using UnityEngine;
 public class ShopSystem3 : MonoBehaviour
 {
     public GeneralShopSystem shopthinging;
-    public GeneralShopSystem NowDoneshopping2;
     public PantScore ShopPoint;
     // Start is called before the first frame update
     void Start()
     {
         shopthinging =  FindObjectOfType<GeneralShopSystem>();
-        NowDoneshopping2 = FindObjectOfType<GeneralShopSystem>();
         ShopPoint = FindObjectOfType<PantScore>();
     }
 
@@ -22,11 +20,7 @@ public class ShopSystem3 : MonoBehaviour
     }
     public void doneshopping3()
     {
-        if (NowDoneshopping2.Doneshopping2)
-        {
-            shopthinging.shopthing.SetActive(false);
-            Destroy(gameObject);
-        }
+        shopthinging.shopthing.SetActive(false);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
