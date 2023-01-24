@@ -102,6 +102,8 @@ public class Weapons : MonoBehaviour
             Pan = false;
             Axe = false;
             Sign = false;
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasAxe", false);
             anim.SetBool("HasEdge", true);
             anim.SetBool("HasWeapon", true);
         }
@@ -121,6 +123,9 @@ public class Weapons : MonoBehaviour
             Axe = false;
             Sign = false;
             Microsoft = false;
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasAxe", false);
+            anim.SetBool("HasEdge", false);
             anim.SetBool("HasBlade", true);
             anim.SetBool("HasWeapon", true);
         }
@@ -156,6 +161,9 @@ public class Weapons : MonoBehaviour
             LightBlade = false;
             Pan = false;
             Umbrella = false;
+            anim.SetBool("HasEdge", false);
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasEdge", false);
             anim.SetBool("HasAxe", true);
             anim.SetBool("HasWeapon", true);
         }
@@ -170,6 +178,9 @@ public class Weapons : MonoBehaviour
             LightBlade = false;
             Axe = false;
             Umbrella = false;
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasAxe", false);
+            anim.SetBool("HasEdge", false);
             anim.SetBool("HasPan", true);
             anim.SetBool("HasWeapon", true);
         }
