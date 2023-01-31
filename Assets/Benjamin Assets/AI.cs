@@ -66,7 +66,7 @@ public class AI : MonoBehaviour
         }
         void LookForPlayer()
         {
-
+            
 
 
             if (playerdistance <= DisengageRange)  // Checks if player is close enough to enemy

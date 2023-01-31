@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement :MonoBehaviour
 {
+    PlayerHelth health;
     Animator anim;
     public bool IsWalking;
     // Start is called before the first frame update
      void Start()
     {
+        health = GetComponent<PlayerHelth>();
         anim = GetComponent<Animator>();
         anim.SetBool("IsWalking", false);
     }
@@ -105,10 +107,23 @@ public class PlayerMovement :MonoBehaviour
         {
             anim.SetBool("IsWalking", false);
         }
-
+        if (health.TakenDamage == true)
+        {
+            TakenDamage();
+        }
 
     }
-
+    
+    void TakenDamage()
+    {
+        HitStunTimer();
+    }
+    IEnumerator HitStunTimer()
+    {
+        yield return new WaitForSeconds(0.2f);
+    }
+        
+    
 }
 
 

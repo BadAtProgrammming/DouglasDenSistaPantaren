@@ -20,6 +20,7 @@ public class Healing : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //this heals the player
         if (collision.CompareTag("player"))
         {
             Health.Health += 10;
