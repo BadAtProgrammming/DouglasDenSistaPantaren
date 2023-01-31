@@ -81,7 +81,7 @@ public class GoonScript : MonoBehaviour
 
         if (timer >= 4 && eInReach == true)
         { 
-            pHealth.Health -= 10;
+            pHealth.TakeDamage(10);
             timer = 0;
         }
         timer += 1 * Time.deltaTime;

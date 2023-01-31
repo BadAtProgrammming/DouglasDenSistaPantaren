@@ -11,18 +11,32 @@ public class PlayerHelth : MonoBehaviour
     RectTransform transformobject;
     public int Health;
     public bool TakenDamage;
-    
+    float blinkTimer;
+    bool shouldBlink;
+    SpriteRenderer player;
+
 
     bool activated = false;
 
     void Start()
     {
+        player = FindObjectOfType<PlayerMovement>().GetComponent<SpriteRenderer>();
         //References spew out errors nonetheless... I cant fix it for some reason, this is just the best solution -Dev
         anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        if (shouldBlink)
+        {
+            blinkTimer += Time.deltaTime;
+            if (blinkTimer > 0.3)
+            {
+                player.color = Color.white;
+                shouldBlink = false;
+                blinkTimer = 0;
+            }
+        }
 
         //If you have no heath: show death screen -Sixten
         if (Health <= 0 && activated == false)
@@ -41,6 +55,9 @@ public class PlayerHelth : MonoBehaviour
     {
         Health -= amount;
         TakenDamage = true;
+        //blinka
+        shouldBlink = true;
+        player.color = Color.red;
     }
     
 }
