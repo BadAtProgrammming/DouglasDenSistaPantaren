@@ -134,6 +134,7 @@ public class AI : MonoBehaviour
                 Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
                 rb.velocity = velocity;
                 coroutine = StartCoroutine(StrafeTimer());
+                TakenDamage();
             }
             
         
