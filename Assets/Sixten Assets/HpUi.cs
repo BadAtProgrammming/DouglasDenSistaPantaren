@@ -13,6 +13,7 @@ public class HpUi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        HpControle.color = new Color(1, 1, 1, 1);
         Playerobject = GameObject.Find("Health Maneger");
         HealthUi = Playerobject.GetComponent<PlayerHelth>();
     }
@@ -20,5 +21,9 @@ public class HpUi : MonoBehaviour
     void Update()
     {
         HpControle.text = "HP: " + HealthUi.Health;
+        if (HealthUi.Health <= 30)
+        {
+            HpControle.color = new Color(1, 0, 0, 1);
+        }
     }
 }
