@@ -120,7 +120,7 @@ public class PlayerMovement :MonoBehaviour
     }
     IEnumerator HitStunTimer()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.01f);
     }
         
     
