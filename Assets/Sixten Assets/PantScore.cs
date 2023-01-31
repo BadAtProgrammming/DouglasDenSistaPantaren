@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PantScore : MonoBehaviour
 {
+    public AudioSource pantAdio;
     
    [SerializeField] Text ScoreText;
     
@@ -25,10 +26,12 @@ public class PantScore : MonoBehaviour
         if (collision.CompareTag("Pant"))
         {
             score += 1;
+            pantAdio.Play();
         }
         if (collision.CompareTag("Pant2"))
         {
             score += 2;
+            pantAdio.Play();
         }
         if (collision.CompareTag("MegusPantus"))
         {
