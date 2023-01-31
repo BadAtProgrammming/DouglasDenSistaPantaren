@@ -50,14 +50,15 @@ public class PlayerHelth : MonoBehaviour
             activated = true;
             anim.SetInteger("Death", Random.Range(0, 6));
         }
+      
     }
     public void TakeDamage(int amount)
     {
         Health -= amount;
-        TakenDamage = true;
         //blinka
         shouldBlink = true;
         player.color = Color.red;
+        TakenDamage = true;
     }
     
 }

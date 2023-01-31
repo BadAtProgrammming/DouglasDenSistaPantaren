@@ -12,8 +12,12 @@ public class TriggerWall : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        player.leftBorder = newBorder;
-        CameraMovement.leftCBorder = newLeftC;
+        if (collider.tag == "player")
+        {
+
+            player.leftBorder = newBorder;
+            CameraMovement.leftCBorder = newLeftC;
+        }
     }
 
         
