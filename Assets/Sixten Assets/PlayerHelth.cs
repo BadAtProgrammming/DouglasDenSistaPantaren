@@ -10,7 +10,7 @@ public class PlayerHelth : MonoBehaviour
     [SerializeField]
     RectTransform transformobject;
     public int Health;
-    Coroutine HitStun;
+    public bool TakenDamage;
     
 
     bool activated = false;
@@ -40,11 +40,7 @@ public class PlayerHelth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         Health -= amount;
-        HitStun = StartCoroutine(HitStunTimer());
+        TakenDamage = true;
     }
-    IEnumerator HitStunTimer()
-    {
-        yield return new WaitForSeconds(0.2f);
-        HitStun = null;
-    }
+    
 }
