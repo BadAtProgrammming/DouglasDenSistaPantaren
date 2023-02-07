@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    PlayerHelth Health;
     PlayerMovement playerSpeed;
     // Start is called before the first frame update
     void Start()
     {
         playerSpeed = FindObjectOfType<PlayerMovement>();
+    }
+    private void Awake()
+    {
+        Health = FindObjectOfType<PlayerHelth>();
     }
 
     [SerializeField] //gör denna alltid 3 högre än player border
@@ -22,7 +27,9 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("d") && canCRight == true)
+      if(Health.stunned == false) //if not stunned character can move - benjamin
+      { 
+        if (Input.GetKey("d") && canCRight == true) // camera movement - daniel
         {
             transform.position = transform.position += transform.right * playerSpeed.playerSpeed * Time.deltaTime;
         }
@@ -30,9 +37,10 @@ public class CameraMovement : MonoBehaviour
         {
             transform.position = transform.position -= transform.right * playerSpeed.playerSpeed * Time.deltaTime;
         }
+      }
 
 
-        if (transform.position.x <= leftCBorder)
+        if (transform.position.x <= leftCBorder) 
         {
             canCLeft = false;
         }

@@ -33,13 +33,13 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PunchTimer += Time.deltaTime * FramesPS; //not actual frames per second, just a dumb name.
+        PunchTimer += Time.deltaTime * FramesPS; //not actual frames per second, just a dumb name. - benjamin
         KickTimer += Time.deltaTime * FramesPS;
         ComboStep1 += Time.deltaTime * FramesPS;
         WeaponTimer += Time.deltaTime * FramesPS;
 
         #region Buttons
-        if (Input.GetKeyDown(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim.
+        if (Input.GetKeyDown(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim. - benjamin
         {
             anim.SetBool("PunchOne", true);
             PunchTimer = 0;
@@ -49,7 +49,7 @@ public class Attacks : MonoBehaviour
         else{
             anim.SetBool("PunchOne", false);
         }
-        if (Input.GetKeyDown(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){ // Second punch attack
+        if (Input.GetKeyDown(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){ // Second punch attack - benjamin
             anim.SetBool("PunchTwo", true);
         }
         else{
@@ -57,12 +57,12 @@ public class Attacks : MonoBehaviour
         }
         #endregion
        
-        if (PunchTimer >= WeaponCooldown) //punch cooldown
+        if (PunchTimer >= WeaponCooldown) //punch cooldown - benjamin
         {
             ReadyPunch = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon
+        if (Input.GetKeyDown(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon - benjamin
         {
             anim.SetBool("ReadySwing", true);
             Swinging = true;

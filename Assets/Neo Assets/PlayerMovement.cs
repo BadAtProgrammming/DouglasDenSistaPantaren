@@ -36,13 +36,13 @@ public class PlayerMovement :MonoBehaviour
     public bool canUp = true;
     public bool canLeft = true;
     public bool canRight = true;
-    bool stunned = false;
+    
     #endregion
     // Update is called once per frame
    
     void Update()
     {
-      if(stunned == false)
+      if(Health.stunned == false) // if character is stunned cant move - benjamin
         {
             if (Input.GetKey("d") && canRight == true) //movement -Sixten & Daniel
             {
@@ -117,16 +117,6 @@ public class PlayerMovement :MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
     }
-    
-    IEnumerator TakenDamage() //Stun -Benjamin
-    {
-        stunned = true;
-        yield return new WaitForSeconds(2);
-        stunned = false;
-    }
-    
-        
-    
 }
 
 
