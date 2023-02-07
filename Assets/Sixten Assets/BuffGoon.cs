@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Made by Sixten
 public class BuffGoon : MonoBehaviour
 {
     GameObject DamageMod;
@@ -34,9 +34,8 @@ public class BuffGoon : MonoBehaviour
 
     private void Die()
     {
-
-        canDoDamage = false;
-        Destroy(gameObject);
+        canDoDamage = false;//If enemy is dead it can´t do damage -Sixten
+        Destroy(gameObject);//Removes enemy when it is dead -Sixten
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -44,11 +43,11 @@ public class BuffGoon : MonoBehaviour
         if (collision.CompareTag("PlayerAttackbox"))
         {
             pInReach = false;
-        }
+        } //When there is no collition with the player attackbox the player is not in reach of the enemy -Sixten
         if (collision.CompareTag("PlayerHurtbox"))
         {
             eInReach = false;
-        }
+        }//When there is no collition with the player hurtbox the enemy is not in reach of the player -Sixten
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,12 +55,12 @@ public class BuffGoon : MonoBehaviour
         if (collision.CompareTag("PlayerAttackbox"))
         {
             pInReach = true;
-        }
+        } // when there is a collition with the player attackbox the player is in reach of the enemy -Sixten
 
         if (collision.CompareTag("PlayerHurtbox"))
         {
             eInReach = true;
-        }
+        }// when there is a collition with the player hurtbox the enemy is in reach of the player -Sixten
 
     }
     // Update is called once per frame
@@ -70,12 +69,12 @@ public class BuffGoon : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
         {
             eHealth -= Damage.Damage;
-        }
+        } //if you press N and the player is in reach of the enemy the enemy takes damage
         if (eHealth <= 0)
         {
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
-        }
+        }//when the enemy dies it dropps "Pant"
 
 
 
@@ -83,7 +82,8 @@ public class BuffGoon : MonoBehaviour
         {
             pHealth.Health -= 15;
             timer = 0;
-        }
+        }// makes the enemy hurt the player every 4 seconds when in reach.
+
         timer += 1 * Time.deltaTime;
 
         if (eHealth <= 0 && candie)
