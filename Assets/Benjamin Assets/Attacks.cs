@@ -38,18 +38,7 @@ public class Attacks : MonoBehaviour
         ComboStep1 += Time.deltaTime * FramesPS;
         WeaponTimer += Time.deltaTime * FramesPS;
 
-
-
-        #region buttons
-        if (Input.GetKeyDown(KeyCode.M) && ReadyKick == true && weapons.Unarmed == true) // scrapped code ignore
-        {
-            print("m");
-            KickTimer = 0;
-            ReadyKick = false;
-        }
-        
-        
-        
+        #region Buttons
         if (Input.GetKeyDown(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim.
         {
             anim.SetBool("PunchOne", true);
