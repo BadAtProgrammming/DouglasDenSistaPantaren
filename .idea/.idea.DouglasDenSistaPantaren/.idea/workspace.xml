@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2eca2-9c7d-47c9-a38c-ac7eff94a264" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DouglasDenSistaPantaren/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/BuyFunction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/BuyFunction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Neo Assets/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Neo Assets/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Benjamin Assets/EnemyDamageScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Benjamin Assets/EnemyDamageScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <workItem from="1674038741368" duration="1847000" />
       <workItem from="1674116613647" duration="3475000" />
       <workItem from="1674122299006" duration="8055000" />
-      <workItem from="1675755367101" duration="728000" />
+      <workItem from="1675755367101" duration="1117000" />
     </task>
     <servers />
   </component>
