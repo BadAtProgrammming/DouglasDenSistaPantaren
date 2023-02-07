@@ -47,23 +47,19 @@ public class AI : MonoBehaviour
         if (_currentState == State.Idle) //Idle doesnt do much, just a state for the other states to change from. Also a State for LookForPlayer() to change to other states
         {
             LookForPlayer();
-            print("idle");
         }
         if (_currentState == State.Chase) // State for ChasePlayer()
         {
             ChasePlayer();
-            print("chasing");
         }
         if (_currentState == State.Attack) // State for AttackPlayer()
         {
 
             AttackPlayer();
-            print("attack");
         }
         if (_currentState == State.IdleMoving) // State for Strafing()
         {
             Strafing();
-            print("strafe");
         }
         void LookForPlayer()
         {
@@ -94,7 +90,6 @@ public class AI : MonoBehaviour
             if (playerdistance <= Reach)
             {
                 rb.velocity = Vector2.zero;
-                print("attack");
                 _currentState = State.Attack;
                 transform.localScale = new Vector2(3,3);
             }
@@ -128,7 +123,6 @@ public class AI : MonoBehaviour
         {
 
             //Code to make enemy character run away after for example player is hit or downed, works?
-            print("wtf");
             if(_currentState == State.IdleMoving)
             {
                 Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
