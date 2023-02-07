@@ -36,32 +36,37 @@ public class PlayerMovement :MonoBehaviour
     public bool canUp = true;
     public bool canLeft = true;
     public bool canRight = true;
+    
     #endregion
     // Update is called once per frame
    
     void Update()
     {
-        if (Input.GetKey("d") && canRight == true) //movement -Sixten & Daniel
+      if(Health.stunned == false) // if character is stunned cant move - benjamin
         {
-            transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(3.5f,3.5f );
-            
-        }
-       
-        if (Input.GetKey("a") && canLeft == true)
-        {
-            transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
-            transform.localScale = new Vector2(-3.5f,3.5f );
+            if (Input.GetKey("d") && canRight == true) //movement -Sixten & Daniel
+            {
+                transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
+                transform.localScale = new Vector2(3.5f, 3.5f);
+
+            }
+
+            if (Input.GetKey("a") && canLeft == true)
+            {
+                transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
+                transform.localScale = new Vector2(-3.5f, 3.5f);
+            }
+
+            if (Input.GetKey("w") && canUp == true)
+            {
+                transform.position = transform.position += transform.up * playerSpeed * Time.deltaTime;
+            }
+            if (Input.GetKey("s") && canDown == true)
+            {
+                transform.position = transform.position -= transform.up * playerSpeed * Time.deltaTime;
+            }
         }
         
-        if (Input.GetKey("w") && canUp == true)
-        {
-            transform.position = transform.position += transform.up * playerSpeed * Time.deltaTime;
-        }
-        if (Input.GetKey("s") && canDown == true)
-        {
-            transform.position = transform.position -= transform.up * playerSpeed * Time.deltaTime;
-        }
 
         #region
         if (transform.position.y <= DownBorder) //gör så karaktären kan inte gå out of bounds
@@ -111,23 +116,7 @@ public class PlayerMovement :MonoBehaviour
         {
             anim.SetBool("IsWalking", false);
         }
-        if (Health.TakenDamage)
-        {
-            TakenDamage();
-        }
-
     }
-    
-    void TakenDamage() //Stun -Benjamin
-    {
-        HitStunTimer();
-    }
-    IEnumerator HitStunTimer()
-    {
-        yield return new WaitForSeconds(0.2f);
-    }
-        
-    
 }
 
 

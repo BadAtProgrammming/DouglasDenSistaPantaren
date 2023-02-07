@@ -10,10 +10,10 @@ public class PlayerHelth : MonoBehaviour
     [SerializeField]
     RectTransform transformobject;
     public int Health;
-    public bool TakenDamage;
     float blinkTimer;
     bool shouldBlink;
     SpriteRenderer player;
+    public bool stunned = false;
 
 
     bool activated = false;
@@ -58,7 +58,16 @@ public class PlayerHelth : MonoBehaviour
         //blinka
         shouldBlink = true;
         player.color = Color.red;
-        TakenDamage = true;
+        StartCoroutine(TakenDamage());
     }
-    
+
+    IEnumerator TakenDamage() //Stuns the player, disables camera and movement -Benjamin
+    {
+        print("ASS");
+        stunned = true;
+        yield return new WaitForSeconds(0.2f);
+        stunned = false;
+        print("PAIN");
+    }
+
 }

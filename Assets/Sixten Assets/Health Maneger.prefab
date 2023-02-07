@@ -45,7 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e048580c956854c84ea77f76a87af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transformobject: {fileID: 3273127615495546099}
   Health: 100
+  TakenDamage: 0
 --- !u!1 &3273127614106242109
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HpControle: {fileID: 0}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  endColor: {r: 1, g: 0, b: 0, a: 1}
+  speed: 1
 --- !u!1 &3273127615495546103
 GameObject:
   m_ObjectHideFlags: 0
