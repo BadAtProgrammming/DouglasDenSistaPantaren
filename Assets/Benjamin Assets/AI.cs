@@ -15,7 +15,8 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving //States to group together actions
+        IdleMoving, 
+        TakeDamage //States to group together actions
     }
 
     private State _currentState; // represents current state of AI
@@ -133,9 +134,18 @@ public class AI : MonoBehaviour
                 Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
                 rb.velocity = velocity;
                 coroutine = StartCoroutine(StrafeTimer());
+                TakenDamage();
             }
             
         
+        }
+
+        void TakenDamage()
+        {
+            if(_currentState == State.TakeDamage)
+            {
+                HitStun();
+            }
         }
         
         IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
@@ -143,6 +153,11 @@ public class AI : MonoBehaviour
             yield return new WaitForSeconds(2f);
             _currentState = State.Chase;
             coroutine = null;
+        }
+
+        IEnumerator HitStun()
+        {
+            yield return new WaitForSeconds(0.2f);
         }
 
 

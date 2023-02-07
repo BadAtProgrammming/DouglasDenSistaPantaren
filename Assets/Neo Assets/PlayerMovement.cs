@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement :MonoBehaviour
 {
-    PlayerHelth health;
+    PlayerHelth Health;
     Animator anim;
     public bool IsWalking;
     // Start is called before the first frame update -daniel
      void Start()
     {
-        health = GetComponent<PlayerHelth>();
         anim = GetComponent<Animator>();
         anim.SetBool("IsWalking", false);
     }
-    
+
+    private void Awake()
+    {
+        Health = FindObjectOfType<PlayerHelth>();
+    }
+
     [SerializeField]
     public float playerSpeed;
     #region
@@ -107,7 +111,7 @@ public class PlayerMovement :MonoBehaviour
         {
             anim.SetBool("IsWalking", false);
         }
-        if (health.TakenDamage == true)
+        if (Health.TakenDamage)
         {
             TakenDamage();
         }
