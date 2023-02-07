@@ -40,7 +40,7 @@ public class Weapons : MonoBehaviour
 
     public void Dura()
     {
-        print("hej");
+        print("Durability -1");
         Durability -= 1;
         if (Durability <= 0)
         {
