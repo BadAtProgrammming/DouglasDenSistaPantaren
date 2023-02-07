@@ -7,7 +7,7 @@ public class PlayerMovement :MonoBehaviour
     PlayerHelth health;
     Animator anim;
     public bool IsWalking;
-    // Start is called before the first frame update
+    // Start is called before the first frame update -daniel
      void Start()
     {
         health = GetComponent<PlayerHelth>();
@@ -18,7 +18,7 @@ public class PlayerMovement :MonoBehaviour
     [SerializeField]
     public float playerSpeed;
     #region
-    [SerializeField]
+    [SerializeField] //gör så man kan sätta en border -daniel
     float UpBorder;
     [SerializeField]
     float DownBorder;
@@ -28,7 +28,7 @@ public class PlayerMovement :MonoBehaviour
     public int rightBorder;
     #endregion
     #region
-    public bool canDown = true;
+    public bool canDown = true;//gör så playern går inte genom bordern
     public bool canUp = true;
     public bool canLeft = true;
     public bool canRight = true;
@@ -37,7 +37,7 @@ public class PlayerMovement :MonoBehaviour
    
     void Update()
     {
-        if (Input.GetKey("d") && canRight == true) //movement
+        if (Input.GetKey("d") && canRight == true) //movement -Sixten & Daniel
         {
             transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
             transform.localScale = new Vector2(3.5f,3.5f );
@@ -98,7 +98,7 @@ public class PlayerMovement :MonoBehaviour
         #endregion
 
         
-        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d")) //Animationer - Benjamin
         {
             anim.SetBool("IsWalking", true);
             IsWalking = true;
@@ -114,7 +114,7 @@ public class PlayerMovement :MonoBehaviour
 
     }
     
-    void TakenDamage()
+    void TakenDamage() //Stun -Benjamin
     {
         HitStunTimer();
     }
