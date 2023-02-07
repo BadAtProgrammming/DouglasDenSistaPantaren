@@ -36,7 +36,7 @@ public class PlayerHelth : MonoBehaviour
                 shouldBlink = false;
                 blinkTimer = 0;
             }
-        }
+        }//makes you flash red when you take damage -Sixten
 
         //If you have no heath: show death screen -Sixten
         if (Health <= 0 && activated == false)

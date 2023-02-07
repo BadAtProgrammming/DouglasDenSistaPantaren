@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//By Sixten
 public class Healing : MonoBehaviour
 {
-    //Gotta reference everything since sixten got a skill issue -Dev
+ 
     GameObject healthmodel;
     PlayerHelth Health;
 
@@ -12,7 +12,7 @@ public class Healing : MonoBehaviour
     {
         healthmodel = GameObject.Find("Health Maneger");
         Health = healthmodel.GetComponent<PlayerHelth>();
-    }
+    } //refrenses player helth
 
     void Update()
     {

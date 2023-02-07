@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//By Sixten
 public class PantScore : MonoBehaviour
 {
     public AudioSource pantAdio;
@@ -37,5 +38,6 @@ public class PantScore : MonoBehaviour
         {
             score = 666;
         }
+        //When you pick up diffrent "pant" you get different amounts of points and a sound is playd  
     }
 }

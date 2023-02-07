@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Made by Sixten
 public class GoonScript : MonoBehaviour
 {
     GameObject DamageMod;

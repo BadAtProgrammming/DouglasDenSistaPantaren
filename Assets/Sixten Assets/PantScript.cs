@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//By Sixten
 public class PantScript : MonoBehaviour
 {
    
@@ -33,6 +33,6 @@ public class PantScript : MonoBehaviour
         if (collision.CompareTag("player") || collision.CompareTag("PlayerAttackbox"))
         {
             Destroy(gameObject);
-        }
+        }//if the player walks into the "Pant" the "Pant" gets destroid -Sixten
     }
 }
