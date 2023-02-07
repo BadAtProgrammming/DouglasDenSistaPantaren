@@ -28,6 +28,8 @@ public class Attacks : MonoBehaviour
         anim.SetBool("PunchTwo", true);
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -39,7 +41,7 @@ public class Attacks : MonoBehaviour
 
 
         #region buttons
-        if (Input.GetKey(KeyCode.M) && ReadyKick == true && weapons.Unarmed == true) // scrapped code ignore
+        if (Input.GetKeyDown(KeyCode.M) && ReadyKick == true && weapons.Unarmed == true) // scrapped code ignore
         {
             print("m");
             KickTimer = 0;
@@ -48,7 +50,7 @@ public class Attacks : MonoBehaviour
         
         
         
-        if (Input.GetKey(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim.
+        if (Input.GetKeyDown(KeyCode.N) && ReadyPunch == true && weapons.Unarmed == true && PunchTimer >= 15) // system for if character punches one or twice. lets player keep pressing the button to loop the anim.
         {
             anim.SetBool("PunchOne", true);
             PunchTimer = 0;
@@ -58,7 +60,7 @@ public class Attacks : MonoBehaviour
         else{
             anim.SetBool("PunchOne", false);
         }
-        if (Input.GetKey(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){ // Second punch attack
+        if (Input.GetKeyDown(KeyCode.N) && ComboStep1 >= 5 && PunchTimer <= WeaponCooldown){ // Second punch attack
             anim.SetBool("PunchTwo", true);
         }
         else{
@@ -77,13 +79,13 @@ public class Attacks : MonoBehaviour
             ReadyPunch = true;
         }
 
-        if (Input.GetKey(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon
+        if (Input.GetKeyDown(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon
         {
-            weapons.Durability -= 1;
             print("Attackswing");
             anim.SetBool("ReadySwing", true);
             Swinging = true;
-        }else {
+        }
+        else{
             anim.SetBool("ReadySwing", false);
             Swinging = false;
         }
