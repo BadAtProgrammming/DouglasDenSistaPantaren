@@ -41,6 +41,11 @@ public class Weapons : MonoBehaviour
             Durability = 20; 
         }
 
+    public void Dura()
+    {
+        print("hej");
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -74,6 +79,7 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasWeapon", false);
             HasWeapon = false;
         }
+        
         
     }
 
