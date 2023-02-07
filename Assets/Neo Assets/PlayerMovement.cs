@@ -116,11 +116,6 @@ public class PlayerMovement :MonoBehaviour
         {
             anim.SetBool("IsWalking", false);
         }
-        if (Health.TakenDamage)
-        {
-            TakenDamage();
-        }
-
     }
     
     IEnumerator TakenDamage() //Stun -Benjamin
