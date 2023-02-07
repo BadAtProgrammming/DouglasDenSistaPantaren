@@ -35,11 +35,26 @@ public class Weapons : MonoBehaviour
         Pant = pantmodel.GetComponent<PantScore>();
         Weapondamage = FindObjectOfType<EnemyDamageScript>();
             anim = GetComponent<Animator>();
-            anim.SetBool("HasSign", true);
-            anim.SetBool("HasWeapon", true);
-            HasWeapon = true;
-            Durability = 20; 
+            Signfun();
         }
+
+    public void Dura()
+    {
+        print("Durability -1");
+        Durability -= 1;
+        if (Durability <= 0)
+        {
+            anim.SetBool("HasWeapon", false);
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasEdge", false);
+            anim.SetBool("HasBlade", false);
+            anim.SetBool("HasUmbrella", false);
+            anim.SetBool("HasPan", false);
+            anim.SetBool("HasAxe", false);
+            HasWeapon = false;
+            Unarmed = true;
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -69,11 +84,17 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasPan", false);
         }
 
+        if (Sign == true || LightBlade == true || Umbrella == true || Pan == true || Microsoft == true)
+        {
+            anim.SetBool("HasAxe", false);
+        }
+        
         if (Sign == false && Microsoft == false && LightBlade == false && Umbrella == false && Axe == false && Pan == false)
         {
             anim.SetBool("HasWeapon", false);
             HasWeapon = false;
         }
+        
         
     }
 
@@ -84,7 +105,7 @@ public class Weapons : MonoBehaviour
         if (Sign == true)
         {
             Damage = 5;
-            Durability = 20;
+            Durability = 16;
             Microsoft = false;
             LightBlade = false;
             Umbrella = false;
@@ -108,7 +129,7 @@ public class Weapons : MonoBehaviour
         if (Microsoft == true)
         {
             Damage = 500;
-            Durability = 10;
+            Durability = 8;
             Pant.score -= 70;
             LightBlade = false;
             Umbrella = false;
@@ -136,7 +157,7 @@ public class Weapons : MonoBehaviour
        
         if (LightBlade == true)
         {
-            Durability = 15;
+            Durability = 12;
             Pant.score -= 50;
             Umbrella = false;
             Pan = false;
@@ -161,7 +182,7 @@ public class Weapons : MonoBehaviour
         Umbrella = true;
         if (Umbrella == true)
         {
-            Durability = 15;
+            Durability = 12;
             Pant.score -= 99999999;
             Pan = false;
             Axe = false;
@@ -187,7 +208,7 @@ public class Weapons : MonoBehaviour
         if (Axe == true)
         {
             Damage = 10;
-            Durability = 20;
+            Durability = 14;
             Pant.score -= 15;
             Sign = false;
             Microsoft = false;
@@ -212,7 +233,7 @@ public class Weapons : MonoBehaviour
         if (Pan == true)
         {
             Damage = 15;
-            Durability = 15;
+            Durability = 10;
             Sign = false;
             Microsoft = false;
             LightBlade = false;
