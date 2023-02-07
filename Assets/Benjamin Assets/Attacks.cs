@@ -56,13 +56,7 @@ public class Attacks : MonoBehaviour
             anim.SetBool("PunchTwo", false);
         }
         #endregion
-
-        if(KickTimer >= 20) // scrapped code for kick attack
-        {
-            ReadyKick = true;
-        }
        
-
         if (PunchTimer >= WeaponCooldown) //punch cooldown
         {
             ReadyPunch = true;
@@ -70,7 +64,6 @@ public class Attacks : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon
         {
-            print("Attackswing");
             anim.SetBool("ReadySwing", true);
             Swinging = true;
         }
