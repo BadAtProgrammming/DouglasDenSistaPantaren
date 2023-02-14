@@ -38,7 +38,7 @@ public class Weapons : MonoBehaviour
             Signfun();
         }
 
-    public void Dura() // this is my fucking code - benjamin
+    public void Dura() // If weapon swings durability of weapon minus 1 - benjamin
     {
         print("Durability -1");
         Durability -= 1;
@@ -141,12 +141,12 @@ public class Weapons : MonoBehaviour
     {
         if(Pant.score >= 50)
         {
-            Damage = 25;
             LightBlade = true;
         }
        
         if (LightBlade == true)
         {
+            Damage = 25;
             Durability = 12;
             Pant.score -= 50;
             Umbrella = false;
@@ -206,6 +206,7 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasEdge", false);
             anim.SetBool("HasSign", false);
             anim.SetBool("HasEdge", false);
+            anim.SetBool("HasBlade", false);
             anim.SetBool("HasAxe", true);
             anim.SetBool("HasWeapon", true);
         }
@@ -230,6 +231,7 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasSign", false);
             anim.SetBool("HasAxe", false);
             anim.SetBool("HasEdge", false);
+            anim.SetBool("HasBlade", false);
             anim.SetBool("HasPan", true);
             anim.SetBool("HasWeapon", true);
         }
