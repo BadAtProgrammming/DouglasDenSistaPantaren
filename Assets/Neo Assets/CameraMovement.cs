@@ -29,18 +29,18 @@ public class CameraMovement : MonoBehaviour
     {
       if(Health.stunned == false) //if not stunned character can move - benjamin
       { 
-        if (Input.GetKey("d") && canCRight == true) // camera movement - daniel
+        if (Input.GetKey("d") && canCRight == true)//Makes the camera move right -Sixten
         {
             transform.position = transform.position += transform.right * playerSpeed.playerSpeed * Time.deltaTime;
-        }
-        if (Input.GetKey("a") && canCLeft == true)
-        {
+            }
+        if (Input.GetKey("a") && canCLeft == true)//Makes the camera move left -Sixten
+            {
             transform.position = transform.position -= transform.right * playerSpeed.playerSpeed * Time.deltaTime;
         }
       }
 
 
-        if (transform.position.x <= leftCBorder) 
+        if (transform.position.x <= leftCBorder)//the camrea can't move past the left camera border -Sixten
         {
             canCLeft = false;
         }
@@ -49,7 +49,7 @@ public class CameraMovement : MonoBehaviour
             canCLeft = true;
         }
 
-        if (transform.position.x >= rightCBorder)
+        if (transform.position.x >= rightCBorder)//the camrea can't move past the right camera border -Sixten
         {
             canCRight = false;
         }
