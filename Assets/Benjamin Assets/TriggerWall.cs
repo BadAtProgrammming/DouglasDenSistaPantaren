@@ -10,7 +10,7 @@ public class TriggerWall : MonoBehaviour
     public int newLeftC;
     // Start is called before the first frame update
 
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerEnter2D(Collider2D collider) 
     {
         if (collider.tag == "player")
         {
@@ -19,6 +19,6 @@ public class TriggerWall : MonoBehaviour
             CameraMovement.leftCBorder = newLeftC;
         }
     }
-
+    //This script check if player is in collision with object, if touched changes camera and border int values. Only left ones becaus you move to the right. duh.
         
 }
