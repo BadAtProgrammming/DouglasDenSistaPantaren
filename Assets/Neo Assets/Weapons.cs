@@ -157,23 +157,31 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasSign", false);
             anim.SetBool("HasAxe", false);
             anim.SetBool("HasEdge", false);
+            anim.SetBool("HasUmbrella", false);
             anim.SetBool("HasBlade", true);
             anim.SetBool("HasWeapon", true);
         }
     }
     public void UmbrellaFun()
     {
-        if(Pant.score >= 999999999)
-        Umbrella = true;
+        if(Pant.score >= 5)
+        {
+            Umbrella = true;
+        }
         if (Umbrella == true)
         {
-            Durability = 12;
-            Pant.score -= 99999999;
+            Damage = 5;
+            Durability = 20;
+            Pant.score -= 5;
             Pan = false;
             Axe = false;
             Sign = false;
             Microsoft = false;
             LightBlade = false;
+            anim.SetBool("HasSign", false);
+            anim.SetBool("HasAxe", false);
+            anim.SetBool("HasEdge", false);
+            anim.SetBool("HasBlade", false);
             anim.SetBool("HasUmbrella", true);
             anim.SetBool("HasWeapon", true);
         }
