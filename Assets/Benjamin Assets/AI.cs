@@ -102,7 +102,7 @@ public class AI : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 anim.SetBool("AITTACK", true);
-                StartCoroutine(StrafeTimer());
+                coroutine = StartCoroutine(StrafeTimer());
             }
             else if(playerdistance >= Reach)
             {
@@ -118,8 +118,8 @@ public class AI : MonoBehaviour
             yield return new WaitForSeconds(3f);
             Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
             rb.velocity = velocity;
+            _currentState = State.Chase;
             coroutine = null;
-            _currentState = State.Idle;
         }
 
         
