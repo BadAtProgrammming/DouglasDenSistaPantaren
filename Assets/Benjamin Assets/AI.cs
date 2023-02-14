@@ -102,7 +102,6 @@ public class AI : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 anim.SetBool("AITTACK", true);
-                coroutine = StartCoroutine(StrafeTimer());
             }
             else if(playerdistance >= Reach)
             {
@@ -113,9 +112,12 @@ public class AI : MonoBehaviour
             
         }
         
-      IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
+      IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing. WIP
         {
+            Animator anim;
+            anim = GetComponent<Animator>();
             yield return new WaitForSeconds(3f);
+            anim.SetBool("AITTACK", false);
             Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
             rb.velocity = velocity;
             _currentState = State.Chase;
