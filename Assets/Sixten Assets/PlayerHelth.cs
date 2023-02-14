@@ -47,7 +47,8 @@ public class PlayerHelth : MonoBehaviour
             GameObject.Find("pHurtbox").GetComponent<PlayerTakeDamage>().enabled = false;//You can´t take damage when you are dead -Sixten
             //When health 0 activates the entire canvasobject and its components -Dev
             transformobject.anchoredPosition = new Vector3(640f, 360f, 0f);
-            anim.SetInteger("Death", Random.Range(0, 6));
+            
+            anim.SetInteger("Death", Random.Range(0, 6)); // plays death animation if player is well... dead. - benjamin
             activated = true;
         }
       
