@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerHelth : MonoBehaviour
 {
+    [SerializeField]
     Animator anim;
     [SerializeField]
     RectTransform transformobject;
@@ -22,7 +23,6 @@ public class PlayerHelth : MonoBehaviour
     {
         player = FindObjectOfType<PlayerMovement>().GetComponent<SpriteRenderer>();
         //References spew out errors nonetheless... I cant fix it for some reason, this is just the best solution -Dev
-        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -47,8 +47,8 @@ public class PlayerHelth : MonoBehaviour
             GameObject.Find("pHurtbox").GetComponent<PlayerTakeDamage>().enabled = false;
             //When health 0 activates the entire canvasobject and its components -Dev
             transformobject.anchoredPosition = new Vector3(640f, 360f, 0f);
-            activated = true;
             anim.SetInteger("Death", Random.Range(0, 6));
+            activated = true;
         }
       
     }
