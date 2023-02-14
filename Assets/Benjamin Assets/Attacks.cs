@@ -62,7 +62,7 @@ public class Attacks : MonoBehaviour
             ReadyPunch = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.N) && weapons.Unarmed == false && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon - benjamin
+        if (Input.GetKeyDown(KeyCode.N) && weapons.HasWeapon == true && ReadyKick == true) // checks if character should swing weapon - benjamin
         {
             anim.SetBool("ReadySwing", true);
             Swinging = true;

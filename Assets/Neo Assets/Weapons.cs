@@ -38,7 +38,7 @@ public class Weapons : MonoBehaviour
             Signfun();
         }
 
-    public void Dura()
+    public void Dura() // this is my fucking code - benjamin
     {
         print("Durability -1");
         Durability -= 1;
@@ -113,11 +113,6 @@ public class Weapons : MonoBehaviour
             Axe = false;
             anim.SetBool("HasSign", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasSign", false);
-            }
         }
     }
     public void MicrosoftFun()
@@ -140,11 +135,6 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasAxe", false);
             anim.SetBool("HasEdge", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasEdge", false);
-            }
         }
     }
     public void LightBladeFun()
@@ -169,11 +159,6 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasEdge", false);
             anim.SetBool("HasBlade", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasBlade", false);
-            }
         }
     }
     public void UmbrellaFun()
@@ -191,11 +176,6 @@ public class Weapons : MonoBehaviour
             LightBlade = false;
             anim.SetBool("HasUmbrella", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasUmbrella", false);
-            }
         }
     }
     public void AxeFun()
@@ -220,20 +200,20 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasEdge", false);
             anim.SetBool("HasAxe", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasAxe", false);
-            }
         }
     }
     public void PanFun()
     {
-        Pan = true;
+        if(Pant.score >= 25)
+        {
+            Pan = true;
+        }
+        
         if (Pan == true)
         {
             Damage = 15;
             Durability = 10;
+            Pant.score -= 25;
             Sign = false;
             Microsoft = false;
             LightBlade = false;
@@ -244,11 +224,6 @@ public class Weapons : MonoBehaviour
             anim.SetBool("HasEdge", false);
             anim.SetBool("HasPan", true);
             anim.SetBool("HasWeapon", true);
-            if (Durability <= 0)
-            {
-                anim.SetBool("HasWeapon", false);
-                anim.SetBool("HasPan", false);
-            }
         }
     }
 }
