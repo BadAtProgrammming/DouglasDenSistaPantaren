@@ -14,7 +14,6 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving, 
         TakeDamage //States to group together actions
     }
 
@@ -35,7 +34,6 @@ public class AI : MonoBehaviour
 
     private void Update()
     {
-        int StrafeLuck = 0;
         float DisengageRange = 21;
         float Reach = 2;
         float detectRange = 20;
@@ -55,10 +53,6 @@ public class AI : MonoBehaviour
         {
 
             AttackPlayer();
-        }
-        if (_currentState == State.IdleMoving) // State for Strafing()
-        {
-            Strafing();
         }
         void LookForPlayer()
         {
@@ -108,6 +102,7 @@ public class AI : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 anim.SetBool("AITTACK", true);
+                StartCoroutine(StrafeTimer());
             }
             else if(playerdistance >= Reach)
             {
@@ -115,50 +110,19 @@ public class AI : MonoBehaviour
                 _currentState = State.Chase;
                 anim.SetBool("AITTACK", false);
             }
-            StrafeLuck = Random.Range(0, 640);
-            if (StrafeLuck == 1)
-            {
-                _currentState = State.IdleMoving;
-            }
-
-        }
-        void Strafing()
-        {
-            //Code to make enemy character run away after for example player is hit or downed, works? - benjamin
-            Animator anim;
-            anim = GetComponent<Animator>();
-            if (_currentState == State.IdleMoving)
-            {
-                anim.SetBool("AITTACK", false);
-                Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
-                rb.velocity = velocity;
-                coroutine = StartCoroutine(StrafeTimer());
-                TakenDamage();
-            }
             
-        
-        }
-
-        void TakenDamage()
-        {
-            if(_currentState == State.TakeDamage)
-            {
-                HitStun();
-            }
         }
         
-        IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
+      IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
         {
-            yield return new WaitForSeconds(2f);
-            _currentState = State.Chase;
+            yield return new WaitForSeconds(3f);
+            Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
+            rb.velocity = velocity;
             coroutine = null;
+            _currentState = State.Idle;
         }
 
-        IEnumerator HitStun()
-        {
-            yield return new WaitForSeconds(0.2f);
-        }
-
+        
 
     
     
