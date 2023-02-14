@@ -57,7 +57,7 @@ public class Weapons : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() // Checks whats true or not - Daniel
     {
         if (Microsoft == true || LightBlade == true || Umbrella == true || Pan == true || Axe == true)
         {
@@ -98,7 +98,7 @@ public class Weapons : MonoBehaviour
         
     }
 
-    //Functions to invoke with buttons!
+    //Functions to invoke with buttons! - Daniel och ixten
     public void Signfun()
     {
         Sign = true;
