@@ -20,22 +20,22 @@ public class HpUi : MonoBehaviour
 
     void Awake()
     {
-        ren = GetComponent<Renderer>();
-    } //finds the sprite renderer -Sixten
+        ren = GetComponent<Renderer>();//finds the sprite renderer -Sixten
+    } 
 
     // Start is called before the first frame update
     void Start()
     {
         Playerobject = GameObject.Find("Health Maneger");
-        HealthUi = Playerobject.GetComponent<PlayerHelth>();
-    } //finds the sprite renderer of the HpUi-Sixten
+        HealthUi = Playerobject.GetComponent<PlayerHelth>(); //finds the sprite renderer of the HpUi -Sixten
+    }
     // Update is called once per frame
     void Update()
     {
         HpControle.text = "HP: " + HealthUi.Health;
-        if (HealthUi.Health <= 30)
+        if (HealthUi.Health <= 30)//Makes the Hp text flash red when the player health is 30 or lower. -Sixten
         {
             HpControle.color = Color.Lerp(startColor, endColor, Mathf.PingPong(Time.time * speed, 1));
-        }//Makes the Hp text flash red when the player health is 30 or lower. -Sixten
+        }
     }
 }

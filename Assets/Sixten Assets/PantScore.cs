@@ -6,9 +6,9 @@ using UnityEngine.UI;
 //By Sixten
 public class PantScore : MonoBehaviour
 {
-    public AudioSource pantAdio;
+    public AudioSource pantAdio;//Refrenses the audio surce for the "Pant" sfx -Sixten
     
-   [SerializeField] Text ScoreText;
+   [SerializeField] Text ScoreText;//refrenses the score text -Sixten
     
     public int score = 0;
     // Start is called before the first frame update
@@ -20,16 +20,16 @@ public class PantScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Pant:" + score;
+        ScoreText.text = "Pant:" + score;//Makes the score text desplay the score -Sixten
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Pant"))
+        if (collision.CompareTag("Pant"))//you get 1 "Pant" when you pick up the can -Sixten
         {
             score += 1;
             pantAdio.Play();
         }
-        if (collision.CompareTag("Pant2"))
+        if (collision.CompareTag("Pant2"))//you get 2 "Pant" when you pick up the 1 liter bottle -Sixten
         {
             score += 2;
             pantAdio.Play();

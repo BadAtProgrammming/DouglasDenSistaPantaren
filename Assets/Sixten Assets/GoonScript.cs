@@ -26,14 +26,16 @@ public class GoonScript : MonoBehaviour
     void Start()
     {
         DamageMod = GameObject.Find("player");
-        Damage = DamageMod.GetComponent<Weapons>();
+        Damage = DamageMod.GetComponent<Weapons>(); //refrenses what weapon the player has and dus how mutch damage the player does -Sixten
+
         phealthmod = GameObject.Find("Health Maneger");
-        pHealth = phealthmod.GetComponent<PlayerHelth>();
-        EnemyPosition = GetComponent<Transform>();
-       
+        pHealth = phealthmod.GetComponent<PlayerHelth>();//refrenses the players health -Sixten
+
+        EnemyPosition = GetComponent<Transform>();//refrenses the enemy's position -Sixten
+
     }
 
-    private void Die()
+    private void Die()//if the enemy dies it can't do damage and it is destroid -Sixten
     {
         
         canDoDamage = false;
@@ -42,11 +44,11 @@ public class GoonScript : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerAttackbox"))
+        if (collision.CompareTag("PlayerAttackbox"))//if the player's attack box stops colliding with the enemy, the enemy can't take damage -Sixten
         {
             pInReach = false;
         }
-        if (collision.CompareTag("PlayerHurtbox"))
+        if (collision.CompareTag("PlayerHurtbox"))//If the enemy's attack box stops colliding with the player it can't do damage to the palyer -Sixten
         {
             eInReach = false;
         }
@@ -54,12 +56,12 @@ public class GoonScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerAttackbox"))
+        if (collision.CompareTag("PlayerAttackbox"))//if the player's attack box is colliding with the enemy, the enemy can take damage -Sixten
         {
             pInReach = true;
         }
         
-        if (collision.CompareTag("PlayerHurtbox"))
+        if (collision.CompareTag("PlayerHurtbox"))//If the enemy's attack box is colliding with the player it can do damage to the palyer -Sixten
         {
             eInReach = true;
         }
@@ -68,11 +70,11 @@ public class GoonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)
+        if (Input.GetKeyDown(KeyCode.N) && pInReach == true)//if the enemy is in reach and you press the attack button the enemy takes damage -Sixten
         {
             eHealth -= Damage.Damage;
         }
-        if (eHealth <= 0)
+        if (eHealth <= 0)//when the enemy dies it gets destroid and spawnes a "pant" -Sixten
         {
             Instantiate(thingToSpawn, EnemyPosition);
             Destroy(gameObject);
@@ -80,7 +82,7 @@ public class GoonScript : MonoBehaviour
       
 
 
-        if (timer >= 4 && eInReach == true)
+        if (timer >= 4 && eInReach == true)//when the player is in reach of the enemy the enemy deals damadge to the player every 4 seconds -Sixten
         { 
             pHealth.TakeDamage(10);
             timer = 0;

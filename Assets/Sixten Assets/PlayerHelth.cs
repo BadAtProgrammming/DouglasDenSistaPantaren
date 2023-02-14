@@ -44,7 +44,7 @@ public class PlayerHelth : MonoBehaviour
             //Avoids errors by activating it only once, this makes constantly spewing errors & lagging the game impossible -Dev
             GameObject.Find("player").GetComponent<PlayerMovement>().enabled = false; //disables player movement when health <= 0
             GameObject.Find("Main Camera").GetComponent<CameraMovement>().enabled = false;//disables camera movement when health <= 0
-            GameObject.Find("pHurtbox").GetComponent<PlayerTakeDamage>().enabled = false;
+            GameObject.Find("pHurtbox").GetComponent<PlayerTakeDamage>().enabled = false;//You can´t take damage when you are dead -Sixten
             //When health 0 activates the entire canvasobject and its components -Dev
             transformobject.anchoredPosition = new Vector3(640f, 360f, 0f);
             activated = true;
@@ -52,10 +52,9 @@ public class PlayerHelth : MonoBehaviour
         }
       
     }
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount)//if the player takes damage it flashes red -Sixten
     {
         Health -= amount;
-        //blinka
         shouldBlink = true;
         player.color = Color.red;
         StartCoroutine(TakenDamage());

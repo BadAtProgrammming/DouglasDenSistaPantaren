@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Boss script is just ai skript with more health and differant scale -Sixten
 public class BossScript : MonoBehaviour
 {
     GameObject DamageMod;
