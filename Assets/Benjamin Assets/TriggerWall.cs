@@ -19,6 +19,6 @@ public class TriggerWall : MonoBehaviour
             CameraMovement.leftCBorder = newLeftC;
         }
     }
-    //This script check if player is in collision with object, if touched changes camera and border int values. Only left ones becaus you move to the right. duh.
+    //This script check if player is in collision with object, if touched changes camera and border int values. Only left ones becaus you move to the right. duh. - benjamin
         
 }

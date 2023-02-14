@@ -7,7 +7,6 @@ using UnityEngine;
 
 public class AI : MonoBehaviour
 {
-
     float Speed = 2;
     Rigidbody2D rb;
     private enum State
@@ -36,7 +35,7 @@ public class AI : MonoBehaviour
 
     private void Update()
     {
-        
+        int StrafeLuck = 0;
         float DisengageRange = 21;
         float Reach = 2;
         float detectRange = 20;
@@ -66,7 +65,7 @@ public class AI : MonoBehaviour
             
 
 
-            if (playerdistance <= DisengageRange)  // Checks if player is close enough to enemy
+            if (playerdistance <= DisengageRange)  // Checks if player is close enough to enemy - benjamin
             {
                 _currentState = State.Chase;
             }
@@ -75,7 +74,7 @@ public class AI : MonoBehaviour
 
         }
         
-        void ChasePlayer() // Code for the enemy to chase the player
+        void ChasePlayer() // Code for the enemy to chase the player - benjamin
         {
             spriteRenderer.flipX = player.transform.position.x > transform.position.x;
             if (playerdistance <= detectRange)
@@ -100,7 +99,7 @@ public class AI : MonoBehaviour
             }
 
         }
-        void AttackPlayer() //Code to make the enemy to stop at the player's location and use attack animations to hit them, currently doesnt do much.
+        void AttackPlayer() //Code to make the enemy to stop at the player's location and use attack animations to hit them, currently doesnt do much. - benjamin
         {
             spriteRenderer.flipX = player.transform.position.x < transform.position.x; // flips position so the animations are pointed the right way
             Animator anim;
@@ -116,15 +115,21 @@ public class AI : MonoBehaviour
                 _currentState = State.Chase;
                 anim.SetBool("AITTACK", false);
             }
-
+            StrafeLuck = Random.Range(0, 640);
+            if (StrafeLuck == 1)
+            {
+                _currentState = State.IdleMoving;
+            }
 
         }
         void Strafing()
         {
-
-            //Code to make enemy character run away after for example player is hit or downed, works?
-            if(_currentState == State.IdleMoving)
+            //Code to make enemy character run away after for example player is hit or downed, works? - benjamin
+            Animator anim;
+            anim = GetComponent<Animator>();
+            if (_currentState == State.IdleMoving)
             {
+                anim.SetBool("AITTACK", false);
                 Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
                 rb.velocity = velocity;
                 coroutine = StartCoroutine(StrafeTimer());
