@@ -33,7 +33,7 @@ public class Attacks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PunchTimer += Time.deltaTime * FramesPS; //not actual frames per second, just a dumb name. - benjamin (These are just timers for different things.)
+        PunchTimer += Time.deltaTime * FramesPS; //not actual frames per second, just a dumb name. - benjamin (These are just timers for different things -benjamin
         KickTimer += Time.deltaTime * FramesPS;
         ComboStep1 += Time.deltaTime * FramesPS;
         WeaponTimer += Time.deltaTime * FramesPS;
