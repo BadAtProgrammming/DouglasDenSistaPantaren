@@ -44,24 +44,24 @@ public class PlayerMovement :MonoBehaviour
     {
       if(Health.stunned == false) // if character is stunned cant move - benjamin
         {
-            if (Input.GetKey("d") && canRight == true) //movement -Sixten & Daniel
+            if (Input.GetKey("d") && canRight == true) //Move right when d is pressed -Sixten & Daniel
             {
                 transform.position = transform.position += transform.right * playerSpeed * Time.deltaTime;
                 transform.localScale = new Vector2(3.5f, 3.5f);
 
             }
 
-            if (Input.GetKey("a") && canLeft == true)
+            if (Input.GetKey("a") && canLeft == true)//Move left when a is pressed -Sixten & Daniel
             {
                 transform.position = transform.position -= transform.right * playerSpeed * Time.deltaTime;
                 transform.localScale = new Vector2(-3.5f, 3.5f);
             }
 
-            if (Input.GetKey("w") && canUp == true)
+            if (Input.GetKey("w") && canUp == true)//Move up when w is pressed -Sixten & Daniel
             {
                 transform.position = transform.position += transform.up * playerSpeed * Time.deltaTime;
             }
-            if (Input.GetKey("s") && canDown == true)
+            if (Input.GetKey("s") && canDown == true)//Move down when s is pressed -Sixten & Daniel
             {
                 transform.position = transform.position -= transform.up * playerSpeed * Time.deltaTime;
             }
