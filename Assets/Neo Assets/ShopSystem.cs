@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ShopSystem : MonoBehaviour
 {
+    //gets acces to currency and the shop UI - Daniel
     public GeneralShopSystem shopthinging;
-    public GeneralShopSystem NowDoneshopping1;
     public PantScore ShopPoint;
     // Start is called before the first frame update
     void Start()
@@ -19,11 +19,11 @@ public class ShopSystem : MonoBehaviour
     {
       
     }
-    public void doneshopping1()
+    public void doneshopping1() //turns of the shop UI when something is bought or if exit shop - Daniel
     {
         shopthinging.shopthing.SetActive(false);
     }
-    private void OnTriggerEnter2D(Collider2D trigger)
+    private void OnTriggerEnter2D(Collider2D trigger)//on collision with shop start shopping - Daniel
     {
         if(trigger.gameObject.CompareTag("player"))
         {
