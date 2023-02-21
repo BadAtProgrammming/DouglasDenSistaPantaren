@@ -6383,7 +6383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopthinging: {fileID: 1352712}
-  NowDoneshopping1: {fileID: 1352712}
   ShopPoint: {fileID: 1889775099}
 --- !u!1001 &739304861
 PrefabInstance:
@@ -7688,7 +7687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopthinging: {fileID: 1352712}
-  NowDoneshopping1: {fileID: 1352712}
   ShopPoint: {fileID: 1889775099}
 --- !u!1001 &855030340
 PrefabInstance:
@@ -7874,7 +7872,7 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 233
+      value: 234
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
@@ -11029,7 +11027,7 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 152
+      value: 153
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
@@ -12839,11 +12837,11 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 167
+      value: 169
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
-      value: 167
+      value: 168
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: CameraMovement
@@ -13855,7 +13853,7 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 54
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
@@ -15663,7 +15661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopthinging: {fileID: 1352712}
-  NowDoneshopping1: {fileID: 1352712}
   ShopPoint: {fileID: 1889775099}
 --- !u!1 &1811001038
 GameObject:
@@ -15980,7 +15977,7 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 69
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
@@ -16640,7 +16637,7 @@ PrefabInstance:
       objectReference: {fileID: 6991921379575928667}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newLeftC
-      value: 219
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 8245860551127353735, guid: d101a3c642dd3ae489b96156203eecb6, type: 3}
       propertyPath: newBorder
