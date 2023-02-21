@@ -12,9 +12,10 @@ public class Weapons : MonoBehaviour
     //Pan 40 damage
     //Bear Fists 10 damage
     // Start is called before the first frame update
+    
     public int Durability;
     public int Damage;
-    
+    // ^weapon stats - benjamin & daniel
     GameObject pantmodel;
     PantScore Pant;
     
@@ -98,7 +99,7 @@ public class Weapons : MonoBehaviour
         
     }
 
-    //Functions to invoke with buttons! - Daniel och ixten
+    //Functions to invoke with buttons! - Daniel och Sixten
     public void Signfun()
     {
         Sign = true;
