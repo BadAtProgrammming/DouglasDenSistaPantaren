@@ -65,7 +65,9 @@ public class PlayerHelth : MonoBehaviour
     {
         print("ASS");
         stunned = true;
-        yield return new WaitForSeconds(0.2f);
+        anim.SetBool("Hurt", true);
+        yield return new WaitForSeconds(0.33f);
+        anim.SetBool("Hurt", false);
         stunned = false;
         print("PAIN");
     }
