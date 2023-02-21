@@ -14,7 +14,6 @@ public class AI : MonoBehaviour
         Idle,
         Chase,
         Attack,
-        IdleMoving, 
         TakeDamage //States to group together actions
     }
 
@@ -35,7 +34,6 @@ public class AI : MonoBehaviour
 
     private void Update()
     {
-        int StrafeLuck = 0;
         float DisengageRange = 21;
         float Reach = 2;
         float detectRange = 20;
@@ -55,10 +53,6 @@ public class AI : MonoBehaviour
         {
 
             AttackPlayer();
-        }
-        if (_currentState == State.IdleMoving) // State for Strafing()
-        {
-            Strafing();
         }
         void LookForPlayer()
         {
@@ -115,50 +109,22 @@ public class AI : MonoBehaviour
                 _currentState = State.Chase;
                 anim.SetBool("AITTACK", false);
             }
-            StrafeLuck = Random.Range(0, 640);
-            if (StrafeLuck == 1)
-            {
-                _currentState = State.IdleMoving;
-            }
-
+            
         }
-        void Strafing()
+        
+      IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing. WIP
         {
-            //Code to make enemy character run away after for example player is hit or downed, works? - benjamin
             Animator anim;
             anim = GetComponent<Animator>();
-            if (_currentState == State.IdleMoving)
-            {
-                anim.SetBool("AITTACK", false);
-                Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
-                rb.velocity = velocity;
-                coroutine = StartCoroutine(StrafeTimer());
-                TakenDamage();
-            }
-            
-        
-        }
-
-        void TakenDamage()
-        {
-            if(_currentState == State.TakeDamage)
-            {
-                HitStun();
-            }
-        }
-        
-        IEnumerator StrafeTimer() // Coroutine to wait x seconds to switch to chase state from strafing.
-        {
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(3f);
+            anim.SetBool("AITTACK", false);
+            Vector2 velocity = (transform.position - player.transform.position).normalized * Speed;
+            rb.velocity = velocity;
             _currentState = State.Chase;
             coroutine = null;
         }
 
-        IEnumerator HitStun()
-        {
-            yield return new WaitForSeconds(0.2f);
-        }
-
+        
 
     
     
